@@ -1,202 +1,100 @@
 {
-  "capturedAt": "2026-09-09T14:26:27.547Z",
+  "capturedAt": "2026-09-09T16:22:13.852Z",
+  "source": "indexed-deep",
+  "queries": [
+    "site:linkedin.com/posts \"agentic AI\"",
+    "site:linkedin.com/posts \"agent harness\"",
+    "site:linkedin.com/posts \"multi-agent\" OR \"multi agent\"",
+    "site:linkedin.com/posts GenAI production OR enterprise",
+    "site:linkedin.com/posts \"AI governance\"",
+    "site:linkedin.com/posts \"pilot to production\"",
+    "site:linkedin.com/posts \"AI operating model\"",
+    "site:linkedin.com/posts \"enterprise AI\" agent",
+    "site:linkedin.com/posts \"Infosys Topaz\"",
+    "site:linkedin.com/posts \"process redesign\" AI agent"
+  ],
   "posts": [
     {
-      "ageHours": null,
-      "author": "Unknown",
+      "url": "https://www.linkedin.com/posts/rodtrent_multi-agent-systems-and-orchestration-the-activity-7503423388833640448-Z2Zv",
+      "snippet": "ency, and rollback. As organizations move from one agent to\\u0026nbsp;...\",\"multiagentsystems #agenticai #aisafety #aiengineering\",0,17]],null,null,null,null,null,98,null,null,null,1,null,null,null,1,1]]],\"j4ahaqmkCom94-EP8Knd-A425\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"https://www.linkedin.com/posts/rodtrent_multi-agent-systems-and-orchestration-the-activity-7503423388833640448-Z2Zv\",null,null,null,null,[null,null,null,null,null,null,[null,null,null,\"/search/about-this-result?origin\\u003dwww.google.com\\u0026cs\\u003d1\\u0026req\\u003dCnNodHRwczovL3d3dy5saW5rZWRpbi5jb20vcG9zdHMvcm9kdHJlbnRfbXVsdGktYWdlbnQtc3lzdGVtcy1hbmQtb3JjaGVzdHJhdGlvbi10aGUtY",
+      "ageHours": 4.193470277777778,
+      "relativeTime": "4 hours ago",
+      "source": "indexed",
+      "author": "rodtrent",
+      "text": "ency, and rollback. As organizations move from one agent to\\u0026nbsp;...\",\"multiagentsystems #agenticai #aisafety #aiengineering\",0,17]],null,null,null,null,null,98,null,null,null,1,null,null,null,1,1]]],\"j4ahaqmkCom94-EP8Knd-A425\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"https://www.linkedin.com/posts/rodtrent_multi-agent-systems-and-orchestration-the-activity-7503423388833640448-Z2Zv\",null,null,null,null,[null,null,null,null,null,null,[null,null,null,\"/search/about-this-result?origin\\u003dwww.google.com\\u0026cs\\u003d1\\u0026req\\u003dCnNodHRwczovL3d3dy5saW5rZWRpbi5jb20vcG9zdHMvcm9kdHJlbnRfbXVsdGktYWdlbnQtc3lzdGVtcy1hbmQtb3JjaGVzdHJhdGlvbi10aGUtY",
       "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501569066235486208",
-      "matchedKeywords": [
-        "generative ai",
-        "agentic",
-        "ai agent",
-        "pilot to production"
-      ],
-      "pass": "Past week pass 2",
-      "query": "\"pilot to production\"",
       "reactions": null,
-      "relativeTime": "",
-      "text": "Agentic observability is the new paradigm shift : Since Enterprises are moving from Generative AI to Agentic AI deployments ; We must move from monitoring simple infrastructure to understanding the 'cognitive trajectory' of why behind an AI agent's decisions. Agentic Observability becomes critical to make autonomous systems understandable, measurable, and governable so that enterprises can improve performance, control costs and risks and build the trust needed to scale autonomy. If we aren't preparing now, we're building on fragile ground. #AgenticObservability #AgenticAI Co-authors : Navaneethkrishnan R & Khushboo Gajra … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501569066235486208"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501800679838003200",
+      "title": "LinkedIn",
       "matchedKeywords": [
+        "agentic",
         "multi-agent",
-        "multi agent"
-      ],
-      "pass": "Past week pass 1",
-      "query": "(\"multi-agent\" OR \"multi agent\")",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "In 2026 either everybody is building multi-agent systems or nobody is, and the answer depends on your definition of what counts as a \"multi-agent system\" (and for my money, nobody is). There's plenty of multi-agent system architectures in the literature, but they all have the same problem: nobody's using them in production, because research shows they don't work as well as a single agent does, and it seems likely that as agents get smarter that effect is going to get stronger and stronger. Read on for a look at what everybody's really building, and why. … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501800679838003200"
+        "orchestration"
+      ]
     },
     {
-      "ageHours": null,
-      "author": "Unknown",
+      "url": "https://www.linkedin.com/posts/prathapkudupu_ai-artificialintelligence-aiarchitect-activity-7503450584704991232-O6sh",
+      "snippet": "kcA/feedshare-shrink_800/B56aCGci_OKIAc-/0/1788962025734?e\\u003d2147483647\\u0026v\\u003dbeta\\u0026t\\u003dx9aUNA0BhrEtMOhoYZJfExVdRVWXetVC47TJoJrpaS0\",1066,800],null,0,\"rgb(227,240,240)\",null,0,{\"2000\":[null,\"www.linkedin.com\",\"236KB\"],\"2001\":[null,null,null,null,null,null,null,1],\"2003\":[\"2 hours ago\",\"vWQC7-ghpAjyoM\",\"https://www.linkedin.com/posts/prathapkudupu_ai-artificialintelligence-aiarchitect-activity-7503450584704991232-O6sh\",\"ai #artificialintelligence #aiarchitect #genai #agenticai ...\",null,0,null,\"https://encrypted-tbn0.gstatic.com/images?q\\u003dtbn:ANd9GcTtN8y4NaC85EWlPmLChxfIcLrghlya_VpyVQjPYicepLRXi3JLn33vcAET\\u0026s\\u003d10\",null,0,null,null,\"LinkedIn\",null,null,null,null,\"ww",
+      "ageHours": 2.3952969444444445,
+      "relativeTime": "2 hours ago",
+      "source": "indexed",
+      "author": "prathapkudupu",
+      "text": "kcA/feedshare-shrink_800/B56aCGci_OKIAc-/0/1788962025734?e\\u003d2147483647\\u0026v\\u003dbeta\\u0026t\\u003dx9aUNA0BhrEtMOhoYZJfExVdRVWXetVC47TJoJrpaS0\",1066,800],null,0,\"rgb(227,240,240)\",null,0,{\"2000\":[null,\"www.linkedin.com\",\"236KB\"],\"2001\":[null,null,null,null,null,null,null,1],\"2003\":[\"2 hours ago\",\"vWQC7-ghpAjyoM\",\"https://www.linkedin.com/posts/prathapkudupu_ai-artificialintelligence-aiarchitect-activity-7503450584704991232-O6sh\",\"ai #artificialintelligence #aiarchitect #genai #agenticai ...\",null,0,null,\"https://encrypted-tbn0.gstatic.com/images?q\\u003dtbn:ANd9GcTtN8y4NaC85EWlPmLChxfIcLrghlya_VpyVQjPYicepLRXi3JLn33vcAET\\u0026s\\u003d10\",null,0,null,null,\"LinkedIn\",null,null,null,null,\"ww",
       "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7426933922481086464",
+      "reactions": null,
+      "title": "LinkedIn",
+      "matchedKeywords": [
+        "genai",
+        "agentic"
+      ]
+    },
+    {
+      "url": "https://www.linkedin.com/posts/albe88_aiagents-enterpriseai-aigovernance-activity-7503438494082445312-mMGJ",
+      "snippet": "cb\\u003eEnterprise AI Agents\\u003c/b\\u003e: What Business Leaders Need to Know\\u0026nbsp;...\",\"AI Hive\\u0026#39;s Post - LinkedIn\",0,17]],null,null,null,null,null,98,null,null,null,1,null,null,null,1,1]]],\"w4ahasS-HfiJ4-EPpqPYmAE21\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"https://www.linkedin.com/posts/albe88_aiagents-enterpriseai-aigovernance-activity-7503438494082445312-mMGJ\",null,null,null,null,[null,null,null,null,null,null,[null,null,null,\"/search/about-this-result?origin\\u003dwww.google.com\\u0026cs\\u003d1\\u0026req\\u003dCmpodHRwczovL3d3dy5saW5rZWRpbi5jb20vcG9zdHMvYWxiZTg4X2FpYWdlbnRzLWVudGVycHJpc2VhaS1haWdvdmVybmFuY2UtYWN0aXZpdHktNzUwMzQzOD",
+      "ageHours": 3.2076261111111113,
+      "relativeTime": "3 hours ago",
+      "source": "indexed",
+      "author": "albe88",
+      "text": "cb\\u003eEnterprise AI Agents\\u003c/b\\u003e: What Business Leaders Need to Know\\u0026nbsp;...\",\"AI Hive\\u0026#39;s Post - LinkedIn\",0,17]],null,null,null,null,null,98,null,null,null,1,null,null,null,1,1]]],\"w4ahasS-HfiJ4-EPpqPYmAE21\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"https://www.linkedin.com/posts/albe88_aiagents-enterpriseai-aigovernance-activity-7503438494082445312-mMGJ\",null,null,null,null,[null,null,null,null,null,null,[null,null,null,\"/search/about-this-result?origin\\u003dwww.google.com\\u0026cs\\u003d1\\u0026req\\u003dCmpodHRwczovL3d3dy5saW5rZWRpbi5jb20vcG9zdHMvYWxiZTg4X2FpYWdlbnRzLWVudGVycHJpc2VhaS1haWdvdmVybmFuY2UtYWN0aXZpdHktNzUwMzQzOD",
+      "comments": null,
+      "reactions": null,
+      "title": "LinkedIn",
       "matchedKeywords": [
         "ai agent",
-        "ai governance"
-      ],
-      "pass": "Past week pass 3",
-      "query": "\"AI governance\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "𝗔𝘀 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲𝘀 𝗶𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗲 𝗔𝗜 𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝘆 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲, 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗯𝗲𝗰𝗼𝗺𝗲𝘀 𝘁𝗵𝗲 𝗿𝗲𝗮𝗹 𝘁𝗲𝘀𝘁. In an AI-First enterprise, traditional approval-driven controls no longer scale. When AI agents make continuous decisions and execute autonomously, governance cannot rely on process compliance alone. The shift is more fundamental: From controlling actions -> Shaping behavior From static rules -> Runtime guardrails This edition of AI-First Enterprise examines how governance must evolve from process compliance to behavioral compliance when autonomy, intent, and accountability are deliberately aligned. 𝗛𝗼𝘄 𝗿𝗲𝗮𝗱𝘆 𝗶𝘀 𝘆𝗼𝘂𝗿 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗺𝗼𝗱𝗲𝗹 𝗳𝗼𝗿 𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝗼𝘂𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻-𝗺𝗮𝗸𝗶𝗻𝗴 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲? #AIFirstEnterprise #autonomy #governance … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7426933922481086464"
+        "enterprise ai"
+      ]
     },
     {
-      "ageHours": null,
-      "author": "Unknown",
+      "url": "https://www.linkedin.com/posts/therahulkumarx_the-biggest-agentic-ai-lesson-of-2026-isnt-activity-7503422962323070976-h7Fa",
+      "snippet": "erating answers to taking action, AI agents are beginning to reshape how\\u0026nbsp;...\",\"Prateek Saxena\\u0026#39;s Post - LinkedIn\",0,2]],null,null,null,null,null,98,null,null,null,1,null,null,null,1,1]]],\"eoahapqqD5zG4-EP_r6XqQ026\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"https://www.linkedin.com/posts/therahulkumarx_the-biggest-agentic-ai-lesson-of-2026-isnt-activity-7503422962323070976-h7Fa\",null,null,null,null,[null,null,null,null,null,null,[null,null,null,\"/search/about-this-result?origin\\u003dwww.google.com\\u0026cs\\u003d1\\u0026req\\u003dCnpodHRwczovL3d3dy5saW5rZWRpbi5jb20vcG9zdHMvdGhlcmFodWxrdW1hcnhfdGhlLWJpZ2dlc3QtYWdlbnRpYy1haS1sZXNzb24tb2",
+      "ageHours": 4.215910277777778,
+      "relativeTime": "4 hours ago",
+      "source": "indexed",
+      "author": "therahulkumarx",
+      "text": "erating answers to taking action, AI agents are beginning to reshape how\\u0026nbsp;...\",\"Prateek Saxena\\u0026#39;s Post - LinkedIn\",0,2]],null,null,null,null,null,98,null,null,null,1,null,null,null,1,1]]],\"eoahapqqD5zG4-EP_r6XqQ026\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"https://www.linkedin.com/posts/therahulkumarx_the-biggest-agentic-ai-lesson-of-2026-isnt-activity-7503422962323070976-h7Fa\",null,null,null,null,[null,null,null,null,null,null,[null,null,null,\"/search/about-this-result?origin\\u003dwww.google.com\\u0026cs\\u003d1\\u0026req\\u003dCnpodHRwczovL3d3dy5saW5rZWRpbi5jb20vcG9zdHMvdGhlcmFodWxrdW1hcnhfdGhlLWJpZ2dlc3QtYWdlbnRpYy1haS1sZXNzb24tb2",
       "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:share:7503001369935654912",
+      "reactions": null,
+      "title": "LinkedIn",
       "matchedKeywords": [
         "agentic",
-        "pilot to production"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"pilot to production\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "Glad to share my conversation on the TestMu AI XP Series on “From Pilots to Production: Scaling Agentic Quality Across the Enterprise.” We discuss what it really takes to move Agentic AI in Quality Engineering beyond pilots and into production at enterprise scale, building trust, putting the right governance guardrails in place, keeping humans meaningfully in the loop, and translating AI adoption into measurable value. Great conversation with Sudhir Joshi and thanks to the TestMu AI team for hosting the session. Watch the episode on YouTube: https://lnkd.in/gVqFXHNK #AgenticAI #QualityEngineering #AI #SoftwareTesting #EnterpriseAI #Wipro #TestMuAI … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503001369935654912"
+        "ai agent"
+      ]
     },
     {
-      "ageHours": null,
-      "author": "Unknown",
+      "url": "https://www.linkedin.com/posts/nnenna-ndukwe_today-we-launched-qodos-agentic-toolbox-activity-7503439121554685953-wYZb",
+      "snippet": "2/D4E10AQF1m_KWOptuKg/image-shrink_800/B4EaCGSC1oI0Ag-/0/1788959272717?e\\u003d2147483647\\u0026v\\u003dbeta\\u0026t\\u003dzMwielgjxiIb2a5c0mnMB5ygQTNzaPN2PGvgMZ2mPkU\",807,800],null,0,\"rgb(21,24,40)\",null,0,{\"2000\":[null,\"www.linkedin.com\",\"46KB\"],\"2001\":[null,null,null,3,null,3,3,1],\"2003\":[\"2 hours ago\",\"KdWgW-SMgtvu2M\",\"https://www.linkedin.com/posts/nnenna-ndukwe_today-we-launched-qodos-agentic-toolbox-activity-7503439121554685953-wYZb\",\"Today, we launched Qodo's Agentic Toolbox, bringing ...\",null,0,null,\"https://encrypted-tbn0.gstatic.com/images?q\\u003dtbn:ANd9GcTB-vAUqXAAj8R15xLBoui4aL0COUajoXu2j4k6AYl7AbFk6AldtkBbbU95\\u0026s\\u003d10\",null,0,null,null,\"LinkedIn\",null,null,null,null,\"www.li",
+      "ageHours": 3.148566111111111,
+      "relativeTime": "3 hours ago",
+      "source": "indexed",
+      "author": "nnenna ndukwe",
+      "text": "2/D4E10AQF1m_KWOptuKg/image-shrink_800/B4EaCGSC1oI0Ag-/0/1788959272717?e\\u003d2147483647\\u0026v\\u003dbeta\\u0026t\\u003dzMwielgjxiIb2a5c0mnMB5ygQTNzaPN2PGvgMZ2mPkU\",807,800],null,0,\"rgb(21,24,40)\",null,0,{\"2000\":[null,\"www.linkedin.com\",\"46KB\"],\"2001\":[null,null,null,3,null,3,3,1],\"2003\":[\"2 hours ago\",\"KdWgW-SMgtvu2M\",\"https://www.linkedin.com/posts/nnenna-ndukwe_today-we-launched-qodos-agentic-toolbox-activity-7503439121554685953-wYZb\",\"Today, we launched Qodo's Agentic Toolbox, bringing ...\",null,0,null,\"https://encrypted-tbn0.gstatic.com/images?q\\u003dtbn:ANd9GcTB-vAUqXAAj8R15xLBoui4aL0COUajoXu2j4k6AYl7AbFk6AldtkBbbU95\\u0026s\\u003d10\",null,0,null,null,\"LinkedIn\",null,null,null,null,\"www.li",
       "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:share:7491062060735369216",
-      "matchedKeywords": [
-        "agentic",
-        "pilot to production"
-      ],
-      "pass": "Past week pass 2",
-      "query": "\"pilot to production\"",
       "reactions": null,
-      "relativeTime": "",
-      "text": "Running an AI pilot is easy. Getting agents into production is the hard part. That gap is why we built the team the way we did. Deploying enterprise agentic AI takes an unusual mix in one room: Finance & Business practitioners who know how business actually runs, data architects who can stand up the platform properly, and AI engineers who can make agents behave once real users touch them. This is that team delivering across the UAE, KSA, UK, USA and the Africa region. If you’re working out where agentic AI genuinely fits in your organisation, rather than where it demos well, we are happy to compare notes. #AgenticAI #EnterpriseAI #OfficeOfTheCFO #AITHENTIC #HOFTGroup #AI #Finance #Business #Data #Strategy #KSA #UAE … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7491062060735369216"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:activity:7502658187980926976",
+      "title": "LinkedIn",
       "matchedKeywords": [
-        "ai governance"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"AI governance\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "If you could configure ONE primary dimension of your AI Governance framework, what would it be?",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7502658187980926976"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503065254705213440",
-      "matchedKeywords": [
-        "ai governance"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"AI governance\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "The first phase of AI governance was about writing the rules. The next is about proving the systems actually follow them. As AI takes on more consequential roles, policies alone won't be enough. Institutions will need evidence. #policy #aiagent #governance #airisk … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503065254705213440"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500919466998992896",
-      "matchedKeywords": [
-        "ai governance"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"AI governance\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "Most AI governance is aimed at the wrong thing. We keep debating alignment, explainability, bias, hallucinations, monitoring and whether the model behaved properly. Fine. But none of that answers the question that actually creates institutional liability: Why was the system allowed to act? If an AI system can send the message, move the money, change the record, approve the transaction, alter the workflow or control something consequential, then the governance boundary is not the model. It is execution authority. And if your “AI governance” cannot prevent an inadmissible action before it becomes real, I would argue you do not have runtime governance at all. You have observation. That is the argument in this paper. I wrote it before much of the current industry conversation moved toward execution control. Curious to hear who disagrees — and more importantly, what mechanism you believe actually prevents the action. … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500919466998992896"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:activity:7502610524623519745",
-      "matchedKeywords": [
-        "ai governance"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"AI governance\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "What should organizations prioritize as AI reshapes work?",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7502610524623519745"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:share:7502757408255967232",
-      "matchedKeywords": [
-        "ai governance"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"AI governance\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "Insider Live: Copilot and AI Governance Best Practices 🎯 Nikki Chapple (MVP) and Al Eardley from Microsoft join us for a live deep dive into Copilot and governance. 🟠 Live conversation with Microsoft experts and community leaders 🟠 Actionable insights on upcoming releases, roadmap themes and product direction 🟠 Real-world guidance on governing AI and Copilot across your organisation Save your seat now: https://lnkd.in/eVPx2d6D #Microsoft365Copilot #AI #Microsoft365 … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7502757408255967232"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7491856977241935873",
-      "matchedKeywords": [
-        "pilot to production"
-      ],
-      "pass": "Past week pass 1",
-      "query": "\"pilot to production\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "Many businesses are experimenting with AI. Far fewer are successfully taking those experiments into production. The challenge isn't always the AI model. It’s everything around it: 🔹 Reliable data 🔹 System integration 🔹 Security & governance 🔹 Scalable infrastructure 🔹 User adoption 🔹 Continuous monitoring 🔹 Measurable business outcomes A successful AI pilot proves what is possible. A successful production implementation proves what is valuable. In our latest article, we explore how businesses can move from AI experimentation to scalable, measurable business impact. 📖 Read the full article and discover a practical framework for taking AI from pilot to production. 🌐 www.nexgenium.com 📧 support@nexgenium.com #AI #ArtificialIntelligence #EnterpriseAI #AIAutomation #DigitalTransformation #BusinessAutomation #AIStrategy #CloudComputing #DevOps #SystemIntegration #Nexgenium … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7491856977241935873"
-    },
-    {
-      "ageHours": null,
-      "author": "Unknown",
-      "comments": null,
-      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7497956655486345216",
-      "matchedKeywords": [
-        "pilot to production"
-      ],
-      "pass": "Past week pass 2",
-      "query": "\"pilot to production\"",
-      "reactions": null,
-      "relativeTime": "",
-      "text": "ICCA Indonesia is bringing the country's sharpest contact centre and CX teams together to compete at their flagship annual event, The Best Contact Center Indonesia 2026. And we've got a front-row view, with Rahul Agarwal on the jury. Varun Raj , Rounika Juneja and Kunal Pandya will be on the floor too. If you're attending, come say hi. Always up for good coffee and better CX conversation. Deal? See you there. 🇮🇩 Ayush Mishra Rachit Mathur #BestContactCenterIndonesia2026 #CX #CustomerExperience #Exotel … more",
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7497956655486345216"
+        "agentic"
+      ]
     }
   ],
-  "queries": [
-    "\"agentic AI\"",
-    "\"agent harness\"",
-    "(\"multi-agent\" OR \"multi agent\")",
-    "(GenAI OR \"generative AI\") (production OR enterprise)",
-    "\"AI governance\"",
-    "\"pilot to production\""
-  ],
-  "rawCount": 14,
-  "source": "linkedin-narrow-search"
+  "rawCount": 120,
+  "minutes": 5.4
 }
