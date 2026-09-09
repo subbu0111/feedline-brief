@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Feedline</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <p class="kicker">Feedline</p>
+      <h1>Read the feed you are looking at.</h1>
+    </header>
+    <p class="hint" id="hint">
+      Stay logged into LinkedIn as yourself. This is your real Home feed — not Google’s index.
+    </p>
+    <button id="capture" type="button">Capture real feed</button>
+    <button id="publish" type="button" class="ghost" disabled>Draft comments and publish</button>
+    <button id="download" type="button" class="ghost" disabled>Download capture.json</button>
+    <pre id="log"></pre>
+    <a href="options.html">Settings · keys and GitHub repo</a>
+    <script src="draft.js"></script>
+    <script src="github.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

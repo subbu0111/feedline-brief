@@ -1,0 +1,30 @@
+name: Draft Feedline briefing
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - data/latest-capture.json
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Draft HTML from captured feed
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python -m agent --input data/latest-capture.json --out docs/index.html
+      - name: Commit briefing
+        run: |
+          git config user.name "feedline-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "briefing $(date -u +%F)"
+          git push

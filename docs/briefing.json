@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-09-09T08:12:00+05:30",
+  "windowDays": 2,
+  "source": "linkedin-feed",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "notes": "Sample layout. Replace this with a live capture from the Chrome extension.",
+  "items": [
+    {
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:sample1",
+      "author": "Priya Menon",
+      "relativeTime": "5h",
+      "ageHours": 5,
+      "topicSummary": "GenAI pilots were killed because no one owned the surrounding process, not because the model failed.",
+      "comment": "This is the conversation more delivery teams need to have.\n\nA pilot that never inherits exception-handling, handoffs, and ownership is still a demo \u2014 production starts when the process is redesigned around the agent, not when the accuracy slide looks good.",
+      "whySelected": "Direct hit on pilot-to-production and process ownership."
+    },
+    {
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:sample2",
+      "author": "Daniel Okonkwo",
+      "relativeTime": "11h",
+      "ageHours": 11,
+      "topicSummary": "Multi-agent value is blocked by operating-model gaps, not missing frameworks.",
+      "comment": "Appreciate you framing this as an operating model, not a stack diagram.\n\nUntil start rights, review rights, disagreement SLAs, and audit sit on one page, extra agents mostly manufacture coordination cost.",
+      "whySelected": "Opens a real thread on AI operating models."
+    },
+    {
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:sample3",
+      "author": "Ananya Rao",
+      "relativeTime": "1d",
+      "ageHours": 22,
+      "topicSummary": "Agile AI delivery works when evals and human review are treated as backlog, not afterthought.",
+      "comment": "Thank you for naming the sprint-review failure mode so plainly.\n\nPutting evaluation sets and human-in-the-loop checks into acceptance criteria is how AI work stops being theatre and starts surviving contact with production.",
+      "whySelected": "Concrete Agile practice for AI projects, not a slogan."
+    },
+    {
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:sample4",
+      "author": "Marcus Hill",
+      "relativeTime": "1d",
+      "ageHours": 30,
+      "topicSummary": "Agent adoption depends on mapping copy-steps and deciding which exceptions the agent may close.",
+      "comment": "Glad you called the unglamorous part the actual job.\n\nThe map of copy-steps and exception rights is the design artefact; without it, integration work just wraps a model around a process that cannot absorb an agent.",
+      "whySelected": "Process redesign for agents, stated as an operating practice."
+    },
+    {
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:sample5",
+      "author": "Sofia Alvarez",
+      "relativeTime": "8h",
+      "ageHours": 8,
+      "topicSummary": "Working AI governance is inventory, kill switch, scheduled evals, and named owners.",
+      "comment": "Production hygiene is the right name for this.\n\nA policy PDF does not run an estate \u2014 inventory, classification, a kill switch, evals on a clock, and a named owner for each agent does.",
+      "whySelected": "Governance as operations, which is where comments stay useful."
+    }
+  ]
+}

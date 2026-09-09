@@ -1,0 +1,40 @@
+Feedline — push to GitHub from your laptop
+Repo: https://github.com/subbu0111/feedline-brief
+
+1. Put this zip in Downloads (feedline-brief.zip).
+
+2. Git Bash / macOS / WSL — paste the whole block:
+
+cd ~
+git clone https://github.com/subbu0111/feedline-brief.git
+cd feedline-brief
+unzip -o ~/Downloads/feedline-brief.zip
+git add README.md .gitignore .github agent data docs extension PUSH-COMMANDS.txt
+git status
+git commit -m "Add Feedline extension, Python agent, and briefing page"
+git push origin main
+
+If unzip says "cannot find zip", change ~/Downloads/feedline-brief.zip to the real path.
+
+3. GitHub → this repo → Settings → Pages
+   Source: Deploy from a branch
+   Branch: main
+   Folder: /docs
+   Save
+   Phone page: https://subbu0111.github.io/feedline-brief/
+
+4. Chrome → Extensions → Developer mode ON
+   Load unpacked → select the "extension" folder inside the cloned repo.
+
+5. Click the Feedline icon → Settings
+   OpenRouter key
+   GitHub token (contents: write on feedline-brief)
+   Owner: subbu0111
+   Repo: feedline-brief
+   Save
+
+6. Open linkedin.com/feed (logged in as you)
+   Capture real feed → Draft comments and publish
+   Then open the phone URL.
+
+Never commit keys or .env.

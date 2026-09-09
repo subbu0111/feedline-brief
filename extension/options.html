@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Feedline settings</title>
+    <link rel="stylesheet" href="popup.css" />
+    <style>
+      body { width: auto; max-width: 28rem; margin: 24px auto; }
+      label { display: block; font-size: 12px; margin: 12px 0 6px; color: var(--muted); }
+      input, select { width: 100%; min-height: 40px; border: 0; border-radius: 8px; padding: 0 10px; background: #fffcf7; font: inherit; }
+      .ok { color: var(--accent); font-size: 13px; min-height: 1.2em; }
+    </style>
+  </head>
+  <body>
+    <p class="kicker">Feedline</p>
+    <h1>Keys for draft and publish</h1>
+    <p class="hint">
+      Keys stay in this browser. The extension never logs into LinkedIn — you already are.
+      8:00 on this computer sends a reminder to open your feed and capture.
+    </p>
+    <label for="or">OpenRouter API key</label>
+    <input id="or" type="password" autocomplete="off" placeholder="sk-or-..." />
+    <label for="model">Model</label>
+    <select id="model">
+      <option value="nvidia/nemotron-3.5-lightning:free">Nemotron 3.5 Lightning (free)</option>
+      <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
+    </select>
+    <label for="owner">GitHub owner</label>
+    <input id="owner" value="subbu0111" />
+    <label for="repo">GitHub repo</label>
+    <input id="repo" value="feedline-brief" />
+    <label for="gh">GitHub token (contents: write)</label>
+    <input id="gh" type="password" autocomplete="off" placeholder="ghp_..." />
+    <button id="save" type="button" style="margin-top: 16px">Save</button>
+    <p class="ok" id="status"></p>
+    <script src="options.js"></script>
+  </body>
+</html>
