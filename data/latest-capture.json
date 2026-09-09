@@ -1,0 +1,202 @@
+{
+  "capturedAt": "2026-09-09T14:26:27.547Z",
+  "posts": [
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501569066235486208",
+      "matchedKeywords": [
+        "generative ai",
+        "agentic",
+        "ai agent",
+        "pilot to production"
+      ],
+      "pass": "Past week pass 2",
+      "query": "\"pilot to production\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "Agentic observability is the new paradigm shift : Since Enterprises are moving from Generative AI to Agentic AI deployments ; We must move from monitoring simple infrastructure to understanding the 'cognitive trajectory' of why behind an AI agent's decisions. Agentic Observability becomes critical to make autonomous systems understandable, measurable, and governable so that enterprises can improve performance, control costs and risks and build the trust needed to scale autonomy. If we aren't preparing now, we're building on fragile ground. #AgenticObservability #AgenticAI Co-authors : Navaneethkrishnan R & Khushboo Gajra … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501569066235486208"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501800679838003200",
+      "matchedKeywords": [
+        "multi-agent",
+        "multi agent"
+      ],
+      "pass": "Past week pass 1",
+      "query": "(\"multi-agent\" OR \"multi agent\")",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "In 2026 either everybody is building multi-agent systems or nobody is, and the answer depends on your definition of what counts as a \"multi-agent system\" (and for my money, nobody is). There's plenty of multi-agent system architectures in the literature, but they all have the same problem: nobody's using them in production, because research shows they don't work as well as a single agent does, and it seems likely that as agents get smarter that effect is going to get stronger and stronger. Read on for a look at what everybody's really building, and why. … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501800679838003200"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7426933922481086464",
+      "matchedKeywords": [
+        "ai agent",
+        "ai governance"
+      ],
+      "pass": "Past week pass 3",
+      "query": "\"AI governance\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "𝗔𝘀 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲𝘀 𝗶𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗲 𝗔𝗜 𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝘆 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲, 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗯𝗲𝗰𝗼𝗺𝗲𝘀 𝘁𝗵𝗲 𝗿𝗲𝗮𝗹 𝘁𝗲𝘀𝘁. In an AI-First enterprise, traditional approval-driven controls no longer scale. When AI agents make continuous decisions and execute autonomously, governance cannot rely on process compliance alone. The shift is more fundamental: From controlling actions -> Shaping behavior From static rules -> Runtime guardrails This edition of AI-First Enterprise examines how governance must evolve from process compliance to behavioral compliance when autonomy, intent, and accountability are deliberately aligned. 𝗛𝗼𝘄 𝗿𝗲𝗮𝗱𝘆 𝗶𝘀 𝘆𝗼𝘂𝗿 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗺𝗼𝗱𝗲𝗹 𝗳𝗼𝗿 𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝗼𝘂𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻-𝗺𝗮𝗸𝗶𝗻𝗴 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲? #AIFirstEnterprise #autonomy #governance … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7426933922481086464"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:share:7503001369935654912",
+      "matchedKeywords": [
+        "agentic",
+        "pilot to production"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"pilot to production\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "Glad to share my conversation on the TestMu AI XP Series on “From Pilots to Production: Scaling Agentic Quality Across the Enterprise.” We discuss what it really takes to move Agentic AI in Quality Engineering beyond pilots and into production at enterprise scale, building trust, putting the right governance guardrails in place, keeping humans meaningfully in the loop, and translating AI adoption into measurable value. Great conversation with Sudhir Joshi and thanks to the TestMu AI team for hosting the session. Watch the episode on YouTube: https://lnkd.in/gVqFXHNK #AgenticAI #QualityEngineering #AI #SoftwareTesting #EnterpriseAI #Wipro #TestMuAI … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503001369935654912"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:share:7491062060735369216",
+      "matchedKeywords": [
+        "agentic",
+        "pilot to production"
+      ],
+      "pass": "Past week pass 2",
+      "query": "\"pilot to production\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "Running an AI pilot is easy. Getting agents into production is the hard part. That gap is why we built the team the way we did. Deploying enterprise agentic AI takes an unusual mix in one room: Finance & Business practitioners who know how business actually runs, data architects who can stand up the platform properly, and AI engineers who can make agents behave once real users touch them. This is that team delivering across the UAE, KSA, UK, USA and the Africa region. If you’re working out where agentic AI genuinely fits in your organisation, rather than where it demos well, we are happy to compare notes. #AgenticAI #EnterpriseAI #OfficeOfTheCFO #AITHENTIC #HOFTGroup #AI #Finance #Business #Data #Strategy #KSA #UAE … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7491062060735369216"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:activity:7502658187980926976",
+      "matchedKeywords": [
+        "ai governance"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"AI governance\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "If you could configure ONE primary dimension of your AI Governance framework, what would it be?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7502658187980926976"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503065254705213440",
+      "matchedKeywords": [
+        "ai governance"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"AI governance\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "The first phase of AI governance was about writing the rules. The next is about proving the systems actually follow them. As AI takes on more consequential roles, policies alone won't be enough. Institutions will need evidence. #policy #aiagent #governance #airisk … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503065254705213440"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500919466998992896",
+      "matchedKeywords": [
+        "ai governance"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"AI governance\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "Most AI governance is aimed at the wrong thing. We keep debating alignment, explainability, bias, hallucinations, monitoring and whether the model behaved properly. Fine. But none of that answers the question that actually creates institutional liability: Why was the system allowed to act? If an AI system can send the message, move the money, change the record, approve the transaction, alter the workflow or control something consequential, then the governance boundary is not the model. It is execution authority. And if your “AI governance” cannot prevent an inadmissible action before it becomes real, I would argue you do not have runtime governance at all. You have observation. That is the argument in this paper. I wrote it before much of the current industry conversation moved toward execution control. Curious to hear who disagrees — and more importantly, what mechanism you believe actually prevents the action. … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500919466998992896"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:activity:7502610524623519745",
+      "matchedKeywords": [
+        "ai governance"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"AI governance\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "What should organizations prioritize as AI reshapes work?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7502610524623519745"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:share:7502757408255967232",
+      "matchedKeywords": [
+        "ai governance"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"AI governance\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "Insider Live: Copilot and AI Governance Best Practices 🎯 Nikki Chapple (MVP) and Al Eardley from Microsoft join us for a live deep dive into Copilot and governance. 🟠 Live conversation with Microsoft experts and community leaders 🟠 Actionable insights on upcoming releases, roadmap themes and product direction 🟠 Real-world guidance on governing AI and Copilot across your organisation Save your seat now: https://lnkd.in/eVPx2d6D #Microsoft365Copilot #AI #Microsoft365 … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7502757408255967232"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7491856977241935873",
+      "matchedKeywords": [
+        "pilot to production"
+      ],
+      "pass": "Past week pass 1",
+      "query": "\"pilot to production\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "Many businesses are experimenting with AI. Far fewer are successfully taking those experiments into production. The challenge isn't always the AI model. It’s everything around it: 🔹 Reliable data 🔹 System integration 🔹 Security & governance 🔹 Scalable infrastructure 🔹 User adoption 🔹 Continuous monitoring 🔹 Measurable business outcomes A successful AI pilot proves what is possible. A successful production implementation proves what is valuable. In our latest article, we explore how businesses can move from AI experimentation to scalable, measurable business impact. 📖 Read the full article and discover a practical framework for taking AI from pilot to production. 🌐 www.nexgenium.com 📧 support@nexgenium.com #AI #ArtificialIntelligence #EnterpriseAI #AIAutomation #DigitalTransformation #BusinessAutomation #AIStrategy #CloudComputing #DevOps #SystemIntegration #Nexgenium … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7491856977241935873"
+    },
+    {
+      "ageHours": null,
+      "author": "Unknown",
+      "comments": null,
+      "id": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7497956655486345216",
+      "matchedKeywords": [
+        "pilot to production"
+      ],
+      "pass": "Past week pass 2",
+      "query": "\"pilot to production\"",
+      "reactions": null,
+      "relativeTime": "",
+      "text": "ICCA Indonesia is bringing the country's sharpest contact centre and CX teams together to compete at their flagship annual event, The Best Contact Center Indonesia 2026. And we've got a front-row view, with Rahul Agarwal on the jury. Varun Raj , Rounika Juneja and Kunal Pandya will be on the floor too. If you're attending, come say hi. Always up for good coffee and better CX conversation. Deal? See you there. 🇮🇩 Ayush Mishra Rachit Mathur #BestContactCenterIndonesia2026 #CX #CustomerExperience #Exotel … more",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7497956655486345216"
+    }
+  ],
+  "queries": [
+    "\"agentic AI\"",
+    "\"agent harness\"",
+    "(\"multi-agent\" OR \"multi agent\")",
+    "(GenAI OR \"generative AI\") (production OR enterprise)",
+    "\"AI governance\"",
+    "\"pilot to production\""
+  ],
+  "rawCount": 14,
+  "source": "linkedin-narrow-search"
+}
