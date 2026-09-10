@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Feedline 2.5.0 — agent architecture</title>
+  <style>
+    :root { --bg:#f6f1e8; --ink:#16130f; --muted:#6b6459; --card:#fffcf7; --accent:#3d5a54; --line:rgba(22,19,15,.1); }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font: 18px/1.5 Georgia, serif; padding:28px 18px 80px; }
+    main { max-width:42rem; margin:0 auto; }
+    .kicker { font: 600 11px/1.2 Segoe UI, sans-serif; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:1.8rem; letter-spacing:-.03em; margin:8px 0 12px; }
+    h2 { font-size:1.15rem; margin:0 0 8px; }
+    .lede { margin:0 0 18px; }
+    .item { background:var(--card); border-radius:16px; padding:18px; box-shadow:0 0 0 1px var(--line); margin-bottom:14px; }
+    .flow { display:flex; flex-direction:column; gap:8px; }
+    .step { display:flex; gap:12px; align-items:flex-start; padding:12px; background:var(--bg); border-radius:12px; }
+    .n { font: 700 13px Segoe UI, sans-serif; color:var(--accent); min-width:1.6rem; }
+    .arrow { text-align:center; color:var(--muted); font-size:12px; letter-spacing:.2em; }
+    strong.label { font: 600 11px/1.2 Segoe UI, sans-serif; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:4px; }
+    a { color:var(--accent); }
+    ul { margin:8px 0 0; padding-left:1.2rem; }
+    .mermaid { background:var(--bg); border-radius:12px; padding:12px; overflow-x:auto; }
+  </style>
+</head>
+<body>
+<main>
+  <p class="kicker">Feedline 2.5.0 · final</p>
+  <h1>This is an AI agent</h1>
+  <p class="lede">
+    Feedline lives in Chrome. It does not log into LinkedIn and does not post for you.
+    At 8:00 AM IST it searches the public index of LinkedIn posts, ranks the top 5,
+    drafts practitioner comments with Gemini, and publishes this phone page.
+  </p>
+
+  <section class="item">
+    <h2>Pipeline</h2>
+    <div class="flow">
+      <div class="step"><span class="n">1</span><div><strong class="label">Trigger</strong> 8:00 AM IST Chrome alarm, or Run search in the side panel. Laptop may be locked. Chrome must stay open.</div></div>
+      <div class="arrow">↓</div>
+      <div class="step"><span class="n">2</span><div><strong class="label">Discover · public index</strong> Bing + DuckDuckGo. Google only if it is not rate-limited (429). Queries: agentic AI, agent harness, multi-agent, GenAI production, AI governance, pilot to production, operating model, Infosys Topaz.</div></div>
+      <div class="arrow">↓</div>
+      <div class="step"><span class="n">3</span><div><strong class="label">Window</strong> Last 2 hours first. If fewer than 5, 6 hours. Then 24 hours. Nothing older.</div></div>
+      <div class="arrow">↓</div>
+      <div class="step"><span class="n">4</span><div><strong class="label">Rank</strong> Interaction (comments + reactions) + substance. Keep only the top 5.</div></div>
+      <div class="arrow">↓</div>
+      <div class="step"><span class="n">5</span><div><strong class="label">Write</strong> Gemini 2.5 Flash, then Gemini 2.5 Flash Lite. No Nemotron. Topic restates this post. Comments: no “Warm reply:” label. At most 1–2 of 5 end with a question.</div></div>
+      <div class="arrow">↓</div>
+      <div class="step"><span class="n">6</span><div><strong class="label">Publish</strong> GitHub <code>docs/index.html</code> → phone page. You copy the comment and paste on LinkedIn yourself.</div></div>
+    </div>
+  </section>
+
+  <section class="item">
+    <h2>Architecture</h2>
+    <pre class="mermaid">flowchart LR
+  T["8:00 AM IST\nor manual"] --> S["Chrome agent"]
+  S --> I["Indexed search\nBing · DDG · Google"]
+  I --> R["2h → 6h → 24h\nTop 5"]
+  R --> G["Gemini Flash\nthen Flash Lite"]
+  G --> P["GitHub Pages\nphone HTML"]
+  P --> H["You paste\non LinkedIn"]</pre>
+  </section>
+
+  <section class="item">
+    <h2>What it is not</h2>
+    <ul>
+      <li>Not a LinkedIn login or auto-comment bot</li>
+      <li>Not a Home-feed scroller</li>
+      <li>Not ChatGPT. The model is Gemini via OpenRouter</li>
+    </ul>
+    <p><a href="./">Today’s briefing</a></p>
+  </section>
+</main>
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true, theme: "neutral", securityLevel: "loose" });
+</script>
+</body>
+</html>
