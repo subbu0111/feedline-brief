@@ -1,92 +1,317 @@
 {
-  "generatedAt": "2026-09-11T01:59:48.472Z",
-  "windowDays": 1,
-  "source": "linkedin-long-search",
-  "model": "google/gemini-2.5-flash",
-  "lede": "Today's search produced 5 strong originals inside 24h. Final set is the top 5.",
+  "coverage": "Bing: no-results; DuckDuckGo: no-results; Google: ok",
+  "generatedAt": "2026-09-12T02:41:48.718Z",
   "items": [
     {
-      "postUrl": "https://www.linkedin.com/posts/sambaintel_how-has-your-data-strategy-changed-with-agentic-activity-7503943135480295424-M1uu",
-      "author": "sambaintel",
-      "relativeTime": "3 hours ago",
-      "ageHours": 3.395808888888889,
-      "title": "How Has Your Data Strategy Changed With Agentic AI at Your...",
-      "priority": "A+",
-      "topicSummary": "The author asks how data strategies are evolving to accommodate agentic AI, implying a shift in how organizations manage and leverage their data for autonomous AI systems. This suggests a need to rethink data collection, storage, and processing in the context of AI agents that can act independently.",
-      "warmReply": "The shift to agentic AI fundamentally changes data strategy requirements.",
-      "commentBody": "For agentic systems, the data strategy must account for not just the input and output, but also the intermediate states and decision-making processes of the agents. This demands a robust logging and observability framework to understand agent behavior and ensure alignment with organizational goals, especially when agents operate autonomously in production environments.",
-      "comment": "The shift to agentic AI fundamentally changes data strategy requirements.\n\nFor agentic systems, the data strategy must account for not just the input and output, but also the intermediate states and decision-making processes of the agents. This demands a robust logging and observability framework to understand agent behavior and ensure alignment with organizational goals, especially when agents operate autonomously in production environments.",
-      "whySelected": "This thread directly addresses the operational impact of agentic AI on foundational enterprise capabilities.",
-      "note": "My #1 recommendation today..."
+      "activity": {
+        "basis": "Recent activity unverified",
+        "confirmed": false,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": false
+      },
+      "ageHours": 19.14282083333333,
+      "alignmentVerified": true,
+      "author": "Shalini Goyal • 3rd+",
+      "checkedAt": 1789180831529,
+      "comment": "This is a comprehensive breakdown. For enterprise AI delivery, the 'Observability & Evaluation' block is critical. Without robust tracking of quality, cost, and failures, scaling pilots to production becomes challenging due to a lack of actionable insights for continuous improvement and governance.",
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "Knowledge and RAG remain essential for enterprise agents because trusted information matters as much as model intelligence, Shalini Goyal."
+        },
+        {
+          "at": null,
+          "text": "Aiswarya Venkitesh Exactly. Reliable retrieval helps keep responses grounded in the information businesses actually trust."
+        },
+        {
+          "at": null,
+          "text": "The security and guardrails layer deserves much more attention in real-world agent deployments. Great point, Shalini Goyal."
+        },
+        {
+          "at": null,
+          "text": "Sumit Gupta 📊 Exactly. Autonomy becomes useful only when access, permissions, and approvals are properly controlled."
+        },
+        {
+          "at": null,
+          "text": "The human approval point under guardrails is especially important for high-impact workflows. Great detail Shalini Goyal."
+        },
+        {
+          "at": null,
+          "text": "Anup Panwar Yes. Human oversight remains valuable whenever actions involve significant business or operational risk."
+        }
+      ],
+      "comments": 95,
+      "commentsClosed": false,
+      "evidenceQuote": "Observability and Evaluation Tracks quality, cost, tool calls, failures, and performance.",
+      "id": "7504079271464898560",
+      "imageObservation": "The image is a mind map titled '10 Building Blocks of an Agentic AI System'. It visually connects a central 'AI' icon to ten distinct blocks: Foundation Model, Agent Orchestration, Context & Instructions, Memory & State, Knowledge & RAG, Tools & Actions, Planning & Workflow, Multi-Agent Collaboration, Security & Guardrails, and Observability & Evaluation. Each block has a brief description of its function and lists example tools. The author's name, Shalini Goyal, is also present in the center.",
+      "imageRead": true,
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4E22AQFyLf-KyodIjQ/feedshare-shrink_800/B4EaCPYUz4JMAc-/0/1789111915420?e=1790812800&v=beta&t=aEZfwML7el9eLVb_cpgaLXNga-ZQfLFGTwGsZ4Hids0"
+      ],
+      "latestCommentAt": 1789116031525,
+      "mediaType": "image",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 276,
+      "score": 131.2,
+      "source": "indexed-original",
+      "text": "An LLM is not an AI agent. It becomes agentic when the system around it can understand goals, plan work, use tools, remember context, act, and recover from failure. Here are the 10 building blocks: → Foundation Model Provides reasoning, generation, understanding, and tool calling. → Agent Orchestration Routes tasks, manages workflows, maintains state, and handles retries. → Context and Instructions Defines goals, rules, requirements, task context, and tools. → Memory and State Retains conversation history, preferences, progress, and knowledge. → Knowledge and RAG Retrieves trusted information and grounds responses. → Tools and Actions Calls APIs, queries databases, executes code, and triggers actions. → Planning and Workflow Breaks complex goals into tasks, sequences them, and tracks progress. → Multi-Agent Collaboration Lets specialized agents delegate, hand off, and coordinate work. → Security and Guardrails Controls identity, permissions, tool access, filtering, and approval. → Observability and Evaluation Tracks quality, cost, tool calls, failures, and performance. A strong model can produce a good answer. A strong agentic system can complete useful work safely and repeatedly. The advantage will not come from choosing one model. It will come from designing the system around it. Which building block is your team prioritizing? BTW, pre-order for the book is now open! Get your copy of System Design and Behavioral Intelligence here: Amazon: https://lnkd.in/gBEqJpHd",
+      "topicSummary": "The post outlines 10 building blocks for creating an agentic AI system, emphasizing that true AI agency comes from the surrounding system, not just the LLM. It details components like orchestration, memory, tools, and security.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/goyalshalini_an-llm-is-not-an-ai-agent-it-becomes-agentic-activity-7504079271464898560-PbzJ",
+      "whySelected": "The post explicitly asks which building block teams are prioritizing. Focusing on 'Observability & Evaluation' allows for a practical implication related to enterprise AI delivery, specifically the challenge of scaling from pilots to production, which aligns with Balasubramaniam's lens."
     },
     {
-      "postUrl": "https://www.linkedin.com/posts/arbab_agentic-ai-feels-new-but-many-of-the-ideas-activity-7503928267016527873-dDoA",
-      "author": "arbab",
-      "relativeTime": "4 hours ago",
-      "ageHours": 4.380508333333333,
-      "title": "Agentic AI feels new, but many of the ideas...",
-      "priority": "A+",
-      "topicSummary": "The author argues that while agentic AI appears novel, its underlying principles are rooted in existing concepts. They suggest that many of the challenges and solutions for agentic AI can be informed by prior work in areas like distributed systems and autonomous agents.",
-      "warmReply": "You're right that agentic AI builds on established concepts.",
-      "commentBody": "One critical aspect from prior autonomous systems that applies here is the need for clear exception handling and recovery mechanisms. When agents operate with a degree of autonomy, defining the boundaries of their decision-making and establishing protocols for human intervention when those boundaries are exceeded is paramount for production stability.",
-      "comment": "You're right that agentic AI builds on established concepts.\n\nOne critical aspect from prior autonomous systems that applies here is the need for clear exception handling and recovery mechanisms. When agents operate with a degree of autonomy, defining the boundaries of their decision-making and establishing protocols for human intervention when those boundaries are exceeded is paramount for production stability.",
-      "whySelected": "This post provides a practical, grounded perspective on agentic AI development.",
-      "note": ""
+      "activity": {
+        "basis": "Recent activity unverified",
+        "confirmed": false,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": false
+      },
+      "ageHours": 14.488491111111111,
+      "alignmentVerified": true,
+      "author": "Matthew Coombs • 3rd+",
+      "checkedAt": 1789180727750,
+      "comment": "This framework effectively maps AI investments to tangible business outcomes. A critical next step for enterprises is establishing robust governance to ensure these AI initiatives align with strategic goals and deliver sustained value from pilot to production.",
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "Matthew Coombs The strongest point here is that AI creates value across functions, not inside one isolated team."
+        },
+        {
+          "at": null,
+          "text": "Ananya Ghosh Chowdhury Cross-functional adoption expands the impact."
+        },
+        {
+          "at": null,
+          "text": "Matthew Coombs New revenue models become possible when AI changes the offering, not merely internal efficiency."
+        },
+        {
+          "at": null,
+          "text": "Aiswarya Venkitesh That is where transformation begins."
+        },
+        {
+          "at": null,
+          "text": "Revenue growth gets attention, but operational efficiency usually delivers the fastest measurable wins. Matthew"
+        },
+        {
+          "at": null,
+          "text": "Sumit Gupta 📊 Efficiency often creates early momentum."
+        }
+      ],
+      "comments": 60,
+      "commentsClosed": false,
+      "evidenceQuote": "The biggest AI opportunity is rarely another isolated use case. It is redesigning how the business creates, delivers, and captures value.",
+      "id": "7504149114209787904",
+      "imageObservation": "The image is a detailed infographic titled 'The Enterprise AI Value Creation Map', illustrating 8 ways AI creates revenue, efficiency, and business value. Each of the 8 areas (Revenue Growth, Customer Acquisition, Operational Efficiency, Customer Experience, Decision Intelligence, Employee Productivity, Risk & Compliance, Business Model Innovation) is broken down into specific applications with a 'Key Takeaway' summarizing its value. An AI icon is centrally located, with lines connecting it to each of the 8 value areas.",
+      "imageRead": true,
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4E22AQHpuLwaVtabug/feedshare-shrink_800/B4EaCQX19oH4Ac-/0/1789128567683?e=1790812800&v=beta&t=-irypWOJeYxF3nyTOJ2gGPvcfG57pgTsylLLTEPufKE"
+      ],
+      "latestCommentAt": 1789130327747,
+      "mediaType": "image",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 85,
+      "score": 118.4,
+      "source": "indexed-original",
+      "text": "AI needs to earn its place. A smarter model means little until it creates revenue, saves time, improves decisions, or opens a new business opportunity. That is where the Enterprise AI Value Creation Map becomes useful. It connects AI investments to eight areas where businesses can see measurable impact: → Revenue Growth Prioritize high-intent leads, uncover buying signals, recommend next-best actions, and optimize pricing. → Customer Acquisition Improve AI search visibility, personalize outreach, and remove friction from the buyer journey. → Operational Efficiency Automate repetitive work, identify bottlenecks, optimize workflows, and allocate resources more effectively. → Customer Experience Resolve routine requests faster, personalize interactions, and detect churn risk early. → Decision Intelligence Turn enterprise data into forecasts, executive insights, and scenario-based decisions. → Employee Productivity Help teams find trusted information, automate administration, and complete knowledge work faster. → Risk and Compliance Detect anomalies, monitor policies continuously, and automate audit evidence. → Business Model Innovation Create AI-powered services, intelligent processes, and entirely new revenue streams. The biggest AI opportunity is rarely another isolated use case. It is redesigning how the business creates, delivers, and captures value. Which of these eight areas holds the greatest AI opportunity for your organization?",
+      "topicSummary": "The post outlines eight areas where AI can create measurable business value, emphasizing that the biggest opportunities often involve redesigning how a business operates rather than isolated use cases.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/matthew-coombs-a56714127_ai-needs-to-earn-its-place-a-smarter-model-activity-7504149114209787904-T0o8",
+      "whySelected": "The post's emphasis on redesigning how a business creates, delivers, and captures value aligns perfectly with my expertise in enterprise AI delivery and process redesign. My comment adds the practical implication of governance, which is crucial for moving from pilots to production and ensuring sustained value, without repeating existing comments."
     },
     {
-      "postUrl": "https://www.linkedin.com/posts/alvinfsc_thats-why-im-always-very-polite-when-i-activity-7503905161120174082-_Y_7",
-      "author": "alvinfsc",
-      "relativeTime": "6 hours ago",
-      "ageHours": 5.924911944444444,
-      "title": "That's why I'm always very polite when I...",
-      "priority": "A+",
-      "topicSummary": "The author makes a humorous point about being polite to AI, implying a future where AI systems might hold significant influence or control. This highlights the growing perception of AI as an entity with which humans interact, rather than just a tool.",
-      "warmReply": "The humor in being polite to AI underscores a serious operational consideration.",
-      "commentBody": "Beyond politeness, establishing clear 'kill switch' protocols and human-in-the-loop overrides for critical AI systems is a non-negotiable for production deployment. This ensures that even the most advanced agents can be safely disengaged or redirected if their behavior deviates from intended outcomes or poses unforeseen risks.",
-      "comment": "The humor in being polite to AI underscores a serious operational consideration.\n\nBeyond politeness, establishing clear 'kill switch' protocols and human-in-the-loop overrides for critical AI systems is a non-negotiable for production deployment. This ensures that even the most advanced agents can be safely disengaged or redirected if their behavior deviates from intended outcomes or poses unforeseen risks.",
-      "whySelected": "This post touches on the human-AI interaction and control, which is critical for trustworthy AI.",
-      "note": ""
+      "activity": {
+        "basis": "Recent activity unverified",
+        "confirmed": false,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": false
+      },
+      "ageHours": 12.984356111111111,
+      "alignmentVerified": true,
+      "author": "Vaibhav Aggarwal • 3rd+",
+      "checkedAt": 1789180841158,
+      "comment": "This decision tree is a practical framework for initial AI process evaluation. For successful enterprise AI delivery, a key next step after tool selection is establishing clear data governance and model monitoring protocols, especially for processes involving sensitive data or critical decisions.",
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "From my experience, Vaibhav, expert judgment should remain visible even when AI prepares the first draft."
+        },
+        {
+          "at": null,
+          "text": "Alok Sharan Human judgment stays essential."
+        },
+        {
+          "at": null,
+          "text": "The empathy question is a useful checkpoint. Vaibhav keeps people involved where context matters most."
+        },
+        {
+          "at": null,
+          "text": "Anjali Viramgama Some decisions need human understanding."
+        },
+        {
+          "at": null,
+          "text": "The legacy-app question is important because Vaibhav recognizes that APIs are not always available."
+        },
+        {
+          "at": null,
+          "text": "Monu Yadav That’s where UI automation helps."
+        }
+      ],
+      "comments": 57,
+      "commentsClosed": false,
+      "evidenceQuote": "The goal is not to put AI everywhere. It is to place the right level of automation inside the right process, with the right controls and human oversight.",
+      "id": "7504172301551243264",
+      "imageObservation": "The image is a two-part decision tree. Part 1, 'Should AI Handle This Process At All?', guides the user through questions about process characteristics (repetitive, structured inputs, data type, sensitivity, risk, empathy) to determine if automation, GenAI, human-led AI, or manual processing is appropriate. Part 2, 'Which Enterprise AI Tool Fits?', then directs the user based on process type (internal, customer-facing, legacy apps, data sync, custom models, analytics) to specific platforms like ServiceNow, UiPath, Salesforce, Azure OpenAI, or Power BI.",
+      "imageRead": true,
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4E22AQE3gKsZr9orYg/feedshare-shrink_800/B4EaCQs5w.J0Ag-/0/1789134094877?e=1790812800&v=beta&t=rhCpUOgmuLBYhiK6PMXy0KFh2gJ2r9aAO8xdNjT4D7M"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 61,
+      "score": 117.5,
+      "source": "indexed-original",
+      "text": "AI should not handle everything. The enterprise AI decision is knowing what to automate, what to augment, and what should remain human. Before selecting a tool, start with the process: → Is it repetitive and high-volume? → Are the inputs structured and rules clear? → Is the work based on text, documents, or emails? → Does it involve sensitive data? → Does it require judgment or empathy? → Could a mistake create legal, financial, or safety risks? → Would automation save enough time? Clear rules and structured inputs may be ready for automation. Unstructured work may need GenAI. Sensitive workflows require guardrails. High-risk decisions should stay human-led, while AI assists with drafting. Only then should you choose the platform. → ServiceNow for tickets, approvals, employee workflows, and knowledge. → UiPath or Automation Anywhere for legacy applications. → Power Automate, Zapier, or n8n for simple team workflows. → Salesforce Agentforce or Zendesk AI for customer-facing processes. → Integration Hub for synchronizing data across systems. → Azure OpenAI, AWS Bedrock, or Vertex AI for custom applications. → Power BI or Tableau for analytics and dashboards. The goal is not to put AI everywhere. It is to place the right level of automation inside the right process, with the right controls and human oversight. What process inside your enterprise would you evaluate first?",
+      "topicSummary": "The post and image present a decision tree for enterprises to determine if and how AI should be applied to a process, guiding users from initial process assessment to tool selection.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/digitalprocessarchitect_ai-should-not-handle-everything-the-enterprise-activity-7504172301551243264-Hezo",
+      "whySelected": "The post and image provide a structured approach to AI adoption. My comment adds a crucial practical implication for enterprise AI delivery: the need for robust governance and monitoring post-tool selection, which is vital for moving pilots to production."
     },
     {
-      "postUrl": "https://www.linkedin.com/posts/ghostsecurity_josh-larsen-co-founder-and-cto-ghost-breaking-activity-7503935878248185857-AEoT",
-      "author": "ghostsecurity",
-      "relativeTime": "4 hours ago",
-      "ageHours": 3.8792791666666666,
-      "title": "Josh Larsen, Co-Founder and CTO, Ghost: Breaking...",
-      "priority": "A+",
-      "topicSummary": "This post features Josh Larsen, Co-Founder and CTO of Ghost, discussing how their platform is breaking down barriers in a specific domain. While the specific domain isn't detailed in the snippet, the focus is on a technical leader's perspective on innovation and overcoming challenges.",
-      "warmReply": "Breaking down barriers often requires a fundamental rethinking of existing processes.",
-      "commentBody": "When introducing disruptive technologies like those discussed by Josh, it's crucial to conduct a thorough 'outcome-first' redesign of the affected business processes. This ensures the new technology isn't just bolted onto old workflows, but rather optimizes the entire value chain for the desired business outcomes, minimizing friction and maximizing adoption.",
-      "comment": "Breaking down barriers often requires a fundamental rethinking of existing processes.\n\nWhen introducing disruptive technologies like those discussed by Josh, it's crucial to conduct a thorough 'outcome-first' redesign of the affected business processes. This ensures the new technology isn't just bolted onto old workflows, but rather optimizes the entire value chain for the desired business outcomes, minimizing friction and maximizing adoption.",
-      "whySelected": "This post highlights a practitioner's view on innovation and implementation challenges.",
-      "note": ""
+      "activity": {
+        "basis": "Recent activity unverified",
+        "confirmed": false,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": false
+      },
+      "ageHours": 11.63543861111111,
+      "alignmentVerified": true,
+      "author": "Marc Benioff • 2nd",
+      "checkedAt": 1789180401796,
+      "comment": "The focus on a 'Trusted Enterprise AI Harness' is critical. For successful enterprise AI delivery, the integration of these capabilities must also account for the inevitable process redesign required. How does this harness facilitate adapting existing workflows to leverage AI, rather than just bolting it on?",
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "From a field sales perspective, trust gets very practical, Marc Benioff . Can I see why AI recommended a follow-up, which customer information it used, and when it needs my approval? Getting those details right would give me more confidence using it in relationships I’ve worked hard to build. …more"
+        },
+        {
+          "at": null,
+          "text": "It’s one thing to have access to all these tools, but another to actually make them work with your existing processes without creating more chaos."
+        },
+        {
+          "at": null,
+          "text": "Trust is indeed the hard part. It starts with context, because an agent can't act safely on an org it doesn't actually understand."
+        },
+        {
+          "at": null,
+          "text": "This is the right frame. In government, trust is won at the data layer — if two systems can't agree what a citizen is, nothing above them can fix it. Getting that foundation right is the whole job! hashtag #trustindata"
+        },
+        {
+          "at": null,
+          "text": "Can you give 100% guarantee of their data security? Fuc anthropics thats not only AI in the world there are many coming to destroy anthropics what are your securiry measures to secure data? Salesforce customers data has been already compromised a couple of times and now this shit? Seriously? …more"
+        },
+        {
+          "at": null,
+          "text": "Thank you, Marc Benioff for your relentless hard work to make sure, Salesforce is always ahead of the game using cutting edge technologies. Salesforce has been evolving very fast to keep it's market position as a top level CRM software provider with latest and greatest features and making customers happy. …more"
+        }
+      ],
+      "comments": 36,
+      "commentsClosed": false,
+      "evidenceQuote": "An enterprise needs a trusted harness around all of its AI.",
+      "id": "7504190826714034176",
+      "imageObservation": "",
+      "imageRead": false,
+      "imageUrls": [],
+      "latestCommentAt": null,
+      "mediaType": "text",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 601,
+      "score": 112.5,
+      "source": "indexed-original",
+      "text": "Every enterprise now has access to intelligence — models keep getting smarter, agents keep multiplying, and AI is showing up everywhere you look. But intelligence alone was never the hard part. The hard part is trust: can AI actually understand your business, and can it act on it safely, inside your governance, your security, your rules? Most AI harnesses out there wrap around a single agent. That's not enough. An enterprise needs a trusted harness around all of its AI. This week we introduced the Salesforce Trusted Enterprise AI Harness. It's built on six capabilities, working as one system: 🧠Trusted Context — customer data, metadata, semantics, knowledge, real-time signals, and memory 🤖Trusted Agency — reasoning, planning, memory, and orchestration, balanced with deterministic controls ⚡Trusted Action — secure connections to apps, APIs, workflows, and business processes 📋Trusted Governance — lineage, quality, guardrails, and controls over data, metadata, and policies 🔒Trusted Security — identity, permissions, data protection, privacy, and runtime security ⚙️Trusted Models — intelligent routing to the right model based on accuracy, performance, cost, and business need This is decades of Salesforce innovation — Data 360, Informatica, MuleSoft and Agent Fabric, Tableau, Agentforce, Salesforce Guardian and the Salesforce Platform — coming together into one open architecture. And it goes wherever you go. Our harness extends into whatever AI experience customers choose — Claude, Slack, Microsoft Teams, Agentforce, and beyond. Wherever the AI experience lives, the Salesforce Trusted Enterprise AI Harness can bring the enterprise with it. The agent harness makes an agent work. The Trusted Enterprise AI Harness makes AI work for the enterprise. That is the future we are building at Salesforce. See it in action at Dreamforce. 🚀 https://lnkd.in/drfmV3Be",
+      "topicSummary": "Salesforce has introduced an 'Enterprise AI Harness' designed to integrate AI safely and effectively within enterprise governance, security, and business rules. It emphasizes trust through six core capabilities, moving beyond single-agent solutions to a comprehensive system.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/marcbenioff_salesforce-introduces-the-trusted-enterprise-activity-7504190826714034176--lK6",
+      "whySelected": "The post highlights the technical components of trust. My comment introduces the practical challenge of process redesign, which is crucial for moving AI pilots to production and aligns with Balasubramaniam's expertise in enterprise AI delivery and process redesign."
     },
     {
-      "postUrl": "https://www.linkedin.com/posts/andrew-shapiro-3a7761_a-practical-guide-to-ai-governance-for-modern-activity-7503916763051429888-_5Eh",
-      "author": "andrew shapiro 3a7761",
-      "relativeTime": "5 hours ago",
-      "ageHours": 5.153724722222222,
-      "title": "A Practical Guide to AI Governance for Modern...",
-      "priority": "A+",
-      "topicSummary": "The author presents a practical guide to AI governance, emphasizing its importance for modern organizations. This suggests a focus on actionable strategies and frameworks for managing the ethical, legal, and operational risks associated with AI deployment.",
-      "warmReply": "A practical guide to AI governance is essential for moving beyond pilot projects.",
-      "commentBody": "Effective AI governance in production environments requires integrating evaluation metrics directly into the sprint cycles. This allows for continuous monitoring of model performance, fairness, and drift, enabling rapid iteration and ensuring that governance principles are upheld throughout the AI system's lifecycle, not just at deployment. What specific metrics have you found most effective for continuous governance?",
-      "comment": "A practical guide to AI governance is essential for moving beyond pilot projects.\n\nEffective AI governance in production environments requires integrating evaluation metrics directly into the sprint cycles. This allows for continuous monitoring of model performance, fairness, and drift, enabling rapid iteration and ensuring that governance principles are upheld throughout the AI system's lifecycle, not just at deployment. What specific metrics have you found most effective for continuous governance?",
-      "whySelected": "This post directly addresses the critical topic of AI governance, a key concern for production AI.",
-      "note": ""
+      "activity": {
+        "basis": "Recent activity unverified",
+        "confirmed": false,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": false
+      },
+      "ageHours": 16.134431944444444,
+      "alignmentVerified": true,
+      "author": "AI Digital",
+      "checkedAt": 1789180608859,
+      "comment": "The post rightly highlights that an operating model is key to connecting these layers. From a governance perspective, defining clear ownership and accountability for each layer is critical to ensure seamless transitions from pilots to production.",
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "AI Digital Connecting agents to business systems creates value, but also creates the largest operational risk."
+        },
+        {
+          "at": null,
+          "text": "Nikita Chepuri Tool access changes the risk profile."
+        },
+        {
+          "at": null,
+          "text": "AI Digital The operating model section matters because unclear ownership slows every decision after deployment."
+        },
+        {
+          "at": null,
+          "text": "Ananya Ghosh Chowdhury Ownership keeps execution moving."
+        },
+        {
+          "at": null,
+          "text": "Data readiness is usually the real bottleneck. Models get blamed for weak foundations. AI Digital"
+        },
+        {
+          "at": null,
+          "text": "Sumit Gupta 📊 Poor data limits everything downstream."
+        }
+      ],
+      "comments": 53,
+      "commentsClosed": false,
+      "evidenceQuote": "The advantage comes from connecting every layer. Strategy gives AI a purpose. Architecture makes it usable. Governance makes it trustworthy. Platforms make it scalable. That is the difference between an impressive AI demo and a capability people can rely on every day.",
+      "id": "7504123762611519488",
+      "imageObservation": "The image is a mind map titled 'Enterprise AI Quick Guide' with four main branches: AI Strategy & Readiness, Enterprise AI Governance & Controls, Core Enterprise AI Architecture, and Enterprise AI Platforms & Tools. Each branch has sub-nodes detailing specific aspects like 'Model Risk Management' under Governance, 'RAG' under Architecture, and various platform examples. The visual reinforces the interconnectedness of these components.",
+      "imageRead": true,
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4E22AQHdQl1z1vgufw/feedshare-shrink_800/B4EaCQAw8hIwAc-/0/1789122522889?e=1790812800&v=beta&t=B3CHO3hOxwJYFGeHZ_FVjA-WW2dmXP9gr4MtwJdt6GE"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 51,
+      "score": 111.7,
+      "source": "indexed-original",
+      "text": "A powerful model is only the beginning. Enterprise AI creates value when strategy, data, architecture, governance, and execution work as one system. Buying an LLM will not create that system. An enterprise AI foundation needs four connected layers: → Strategy and Readiness Start with a business problem. Confirm the data is usable, secure ownership, prioritize use cases, define ROI, and decide where to build or buy. → Core AI Architecture Connect trusted data. Use RAG for grounded responses, agents for multi-step workflows, and human review for sensitive decisions. Add memory, orchestration, APIs, evaluation, and observability. → Governance and Controls Define who can access what. Protect sensitive data, apply guardrails, test security, maintain audit trails, monitor model behavior, and manage the AI lifecycle. → Platforms and Tools Microsoft Foundry, AWS Bedrock, Vertex AI, Databricks, Snowflake, ServiceNow, and agent frameworks can speed up delivery. But tools cannot replace a clear operating model. The advantage comes from connecting every layer. Strategy gives AI a purpose. Architecture makes it usable. Governance makes it trustworthy. Platforms make it scalable. That is the difference between an impressive AI demo and a capability people can rely on every day. Where is your organization strongest today: strategy, architecture, governance, or execution?",
+      "topicSummary": "The post outlines four interconnected layers for enterprise AI: Strategy, Architecture, Governance, and Platforms. It emphasizes that a clear operating model, not just tools, is crucial for successful AI implementation.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/aidigitaluk_a-powerful-model-is-only-the-beginning-activity-7504123762611519488-DVyG",
+      "whySelected": "The post explicitly asks about the operating model and its importance, which aligns with Balasubramaniam's expertise in process redesign and governance. The comment focuses on a practical implication of the operating model within the governance layer, avoiding generic advice."
     }
   ],
-  "engagementOrder": [
-    "sambaintel",
-    "arbab",
-    "alvinfsc",
-    "andrew shapiro 3a7761",
-    "ghostsecurity"
-  ],
-  "thread": "agentic AI data strategy → agentic AI exception handling → AI governance metrics",
-  "concepts": [
-    "agentic AI operationalization",
-    "AI governance in production",
-    "human-in-the-loop for AI"
-  ]
+  "runId": "mtxrp1sn-b3952005",
+  "version": 4,
+  "warnings": []
 }
