@@ -1,6 +1,6 @@
 {
   "coverage": "Bing: no-results; DuckDuckGo: no-results; Google: ok",
-  "generatedAt": "2026-09-13T08:17:42.652Z",
+  "generatedAt": "2026-09-13T14:02:43.754Z",
   "items": [
     {
       "activity": {
@@ -11,120 +11,120 @@
         "rate": null,
         "recentComment": false
       },
-      "ageHours": 18.63787472222222,
+      "ageHours": 22.330329166666665,
       "alignmentVerified": true,
-      "author": "Vaibhav Aggarwal • 3rd+",
-      "checkedAt": 1789287166263,
-      "comment": "The distinction between starting and scaling enterprise AI is crucial. Focusing on 'Lifecycle Management' within governance, from experimentation to retirement, is key to moving beyond pilots and ensuring sustained value. This also highlights the need for robust process redesign to integrate AI outputs effectively into existing workflows.",
+      "author": "Kumud Deepali Rudraraju • 2nd",
+      "checkedAt": 1789307994597,
+      "comment": "This breakdown is excellent. Beyond the core stack, a practical implication for enterprise AI delivery is establishing robust feedback loops for the 'Learn & Adapt' principle. This ensures continuous improvement and alignment with evolving business needs, moving beyond initial pilot success.",
       "commentSamples": [
         {
           "at": null,
-          "text": "Vaibhav Aggarwal Enterprise data integration usually becomes the real bottleneck after the prototype works."
+          "text": "A great framework can organize complexity. It can’t compensate for unclear thinking."
         },
         {
           "at": null,
-          "text": "Anjali Viramgama Production exposes integration complexity."
+          "text": "Absolutely agree! A structured framework is essential, but without clarity in our thinking, we risk misapplying those structures. It's all about aligning our mindsets with the tools we use to truly harness their potential. What strategies do you find most effective in clarifying your thoughts before moving forward with complex projects Ilan Mintz? …more"
         },
         {
           "at": null,
-          "text": "Worth noting, Vaibhav Aggarwal, executive sponsorship needs active accountability, not just initial approval."
+          "text": "Kumud Deepali Rudraraju Exactly. The framework is only as strong as the foundation underneath it. Without a well-designed agent loop, clear goals, guardrails, and meaningful evaluation, even the most advanced framework can struggle in production. Great breakdown of what actually matters. …more"
         },
         {
           "at": null,
-          "text": "Ananya Ghosh Chowdhury Ownership must continue after launch."
+          "text": "Ligia Clear goals and guardrails do more heavy lifting than most people expect from a framework alone."
         },
         {
           "at": null,
-          "text": "The interesting part, Vaibhav Aggarwal, is how agents increase both capability and governance requirements."
+          "text": "The shiny tool is rarely the real advantage. Teams that understand the “why” behind the agent loop will make better decisions long after today’s frameworks are replaced."
         },
         {
           "at": null,
-          "text": "Sohan Sethi More autonomy requires stronger controls."
+          "text": "Julie L The loop stays the same even as the tools around it keep changing shape."
         }
       ],
-      "comments": 66,
+      "comments": 141,
       "commentsClosed": false,
-      "evidenceQuote": "Enterprise AI is easy to start. Hard to scale. A model can impress in a demo, an agent can automate a task, and a pilot can look successful. But enterprise AI only becomes valuable when strategy, architecture, governance, data, and operations work together.",
-      "id": "7504532896091897856",
-      "imageObservation": "The image is a mind map titled 'Enterprise AI Quick Guide' detailing a practical guide for enterprises. It visually organizes the four layers mentioned in the post: AI Strategy & Readiness, Core Enterprise AI Architecture, Enterprise AI Governance & Controls, and Enterprise AI Platforms & Tools. Each layer has sub-components with brief descriptions, such as 'Lifecycle Management' under Governance & Controls, and various platform examples under Platforms & Tools.",
+      "evidenceQuote": "The framework isn’t the foundation. Here’s the stack you need to understand:",
+      "id": "7504564502257012736",
+      "imageObservation": "The image is a cheatsheet detailing agentic AI. It covers core principles (Goal-Driven, Autonomous, Perceive & Reason, Act, Learn & Adapt), the agent architecture (Perceive, Observe, Act, Memory, Reason, Plan), agent types, key components (LLM, Tools, Memory, Learning Agent, Guardrails), building steps, popular tools/frameworks, common tools agents use, best practices, and evaluation metrics.",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E22AQHiJM-gBo-GGw/feedshare-shrink_800/B4EaCV04DhIcAc-/0/1789220068406?e=1790812800&v=beta&t=nl081jbpa69ybGBl5__iIcwzspiA44vGTIk99rwx0rk"
+        "https://media.licdn.com/dms/image/v2/D5622AQF6A8n0sHiLOQ/feedshare-shrink_800/B56aCWRpRUKcAg-/0/1789227603670?e=1790812800&v=beta&t=WDrPBURiihcjpP3FWzOiPPSTYqkO2oic_vCzh8S9do0"
       ],
       "latestCommentAt": null,
       "mediaType": "image",
-      "model": "google/gemini-2.5-flash",
+      "model": "google/gemini-2.5-flash-lite",
       "originalVerified": true,
-      "reactions": 110,
-      "score": 118.2,
+      "reactions": 770,
+      "score": 143.5,
       "source": "indexed-original",
-      "text": "Enterprise AI is easy to start. Hard to scale. A model can impress in a demo, an agent can automate a task, and a pilot can look successful. But enterprise AI only becomes valuable when strategy, architecture, governance, data, and operations work together. That is where the real work begins. A strong Enterprise AI foundation usually has four layers: → Strategy & Readiness Start with the business problem, executive ownership, prioritized use cases, data readiness, ROI, and the right build-vs-buy decision. → Core AI Architecture Connect enterprise data, foundation models, RAG, agents, memory, tools, APIs, orchestration, evaluation, observability, and human oversight. → Governance & Controls Add model risk management, privacy, identity, permissions, guardrails, compliance, security testing, auditability, and lifecycle management. → Platforms & Tools Use platforms such as Microsoft Foundry, Google Vertex AI, Databricks, Snowflake, AWS Bedrock, ServiceNow, and agent frameworks to operationalize the stack. The biggest mistake is treating Enterprise AI as a model-selection problem. It is really a systems problem. The model is only one layer. The value comes from how securely and reliably that model connects to enterprise data, workflows, applications, people, and decisions. The companies that win with AI will not be the ones running the most pilots. They will be the ones that turn AI into a governed, measurable, production-ready business capability.",
-      "topicSummary": "The post outlines a four-layer framework for enterprise AI implementation, emphasizing that successful AI adoption is a systems problem, not just a model selection problem, requiring integrated strategy, architecture, governance, data, and operations.",
+      "text": "Most teams jump straight to Agentic AI frameworks. Then wonder why their agent works in demos but breaks in production. The framework isn’t the foundation. Here’s the stack you need to understand: 1. Core Principles Agents are: → Goal-driven → Autonomous → Able to perceive and reason → Capable of taking actions through tools → Able to adapt from outcomes and feedback 2. The Agent Loop Perceive → Reason → Plan → Act → Memory → Observe → Repeat Every weak link in this loop creates unreliable behavior. 3. Agent Types → Simple Reflex - rule-based responses → Goal-Based - works toward defined objectives → Utility-Based - chooses the best action → Learning Agent - improves through feedback → Multi-Agent - multiple agents working together 4. The Core Stack • LLM = Brain • Tools = Hands • Memory = Context • Knowledge = Information • Guardrails = Control 5. Building an Agent Define goal → Design workflow → Choose tools → Add memory → Add guardrails → Test → Deploy & monitor 6. Tools Orchestration: LangChain, LlamaIndex, CrewAI Vector DBs: Pinecone, Weaviate, Qdrant Observability: LangSmith, Arize, W&B Deployment: Docker, Kubernetes, Modal 7. Measure What Matters • Task success • Accuracy • Cost & speed • Reliability • User satisfaction Treating Agentic AI like a framework problem. Master the principles first. Then choose the tools. Which part of the stack are you working on right now?",
+      "topicSummary": "The post outlines a comprehensive stack for building agentic AI, emphasizing core principles, the agent loop, and key components before diving into tools. It highlights that mastering the foundational principles is crucial for production-ready agents, not just the framework.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/digitalprocessarchitect_enterprise-ai-is-easy-to-start-hard-to-scale-activity-7504532896091897856-VBC2",
-      "whySelected": "The post's core message about the difficulty of scaling AI beyond pilots directly relates to my focus on enterprise AI delivery and process redesign. The 'Lifecycle Management' component within the 'Governance & Controls' layer of the image provides a specific, actionable point to discuss the transition from pilots to production, which is a key challenge in enterprise AI."
+      "url": "https://www.linkedin.com/posts/kumuddeepali_most-teams-jump-straight-to-agentic-ai-frameworks-activity-7504564502257012736-tVI4",
+      "whySelected": "The comment adds a practical enterprise implication related to the 'Learn & Adapt' principle, which is a core concept in the post and directly relevant to production delivery."
     },
     {
       "activity": {
-        "basis": "Recent activity unverified",
-        "confirmed": false,
-        "elapsedHours": null,
-        "newComments": null,
-        "rate": null,
+        "basis": "Comment count grew since last check",
+        "confirmed": true,
+        "elapsedHours": 5.731296111111111,
+        "newComments": 7,
+        "rate": 1.2213642192434075,
         "recentComment": false
       },
-      "ageHours": 16.141326944444444,
+      "ageHours": 14.911993888888889,
       "alignmentVerified": true,
-      "author": "Rathnakumar Udayakumar • 2nd",
-      "checkedAt": 1789287355298,
-      "comment": "This layered view of the AI agent stack is highly relevant for enterprise AI. A key implication for governance is defining clear ownership and accountability for each layer, especially for security, guardrails, and observability, to ensure robust production deployments.",
+      "author": "AI For Professionals",
+      "checkedAt": 1789307681567,
+      "comment": "The distinction between governing static data and continuously monitoring AI behavior is crucial. For enterprise AI delivery, this implies that governance frameworks need to incorporate dynamic, real-time oversight mechanisms, moving beyond periodic policy reviews to ensure ongoing model integrity and defensibility.",
       "commentSamples": [
         {
-          "at": null,
-          "text": "Memory and retrieval solve different problems, yet teams often treat them interchangeably, Rathnakumar Udayakumar."
+          "at": 1789257281563,
+          "text": "Handing AI oversight to whoever runs the data team looks tidy on paper and falls apart in practice. Governance of behaviour asks a different skill set than governance of records, and that split forces an org chart change."
+        },
+        {
+          "at": 1789257281563,
+          "text": "Disclosure rules for AI incidents are landing harder than most execs realised, and the reporting chain looks nothing like a data breach line. Serious calls also demand telling users when a machine handled them, which changes customer scripts overnight. …more"
+        },
+        {
+          "at": 1789271681563,
+          "text": "See more about the right tools for AI Governance at www.obsertd.com"
         },
         {
           "at": null,
-          "text": "Alok Sharan That distinction really matters."
+          "text": "Knowing where a number came from means nothing when nobody can explain why the machine picked it. Traceability of the decision itself is what regulators are asking for now, and most firms have not built anything that answers that."
+        },
+        {
+          "at": 1789257281564,
+          "text": "Static policy documents cannot police a system that quietly shifts every night on new inputs. Board packs still show one snapshot per quarter while behaviour has already moved three times, and that gap is where accountability disappears."
         },
         {
           "at": null,
-          "text": "Model choice matters, but context quality and tool reliability often matter more, Rathnakumar Udayakumar."
-        },
-        {
-          "at": null,
-          "text": "devansh mishra The surrounding system shapes performance."
-        },
-        {
-          "at": null,
-          "text": "From what I’ve seen, Rathnakumar, observability becomes essential once agents start calling external tools."
-        },
-        {
-          "at": null,
-          "text": "Shalini Goyal Tool actions need clear traces."
+          "text": "Most boards treat AI oversight like a checkbox next to their data policy, and that split is where things break. Model drift happens overnight while written rules stay frozen, so the two need separate owners with separate teeth."
         }
       ],
-      "comments": 54,
+      "comments": 21,
       "commentsClosed": false,
-      "evidenceQuote": "The real advantage comes from designing the entire stack around reliability, security, context, actions, and production operations.",
-      "id": "7504571385575456768",
-      "imageObservation": "The image visually represents a 10-layer AI agent stack, with each layer labeled (e.g., Interface, Orchestration, Models, Memory, Knowledge & RAG, Vector Database, Tools & Integrations, Security & Guardrails, Evaluation & Observability, Runtime & Deployment). For each layer, it lists common tools or technologies associated with it. The layers are depicted as a vertical stack, with 'Runtime & Deployment' at the bottom and 'Interface' at the top.",
+      "evidenceQuote": "A data policy holds until you change it. A model drifts while you sleep.",
+      "id": "7504675202438459392",
+      "imageObservation": "The image is a visual comparison chart titled 'Data Governance Is Not AI Governance' with two columns, 'Data Governance' and 'AI Governance', each listing six distinct characteristics. These characteristics are paired across the columns, highlighting differences in areas like 'Governs the Input' vs 'Governs the Behaviour', 'Static by Design' vs 'Built for Drift', and 'Breach Notification' vs 'Incident & Disclosure'.",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E22AQFPH_M3-HuNkg/feedshare-shrink_800/B4EaCWX57yHMAc-/0/1789229245006?e=1790812800&v=beta&t=qIEabbtLGk7d4GAKUveymiIZdXImG_NQD2SGWt21_EE"
+        "https://media.licdn.com/dms/image/v2/D4E10AQHNpqeIK38sag/image-shrink_1280/B4EaCX2VGFG4Ac-/0/1789253997172?e=1789912800&v=beta&t=T33Jvva4BlX0R4gY72eRohS6ZWRgatbHb3K_I6Nzpok"
       ],
-      "latestCommentAt": null,
+      "latestCommentAt": 1789271681563,
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 140,
-      "score": 115.2,
+      "reactions": 252,
+      "score": 126.4,
       "source": "indexed-original",
-      "text": "AI agents are only as good as the stack underneath them. A great demo can be built with one model and a few prompts. A production-ready agent needs much more. That is where the AI Agent Stack comes in. Think of it as 10 connected layers: → Runtime & Deployment Docker, Kubernetes, FastAPI, AWS Lambda, Modal → Evaluation & Observability Langfuse, LangSmith, Braintrust, Arize Phoenix, Helicone → Security & Guardrails Auth0, Microsoft Entra ID, Lakera, NeMo Guardrails, Guardrails AI → Tools & Integrations MCP, Composio, Pipedream, Zapier, n8n → Vector Database Pinecone, Weaviate, Qdrant, Milvus, pgvector → Knowledge & RAG LlamaIndex, LangChain, Haystack, Elasticsearch, GraphRAG → Memory Mem0, Zep, Letta, Redis, PostgreSQL → Models Claude, Gemini, OpenAI GPT, Llama, Mistral → Orchestration LangGraph, CrewAI, AutoGen, Semantic Kernel, Google ADK → Interface Streamlit, Gradio, Chainlit, Vercel AI SDK, CopilotKit The important part is not using every tool. It is understanding what each layer solves. Models provide intelligence. Memory preserves context. RAG grounds responses. Tools enable actions. Orchestration coordinates workflows. Guardrails control risk. Observability shows what actually happened. Deployment makes the whole system usable at scale. That is the shift from building a chatbot to building an AI agent system. The model is only one layer. The real advantage comes from designing the entire stack around reliability, security, context, actions, and production operations. Want to learn more about O1, EB1A and EB5? Schedule a free consultation - https://lnkd.in/gEf3y7JB 🔔 Follow to stay updated on high-skilled immigration, jobs, and business",
-      "topicSummary": "The post outlines a 10-layer AI agent stack, emphasizing that production-ready agents require a comprehensive architecture beyond just the model, covering aspects like runtime, security, and orchestration.",
+      "text": "Data Governance Is Not AI Governance 𝗕𝗲𝗰𝗼𝗺𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗮𝘁 𝗔𝗜 𝗶𝗻 𝗷𝘂𝘀𝘁 𝟭 𝗺𝗶𝗻𝘂𝘁𝗲 𝗮 𝗱𝗮𝘆. 𝗚𝗲𝘁 𝘁𝗵𝗲 𝗔𝗜 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝘀𝗺𝗮𝗿𝘁 𝗹𝗲𝗮𝗱𝗲𝗿𝘀 𝗿𝗲𝗮𝗱. 𝗦𝗶𝗴𝗻 𝘂𝗽 𝗳𝗿𝗲𝗲 𝗻𝗼𝘄 → aiforleaders.com Original post: __________ If you think your data policy covers AI, you are wrong. Data governance asks whether the information is correct. AI governance asks whether the decision was defensible. Different questions. Different controls, different owners, different evidence. Here's where they split: → Data governance controls the input. AI governance controls the behaviour. → A data policy holds until you change it. A model drifts while you sleep. → Access control asks who may see the data. AI governance asks who may overrule the output. → Data lineage tells you where a number came from. Decision traceability tells you why the system chose it. → A breach gets reported to a data authority. A serious AI incident gets reported too, and people have to be told when they are dealing with AI. Every AI control assumes a data control underneath it. Which is exactly why AI governance is not an upgrade of data governance. It's a second layer that collapses without the first. Most SMEs are trying to build the second floor before the ground floor exists. Which of these six is open in your organisation right now? Credit to Alex Miguel Meyer. Follow him for more.",
+      "topicSummary": "The post highlights six key differences between data governance and AI governance, emphasizing that AI governance is a distinct, second layer built upon data governance, not merely an extension.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/rathanuday_ai-agents-are-only-as-good-as-the-stack-underneath-activity-7504571385575456768-cKR8",
-      "whySelected": "The post's emphasis on a comprehensive stack beyond just the model directly aligns with the need for structured governance in enterprise AI, particularly regarding accountability for different architectural components."
+      "url": "https://www.linkedin.com/posts/aiforprofessionals_data-governance-is-not-ai-governance-%F0%9D%97%95%F0%9D%97%B2%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-activity-7504675202438459392-6ohO",
+      "whySelected": "The point about model drift and the need for continuous monitoring is a practical implication for enterprise AI delivery, directly addressing the challenge of maintaining governance over evolving AI systems."
     },
     {
       "activity": {
@@ -135,58 +135,58 @@
         "rate": null,
         "recentComment": true
       },
-      "ageHours": 9.1800625,
+      "ageHours": 3.936109722222222,
       "alignmentVerified": true,
-      "author": "AI For Professionals",
-      "checkedAt": 1789287046617,
-      "comment": "This distinction is crucial for enterprises moving from pilots to production. While data governance ensures input quality, AI governance must continuously monitor model behavior and decision traceability, which often requires new operational frameworks and skill sets beyond traditional data teams.",
+      "author": "AI For Leaders",
+      "checkedAt": 1789307771650,
+      "comment": "This is a crucial point. While establishing boundaries is essential, effective AI governance also requires continuous feedback loops from pilots to production. This ensures that policies evolve with real-world usage and emerging risks, rather than remaining static.",
       "commentSamples": [
         {
-          "at": 1789258246611,
-          "text": "Handing AI oversight to whoever runs the data team looks tidy on paper and falls apart in practice. Governance of behaviour asks a different skill set than governance of records, and that split forces an org chart change."
-        },
-        {
-          "at": 1789258246611,
-          "text": "Disclosure rules for AI incidents are landing harder than most execs realised, and the reporting chain looks nothing like a data breach line. Serious calls also demand telling users when a machine handled them, which changes customer scripts overnight. …more"
-        },
-        {
-          "at": 1789272646611,
-          "text": "See more about the right tools for AI Governance at www.obsertd.com"
+          "at": 1789296971649,
+          "text": "Smart move putting structure ahead of speed. Skipping governance upfront tends to cost way more once regulators start asking questions."
         },
         {
           "at": null,
-          "text": "Most boards treat AI oversight like a checkbox next to their data policy, and that split is where things break. Model drift happens overnight while written rules stay frozen, so the two need separate owners with separate teeth."
-        },
-        {
-          "at": 1789258246612,
-          "text": "Static policy documents cannot police a system that quietly shifts every night on new inputs. Board packs still show one snapshot per quarter while behaviour has already moved three times, and that gap is where accountability disappears."
+          "text": "Governance first, growth second - smart order to follow. Companies rushing to scale AI without oversight end up cleaning up compliance issues later on."
         },
         {
           "at": null,
-          "text": "Plenty of smaller firms are wiring up AI oversight without a working data catalogue underneath, and it wobbles fast. Skipping the input layer means every downstream control ends up guessing what it's watching over."
+          "text": "Governance can be technically sound and operationally useless if it never becomes observable employee behavior. A policy may say, “Do not enter confidential information.” Training must show employees what qualifies as confidential within their actual workflow, how to recognize an edge case, where to escalate it, and who remains accountable. The last mile of AI governance is not documentation. It is scenario-based training, measurable behavior, and reinforcement. Boundaries only protect an organization when the people using the technology understand how to operate inside them. …more"
+        },
+        {
+          "at": null,
+          "text": "I think labeling the final step \"05 Risk\" twice in the infographic completely undermines its point about proper governance and detail control."
+        },
+        {
+          "at": 1789296971649,
+          "text": "Business leaders skipping governance are quietly building tomorrow's crisis. Every scaled AI system without accountability becomes a legal exposure waiting to happen."
+        },
+        {
+          "at": 1789296971649,
+          "text": "Governance is where real professional discipline shows up in AI work. Careers get made or broken by whether someone flagged the risk early enough."
         }
       ],
-      "comments": 14,
+      "comments": 15,
       "commentsClosed": false,
-      "evidenceQuote": "Every AI control assumes a data control underneath it. Which is exactly why AI governance is not an upgrade of data governance. It's a second layer that collapses without the first.",
-      "id": "7504675202438459392",
-      "imageObservation": "The image visually presents six pairs of contrasting points between Data Governance and AI Governance, such as 'Governs the Input' vs 'Governs the Behaviour' and 'Static by Design' vs 'Built for Drift', reinforcing the idea that they are distinct but interdependent.",
+      "evidenceQuote": "AI governance is not about stopping innovation. It is about creating the boundaries that allow innovation to scale responsibly.",
+      "id": "7504841310592356352",
+      "imageObservation": "The image is an infographic titled 'How to Build AI Governance Before You Scale'. It depicts an 'Enterprise AI Core' surrounded by five numbered elements: 01 Security, 02 Identity, 04 Policies, and two instances of 05 Risk. Each element has a brief description. The overall message is that governance creates boundaries for responsible innovation.",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQHNpqeIK38sag/image-shrink_1280/B4EaCX2VGFG4Ac-/0/1789253997172?e=1789894800&v=beta&t=PK1Kg5F9FnzSVMm-XcBsZzppNHL6DqKlQX9T-ib2K2U"
+        "https://media.licdn.com/dms/image/v2/D4E10AQEC0Yoc3pUFuw/image-shrink_800/B4EaCaNZJyIUAg-/0/1789293597727?e=1789912800&v=beta&t=-Vhcdh1wAwad9vh5DasW6KXEsKiIGKvOeM9--4kC3vo"
       ],
-      "latestCommentAt": 1789272646611,
+      "latestCommentAt": 1789300571649,
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 144,
-      "score": 105.1,
+      "reactions": 41,
+      "score": 112.2,
       "source": "indexed-original",
-      "text": "Data Governance Is Not AI Governance 𝗕𝗲𝗰𝗼𝗺𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗮𝘁 𝗔𝗜 𝗶𝗻 𝗷𝘂𝘀𝘁 𝟭 𝗺𝗶𝗻𝘂𝘁𝗲 𝗮 𝗱𝗮𝘆. 𝗚𝗲𝘁 𝘁𝗵𝗲 𝗔𝗜 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝘀𝗺𝗮𝗿𝘁 𝗹𝗲𝗮𝗱𝗲𝗿𝘀 𝗿𝗲𝗮𝗱. 𝗦𝗶𝗴𝗻 𝘂𝗽 𝗳𝗿𝗲𝗲 𝗻𝗼𝘄 → aiforleaders.com Original post: __________ If you think your data policy covers AI, you are wrong. Data governance asks whether the information is correct. AI governance asks whether the decision was defensible. Different questions. Different controls, different owners, different evidence. Here's where they split: → Data governance controls the input. AI governance controls the behaviour. → A data policy holds until you change it. A model drifts while you sleep. → Access control asks who may see the data. AI governance asks who may overrule the output. → Data lineage tells you where a number came from. Decision traceability tells you why the system chose it. → A breach gets reported to a data authority. A serious AI incident gets reported too, and people have to be told when they are dealing with AI. Every AI control assumes a data control underneath it. Which is exactly why AI governance is not an upgrade of data governance. It's a second layer that collapses without the first. Most SMEs are trying to build the second floor before the ground floor exists. Which of these six is open in your organisation right now? Credit to Alex Miguel Meyer. Follow him for more.",
-      "topicSummary": "The post highlights six key differences between data governance and AI governance, emphasizing that AI governance is a distinct, second layer built upon data governance, not merely an extension.",
+      "text": "How to Build AI Governance Before You Scale 𝗕𝗲𝗰𝗼𝗺𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗮𝘁 𝗔𝗜 𝗶𝗻 𝗷𝘂𝘀𝘁 𝟭 𝗺𝗶𝗻𝘂𝘁𝗲 𝗮 𝗱𝗮𝘆. 𝗚𝗲𝘁 𝘁𝗵𝗲 𝗔𝗜 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝘀𝗺𝗮𝗿𝘁 𝗹𝗲𝗮𝗱𝗲𝗿𝘀 𝗿𝗲𝗮𝗱. 𝗦𝗶𝗴𝗻 𝘂𝗽 𝗳𝗿𝗲𝗲 𝗻𝗼𝘄 → aiforleaders.com Original post: __________ AI governance is not about stopping innovation. It is about creating the boundaries that allow innovation to scale responsibly. Lyza Valenzo As organizations introduce more AI tools, leaders have to think beyond productivity and prompts. *Who has access? *What information can employees put into these systems? *Which data is confidential? *How is identity managed? *What happens when a new tool introduces additional risk? *And who is responsible for making those decisions? Governance becomes increasingly important as experimentation turns into enterprise adoption. The organizations that get this right will not necessarily be the ones that move the slowest. They may be the ones that understand where they can move fast, where they need controls, and how to communicate the difference. Credit to Bob Hansen. Follow him for more.",
+      "topicSummary": "The post emphasizes building AI governance before scaling, framing it as a way to enable responsible innovation rather than stifle it. It highlights key areas like security, identity, policies, and risk management.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/aiforprofessionals_data-governance-is-not-ai-governance-%F0%9D%97%95%F0%9D%97%B2%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-activity-7504675202438459392-6ohO",
-      "whySelected": "The post directly addresses the need for distinct AI governance, which aligns with Balasubramaniam's focus on enterprise AI delivery and process redesign. The comment emphasizes the practical implications for operational frameworks and skill sets, which is a key aspect of moving AI from pilots to production."
+      "url": "https://www.linkedin.com/posts/activity-7504841310592356352-TbNW",
+      "whySelected": "The post correctly identifies the need for boundaries. My comment adds a practical dimension about the dynamic nature of governance in enterprise AI delivery, emphasizing continuous adaptation based on real-world feedback from pilots to production, which is critical for successful scaling."
     },
     {
       "activity": {
@@ -197,85 +197,77 @@
         "rate": null,
         "recentComment": false
       },
-      "ageHours": 22.430040833333333,
+      "ageHours": 10.423298611111111,
       "alignmentVerified": true,
-      "author": "The Economic Times",
-      "checkedAt": 1789287066645,
-      "comment": "The redeployment of capacity and upskilling of 100,000 employees are crucial for a successful human-AI operating model. However, ensuring these new roles genuinely leverage advanced AI skills and contribute to strategic outcomes, beyond just productivity, will be key to avoiding underutilization.",
+      "author": "Startupro.in",
+      "checkedAt": 1789307734126,
+      "comment": "Wipro's approach to redeploying productivity gains into higher-value roles is commendable. A key challenge for enterprise AI delivery is ensuring that these new roles are genuinely integrated into strategic business outcomes, rather than just being a holding pattern for existing staff.",
       "commentSamples": [
         {
-          "at": 1789207866642,
-          "text": "Read Full Report: http://ecoti.in/QIgMqY Wipro's AI push frees capacity equivalent to 20,000 workers, CTO says - The Economic Times The comments come as India's $315 billion software services industry grapples with adoption of AI, which is ‌reshaping hiring, software ⁠development and ⁠contracts."
+          "at": null,
+          "text": "If productivity is achieved just 20% it’s means entire program has flaws it’s just a message no proper learning or understanding of the technology. Minimum productivity gain can easily achieve more than 200%. It’s indicative of the real talent deficit …more"
         },
         {
           "at": null,
-          "text": "20,000 employees’ worth of productivity is significant—but the next step is to convert AI productivity into measurable workforce and cost transformation. At AAQUILIX AI, we take a fundamentally different approach. For enterprise customers and MSPs adopting our AI Managed Service model, we commit to minimum 70% workforce optimization for the agreed scope and baseline. We don't sell AI as simply “an engineer managing more agents”; we redesign the service-delivery model itself—progressively moving work from people → AI-assisted → AI-led → autonomous operations. Our 70% commitment is part of the commercial outcome we contract for—not just a productivity claim. The real AI transformation begins w"
+          "text": "One thing I don't understand. If wipro trained 1 lakh employees in AI, then the efficiency of AI will make many employees redundant. So coming years wipro layoffs too many employees to reduce bench employees."
         },
         {
           "at": null,
-          "text": "Mohan Kumar Venkatesan - Gr8. But how do you manage the distraction to human associates either from customer organization or yoirs? The headcount game is over. What is your solution to protect the heads."
+          "text": "Excellent approach Sandhya Ramachandran Arun . Chasing expensive AI engineers at three to four times the market rate is a short-sighted trap. The smarter move is internal upskilling. When the AI bubble burst inevitably happens and the IT sector stabilizes, the companies left standing won't be the ones that burned cash on temporary talent—they will be the ones that built a sustainable, AI-literate workforce from within. …more"
         },
         {
           "at": null,
-          "text": "Can we have you leading this conversation on a different measure that people equivalent. Unless the measure changes the misconception of AI usage will not change."
+          "text": "This is the right direction. The real value of AI is not measured by how many jobs it can replace, but by how effectively it can expand human capacity and improve business outcomes. Wipro’s approach highlights an important shift: from workforce reduction to workforce reinvention—and from measuring productivity gains to measuring the value created from that released capacity. The future belongs to organizations that redesign roles, reskill people and build a true human–AI operating model. …more"
         },
         {
           "at": null,
-          "text": "This news only means that big layoffs are imminent Wipro"
+          "text": "It’s really good to see Wipro training its employees and preparing them for the changes AI is bringing. Most companies are still trying to figure out how AI will impact their workforce, while Wipro is already preparing its people for the future. The companies that start preparing their employees today will be much better positioned for the AI race tomorrow. Great approach by Wipro. The focus should not just be on adopting AI, but on preparing people to work with AI. …more"
         },
         {
           "at": null,
-          "text": "Great recognition Sandhya. To be sure, there are many powerful contributors…and many of them are inspired by your thoughtful leadership. 🙏"
+          "text": "I don't think so. Layoff's are happening. Not much projects Wipro is having currently. And also what about those tracking tools which Wipro is adding. Those are the worst thing a company can do."
         }
       ],
-      "comments": 9,
+      "comments": 24,
       "commentsClosed": false,
-      "evidenceQuote": "Wipro says its AI initiatives have delivered productivity equivalent to the work of 20,000 employees, with the capacity subsequently redeployed across other roles within the organisation.",
-      "id": "7504475218481033216",
-      "imageObservation": "The image displays the Wipro logo, a circular headshot of Sandhya Arun, and a text overlay stating, 'Wipro's AI Push Frees Capacity Equivalent to 20,000 Workers'. The Economic Times logo is also visible.",
+      "evidenceQuote": "Wipro says the capacity has been redeployed across other roles and projects. Wipro has also trained more than 1 lakh employees in advanced AI skills and is moving towards what CTO Sandhya Arun calls a \"human-AI operating model.\"",
+      "id": "7504743199895154688",
+      "imageObservation": "The image shows the Wipro logo and building, with a circular inset photo of a woman, presumably Wipro CTO Sandhya Arun. The text overlay reiterates the post's core message: 'Instead of Layoffs, We Have Trained Over 1 Lakh Employees to Work With AI': Wipro CTO Says AI Has Created Productivity Equivalent to 20,000 Employees, But Workers Were Redeployed in the Company's Expansion and Higher-Value Roles.",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQFXsvTbhrVo3Q/feedshare-shrink_800/B56aCVAcVxHIAc-/0/1789206316651?e=1790812800&v=beta&t=Vea0psXygHCW-Ut1blv4ZICiStGOxDzKLAm8IoAauVk"
+        "https://media.licdn.com/dms/image/v2/D4D22AQGwcd5MO8X3lg/feedshare-shrink_800/B4DaCXeOLhIAAg-/0/1789247677407?e=1790812800&v=beta&t=L3ScGmUbJYqbIaOk7AV9Eybp9IrG-PjffU-yZPjvxWg"
       ],
-      "latestCommentAt": 1789207866642,
+      "latestCommentAt": null,
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 125,
-      "score": 65.1,
+      "reactions": 1217,
+      "score": 104.6,
       "source": "indexed-original",
-      "text": "Wipro says its AI initiatives have delivered productivity equivalent to the work of 20,000 employees, with the capacity subsequently redeployed across other roles within the organisation. CTO Sandhya Arun said the company is moving towards a “human-AI operating model”, with more than 100,000 employees trained in advanced AI skills and certifications. The shift is not being positioned as a direct replacement of people with AI agents. Instead, engineers are expected to manage AI systems, move across projects and develop new capabilities. Wipro is also expanding its pool of forward-deployed engineers to help clients accelerate AI adoption. Arun emphasised that the focus must move beyond productivity to outcomes, including better customer experience, new revenue opportunities and stronger business results. However, Wipro remains in the early, cost-absorbing phase of AI monetisation, with the conversion of AI investments into revenue and margin recovery emerging as the next test.\"It could be the same engineer ​managing a bunch of agents, deployed on other projects or being trained for some other role. It doesn't necessarily mean person-to-person replacement by an agent,\" said Sandhya Ramachandran Arun, CTO, Wipro.",
-      "topicSummary": "Wipro's AI initiatives have yielded productivity gains equivalent to 20,000 employees, with a focus on redeploying capacity and moving towards a human-AI operating model. The company is also training over 100,000 employees in advanced AI skills.",
+      "text": "As AI starts changing the way companies work, Wipro is taking a different approach to the fear of job losses. The company's AI initiatives have created productivity equivalent to the work of around 20,000 employees, but instead of replacing those workers, Wipro says the capacity has been redeployed across other roles and projects. Wipro has also trained more than 1 lakh employees in advanced AI skills and is moving towards what CTO Sandhya Arun calls a \"human-AI operating model.\" Employees are increasingly expected to work alongside AI tools and agents, with some engineers managing multiple AI agents or moving into new roles. For Wipro, the bigger goal is not simply to make employees more productive, but to use that productivity for better business outcomes. As Arun puts it, \"The shift has to be from productivity to outcomes.\" hashtag #wipro hashtag #AI hashtag #Expansion hashtag #NoLayoffs hashtag #ItSector hashtag #Startupro",
+      "topicSummary": "Wipro's CTO states that AI initiatives have generated productivity equivalent to 20,000 employees, but instead of layoffs, these workers have been redeployed into new roles after training 1 lakh employees in advanced AI skills.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/economictimes_wipro-says-its-ai-initiatives-have-delivered-activity-7504475218481033216-tHxj",
-      "whySelected": "The post discusses a large-scale AI implementation and its impact on workforce management, which directly relates to enterprise AI delivery and process redesign. The comment focuses on the practical implication of skill utilization post-redeployment, aligning with governance and ensuring pilots move to production effectively."
+      "url": "https://www.linkedin.com/posts/startupro-in_wipro-ai-expansion-activity-7504743199895154688-bfZJ",
+      "whySelected": "The post highlights a significant claim about AI's impact on workforce management. My comment focuses on the practical implication of ensuring redeployed roles contribute to strategic outcomes, aligning with my expertise in enterprise AI delivery and process redesign, without repeating existing comments about upskilling or the general positive direction."
     },
     {
       "activity": {
-        "basis": "Recent activity unverified",
-        "confirmed": false,
-        "elapsedHours": null,
-        "newComments": null,
-        "rate": null,
+        "basis": "Comment count grew since last check",
+        "confirmed": true,
+        "elapsedHours": 5.731296111111111,
+        "newComments": 1,
+        "rate": 0.17448060274905822,
         "recentComment": false
       },
-      "ageHours": 13.467598333333333,
+      "ageHours": 19.13464,
       "alignmentVerified": true,
       "author": "Shahzad Badar • 3rd+",
-      "checkedAt": 1789287347136,
-      "comment": "Congratulations on the book! The focus on upgrading existing knowledge rather than starting over is crucial. For enterprise AI delivery, this approach is vital for successful process redesign and ensuring pilots can scale to production with proper governance.",
+      "checkedAt": 1789307748488,
+      "comment": "Congratulations on the book! The emphasis on upgrading existing knowledge rather than starting over is crucial. For enterprise AI delivery, this approach is vital for successful process redesign and ensuring governance frameworks can adapt to evolving AI capabilities.",
       "commentSamples": [
         {
           "at": null,
           "text": "https://www.amazon.com/dp/B0HJ8LKL5Q"
-        },
-        {
-          "at": null,
-          "text": "Great 👍🏼"
-        },
-        {
-          "at": null,
-          "text": "Naveed Ahmed Ibrahim thanks"
         },
         {
           "at": null,
@@ -287,14 +279,22 @@
         },
         {
           "at": null,
-          "text": "Wow. Super congrats 🎉"
+          "text": "Great 👍🏼"
+        },
+        {
+          "at": null,
+          "text": "Naveed Ahmed Ibrahim thanks"
+        },
+        {
+          "at": null,
+          "text": "Congrats Shahzad Badar. Must be a superb read"
         }
       ],
-      "comments": 7,
+      "comments": 8,
       "commentsClosed": false,
       "evidenceQuote": "You are upgrading what you already know. AI can suggest. Experience decides.",
       "id": "7504611723304189954",
-      "imageObservation": "The images show the front cover, an inside spread detailing 'Generative AI & Models' as Milestone 1, and the back cover. The front cover depicts a mountain trail with numbered milestones, including 'Production AI' and 'AI-Native Engineering'. The back cover reiterates the book's purpose and lists eight milestones, including 'Production AI, LLMops & Cloud'.",
+      "imageObservation": "The images show the front cover, an inside spread detailing 'Generative AI & Models' as Milestone 1, and the back cover. The front cover clearly outlines an 'AI-Native Engineer Trail' with 8 milestones, including 'Production AI' and 'AI-Native Engineering'. The inside spread details 'Understand the intelligence' and 'How an application consumes a model'. The back cover reiterates the 8 milestones and the core message.",
       "imageRead": true,
       "imageUrls": [
         "https://media.licdn.com/dms/image/v2/D4E22AQH7bOLknabGSA/feedshare-shrink_800/B4EaCW8l0bJkAc-/0/1789238862000?e=1790812800&v=beta&t=iBrAP_8VzoUqBESTUQSpDCQ2dvltU7LbAo6Jlldn5O8",
@@ -306,17 +306,17 @@
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 29,
-      "score": 60.3,
+      "reactions": 34,
+      "score": 83.3,
       "source": "indexed-original",
       "text": "📖 A special package arrived today. I received my first author copy of The AI-Native Engineer Trail: A 60-Day Roadmap for Experienced Software Engineers & Architects from Amazon. There’s something different about holding a book in your hands after spending so much time turning ideas, notes, diagrams and experience into actual pages. This book started with a simple question: How should an experienced software engineer or architect navigate this new AI era without starting their career all over again? My answer became a 60-day trail - from models and prompting to agentic AI, context engineering, AI-native development, production AI, integration and building a portfolio. One idea runs throughout the book: You are not starting over. You are upgrading what you already know. AI can suggest. Experience decides. Seeing the physical copy for the first time makes this project feel very real. 😊 Sharing a few pictures of the author copy below. More to come. 🚀 hashtag #AINativeEngineer hashtag #AgenticAI hashtag #SoftwareEngineering hashtag #SoftwareArchitecture hashtag #GenerativeAI hashtag #AIEngineering hashtag #Author",
       "topicSummary": "The author received the first physical copy of his book, \"The AI-Native Engineer Trail,\" which offers a 60-day roadmap for experienced software engineers and architects to navigate the AI era.",
       "truncated": false,
       "url": "https://www.linkedin.com/posts/shahzadbadar_ainativeengineer-agenticai-softwareengineering-activity-7504611723304189954-sEQi",
-      "whySelected": "The post's core message about leveraging existing experience for AI adoption directly aligns with Balasubramaniam's focus on enterprise AI delivery, particularly the challenge of integrating new AI capabilities into established processes and moving from pilots to production."
+      "whySelected": "The book's core message directly aligns with the challenge of integrating AI into existing enterprise structures and processes, which is a key aspect of my work in enterprise AI delivery and governance."
     }
   ],
-  "runId": "mtzj96d2-06dec1cf",
+  "runId": "mtzviswf-1e0cfb32",
   "version": 4,
   "warnings": []
 }
