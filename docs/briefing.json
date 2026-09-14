@@ -1,68 +1,192 @@
 {
   "coverage": "Bing: no-results; DuckDuckGo: no-results; Google: ok",
-  "generatedAt": "2026-09-14T03:34:25.023Z",
+  "generatedAt": "2026-09-14T12:53:37.144Z",
   "items": [
     {
       "activity": {
-        "basis": "Recent activity unverified",
-        "confirmed": false,
-        "elapsedHours": 13.54970111111111,
-        "newComments": 7,
-        "rate": 0.5166165616937348,
+        "basis": "Post and its comments are within 6h",
+        "confirmed": true,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
         "recentComment": false
       },
-      "ageHours": 17.47780527777778,
+      "ageHours": 5.632358888888889,
       "alignmentVerified": true,
-      "author": "AI For Leaders",
-      "checkedAt": 1789356521759,
-      "comment": "The point about governance creating boundaries for responsible innovation is key. For enterprise AI delivery, this means not just defining policies, but also establishing clear process redesigns to embed these controls directly into workflows. This ensures that governance moves beyond theoretical frameworks to practical, enforceable mechanisms for managing risk and ensuring compliance from pilot to production.",
+      "author": "Prashant Rathi • 2nd",
+      "checkedAt": 1789389478653,
+      "comment": "This is a critical point. Beyond the direct costs, the governance framework for enterprise AI, including data lineage, model explainability, and compliance, also adds to the overall cost structure. These elements are vital for sustainable, production-ready AI.",
       "commentSamples": [
         {
-          "at": 1789295321754,
-          "text": "Smart move putting structure ahead of speed. Skipping governance upfront tends to cost way more once regulators start asking questions."
+          "at": null,
+          "text": "Interesting point about inference capacity. Prashant, latency targets can also increase infrastructure costs significantly."
         },
         {
           "at": null,
-          "text": "AI For Leaders, The list of questions here is the right starting point, but there’s one question hiding underneath all of them: once you know who’s responsible for a decision, do they actually have the decision rights — and the authority — to stop the tool in real time, or just the job title that implies they should? Governance frameworks can map accountability on paper. They don’t always establish whether someone can actually intervene before the impact is already scaled. That’s where AI governance becomes an operating model, not a compliance checkbox. hashtag #AIGovernance hashtag #Grit …more"
+          "text": "Anjali Viramgama Yes, speed has a price."
         },
         {
           "at": null,
-          "text": "The point about knowing where you can move fast and where you need controls is spot on. Good governance should give teams clearer lanes, not another queue for approvals. Once experimentation becomes adoption, questions around access, confidential data and ownership stop being theoretical very quickly, AI For Leaders. Bob’s framing is also a useful way to approach regulation. The EU AI Act makes far more sense when you stop seeing it as hundreds of pages of rules and start asking, “What does this mean for the AI we’re actually using?” That’s the approach I took with The Easy Peasy Guide to the EU AI Act. If anyone wants the Act translated into practical, everyday language, grab a copy here: h"
-        },
-        {
-          "at": 1789334921755,
-          "text": "The governance piece becomes even more important once AI moves from experimentation into actual business workflows. It’s one thing to test a tool. It’s another when that tool is handling customer data, making decisions, or connecting to core business systems. That’s where clear boundaries really matter. …more"
+          "text": "Prashant Rathi The smartest model may create weaker economics than a smaller model with better workflow design."
         },
         {
           "at": null,
-          "text": "I think labeling the final step \"05 Risk\" twice in the infographic completely undermines its point about proper governance and detail control."
+          "text": "Alok Sharan Well said."
         },
         {
           "at": null,
-          "text": "Building governance early isn't glamorous but pays off fast. Getting policies straight before rollout keeps legal, HR, and IT aligned instead of chasing issues separately."
+          "text": "Prashant Rathi This is why enterprise AI needs unit economics before teams celebrate adoption numbers."
+        },
+        {
+          "at": null,
+          "text": "Poornachandra Kongara Exactly the point."
         }
       ],
-      "comments": 22,
+      "comments": 124,
       "commentsClosed": false,
-      "evidenceQuote": "AI governance is not about stopping innovation. It is about creating the boundaries that allow innovation to scale responsibly.",
-      "id": "7504841310592356352",
-      "imageObservation": "The image is an infographic titled 'HOW TO BUILD AI GOVERNANCE BEFORE YOU SCALE'. It depicts an 'ENTERPRISE AI CORE' surrounded by a circular flow with five numbered points: 01 SECURITY, 02 IDENTITY, 04 POLICIES, and two instances of 05 RISK. Each point has a brief description. The overall message is 'GOVERNANCE CREATES THE BOUNDARIES THAT MAKE RESPONSIBLE INNOVATION POSSIBLE.'",
+      "evidenceQuote": "Every prompt consumes tokens. Every response uses inference capacity. Every agent workflow may trigger multiple model calls, tools, APIs, retrieval steps, and databases. Then add GPU infrastructure, vector storage, observability, security, evaluation, integration, and engineering time.",
+      "id": "7505158402071805952",
+      "imageObservation": "The image is a four-panel comic strip. In each left panel, a person asks a question about AI costs or ROI. In the corresponding right panel, a crowd enthusiastically shouts 'YES!', 'IGNORE THOSE!', 'IGNORE THOSE TOO!', and 'RIGHT NOW!' in response to questions about cost reduction, token costs, GPU costs, and ROI timing, respectively. It visually satirizes the tendency to overlook hidden costs and demand immediate ROI from AI.",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQEC0Yoc3pUFuw/image-shrink_800/B4EaCaNZJyIUAg-/0/1789293597727?e=1789963200&v=beta&t=zLSZyd2sFROeaLe0LeB2pgibKLClTrA1vLo1Dj-ed94"
+        "https://media.licdn.com/dms/image/v2/D4E22AQFrbEEemZ21cw/feedshare-shrink_800/B4EaCetyy5HQAc-/0/1789369200201?e=1790812800&v=beta&t=G1YkMDbhx9BldFRfTaqtRv_mmoppoLMV_sDiAMt2Kgk"
       ],
-      "latestCommentAt": 1789334921755,
+      "latestCommentAt": null,
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 72,
-      "score": 95,
+      "reactions": 359,
+      "score": 178,
       "source": "indexed-original",
-      "text": "How to Build AI Governance Before You Scale 𝗕𝗲𝗰𝗼𝗺𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗮𝘁 𝗔𝗜 𝗶𝗻 𝗷𝘂𝘀𝘁 𝟭 𝗺𝗶𝗻𝘂𝘁𝗲 𝗮 𝗱𝗮𝘆. 𝗚𝗲𝘁 𝘁𝗵𝗲 𝗔𝗜 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝘀𝗺𝗮𝗿𝘁 𝗹𝗲𝗮𝗱𝗲𝗿𝘀 𝗿𝗲𝗮𝗱. 𝗦𝗶𝗴𝗻 𝘂𝗽 𝗳𝗿𝗲𝗲 𝗻𝗼𝘄 → aiforleaders.com Original post: __________ AI governance is not about stopping innovation. It is about creating the boundaries that allow innovation to scale responsibly. Lyza Valenzo As organizations introduce more AI tools, leaders have to think beyond productivity and prompts. *Who has access? *What information can employees put into these systems? *Which data is confidential? *How is identity managed? *What happens when a new tool introduces additional risk? *And who is responsible for making those decisions? Governance becomes increasingly important as experimentation turns into enterprise adoption. The organizations that get this right will not necessarily be the ones that move the slowest. They may be the ones that understand where they can move fast, where they need controls, and how to communicate the difference. Credit to Bob Hansen. Follow him for more.",
-      "topicSummary": "The post emphasizes that AI governance is crucial for scaling innovation responsibly, not hindering it, by establishing boundaries for access, data handling, and risk management as experimentation transitions to enterprise adoption.",
+      "text": "AI does not automatically reduce costs. It can lower operational expenses, automate repetitive work, speed up decisions, and help teams do more with fewer manual steps. But enterprise AI comes with a cost structure that is easy to underestimate. Every prompt consumes tokens. Every response uses inference capacity. Every agent workflow may trigger multiple model calls, tools, APIs, retrieval steps, and databases. Then add GPU infrastructure, vector storage, observability, security, evaluation, integration, and engineering time. Suddenly, “AI will save us money” becomes a much more complicated equation. The real question is not: “Can AI reduce costs?” It is: “Can this AI system create more business value than it costs to operate?” That means enterprises need to measure more than model accuracy. They need to track: → Cost per task → Tokens per workflow → Cost per successful outcome → Infrastructure utilization → Human hours saved → Automation rate → Error and retry costs → Revenue or productivity impact And this becomes even more important with AI agents. An agent might make 10, 20, or 50 calls to complete what looks like one simple request. Enterprise AI needs FinOps thinking from day one. Because the goal is not to build the smartest AI system. The goal is to build an AI system whose economics actually make sense at scale. ROI should be designed into the architecture, not calculated after deployment.",
+      "topicSummary": "The post highlights that while AI can reduce operational expenses, its true cost structure, encompassing tokens, inference, GPU, and integration, is often underestimated. It emphasizes the need for FinOps thinking and measuring business value against operational costs, not just model accuracy.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/aiforleaders_how-to-build-ai-governance-before-you-scale-activity-7504841310592356352-GpGb",
-      "whySelected": "The post's core message about governance enabling responsible scaling aligns perfectly with Balasubramaniam's expertise in enterprise AI delivery and process redesign. My comment extends this by linking the 'boundaries' concept to practical process integration and the journey from pilot to production, which is a specific area of his focus."
+      "url": "https://www.linkedin.com/posts/prashantrathi1_ai-does-not-automatically-reduce-costs-activity-7505158402071805952-zujK",
+      "whySelected": "The post directly addresses the often-overlooked cost structure of enterprise AI. My comment extends this by introducing the additional, often significant, costs associated with AI governance, which is a key area of my expertise in enterprise AI delivery."
+    },
+    {
+      "activity": {
+        "basis": "Post and its comments are within 6h",
+        "confirmed": true,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": false
+      },
+      "ageHours": 1.0455091666666667,
+      "alignmentVerified": true,
+      "author": "Raju Dandigam • 2nd",
+      "checkedAt": 1789389470951,
+      "comment": "This distinction between an AI agent and Agentic AI is crucial for enterprise delivery. Moving from pilots to production with Agentic AI introduces significant complexity in governance, especially around cross-agent permissions, audit trails, and failure recovery. How are organizations addressing these expanded governance needs?",
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "The tooling overlap is interesting. Raju, architecture matters more than choosing a fashionable framework."
+        },
+        {
+          "at": null,
+          "text": "Anjali Viramgama Well said."
+        },
+        {
+          "at": null,
+          "text": "Raju Dandigam This comparison would help enterprise teams decide whether they need one agent or coordinated workflows."
+        },
+        {
+          "at": null,
+          "text": "Shristi mishra That’s a practical use."
+        },
+        {
+          "at": null,
+          "text": "I’ve built smaller agent workflows. Raju Dandigam, state recovery was harder than tool integration."
+        },
+        {
+          "at": null,
+          "text": "Umang Chaudhary That’s a common challenge."
+        }
+      ],
+      "comments": 53,
+      "commentsClosed": false,
+      "evidenceQuote": "Agentic AI additionally requires policy engines, cross-agent permissions, approval gates, circuit breakers, least privilege, idempotency, audit trails, and failure recovery.",
+      "id": "7505227628891541504",
+      "imageObservation": "The image is a detailed comparison chart titled 'AI Agent Vs Agentic AI'. It breaks down the differences across several categories: Core Definition, Programming & Core Technologies, Core Tools & Frameworks, Context Memory & State, Communication, Reliability & Safety, and Deployment & Operations. Each category lists specific characteristics and technologies, clearly differentiating between a single AI agent and a broader Agentic AI system. For example, under 'Reliability & Safety', AI Agent lists 'Input Validation' and 'Tool Permissions', while Agentic AI adds 'Policy Engine', 'Cross-Agent Permissions', and 'Audit Trails'.",
+      "imageRead": true,
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D5622AQFrOfYiQmKO6A/feedshare-shrink_800/B56aCfspL_J8Ag-/0/1789385689455?e=1790812800&v=beta&t=oGg2c2qzRx3kG7d6K4Z1ICeGGB6KraUgaomg5GaXo34"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 45,
+      "score": 166.3,
+      "source": "indexed-original",
+      "text": "AI Agent and Agentic AI are not the same. The terms are often used interchangeably, but they describe two different levels of autonomy and system design. An AI agent is a goal-driven component. It reasons about a task, selects tools, maintains task state, observes results, and produces an outcome within a defined boundary. Agentic AI is the broader architecture. It coordinates multiple agents, workflows, systems, and decisions across longer-running processes. It can delegate work, share context, respond to events, recover from failures, and adapt using feedback. The difference becomes clearer across the stack: → AI agents use prompt context, session state, tool results, and conversation history. → Agentic systems require shared workflow state, cross-agent context, persistent memory, checkpoints, and recovery state. → AI agents commonly communicate through MCP, REST APIs, function calls, webhooks, SSE, and WebSockets. → Agentic systems add event buses, message queues, agent-to-agent communication, distributed workflows, and UI interaction. Reliability also becomes more complex. A single agent may need input validation, tool permissions, retries, timeouts, guardrails, and human approval. Agentic AI additionally requires policy engines, cross-agent permissions, approval gates, circuit breakers, least privilege, idempotency, audit trails, and failure recovery. The same applies to operations. Running one agent is an application problem. Coordinating many autonomous components is a distributed systems problem. An AI agent completes a task. Agentic AI coordinates an entire system to achieve a larger outcome.",
+      "topicSummary": "The post clarifies the distinction between an AI agent (a goal-driven component) and Agentic AI (a broader architecture coordinating multiple agents and workflows). It highlights differences in system design, communication, reliability, and deployment.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/raju-dandigam_ai-agent-and-agentic-ai-are-not-the-same-activity-7505227628891541504-9Vjq",
+      "whySelected": "The post directly addresses the architectural and operational complexities of Agentic AI, which aligns with Balasubramaniam's focus on enterprise AI delivery, governance, and moving from pilots to production. The comment focuses on the practical implication of increased governance needs for Agentic AI, which is a key area for a Lead Consultant at Infosys Topaz."
+    },
+    {
+      "activity": {
+        "basis": "Visible comment within 6h",
+        "confirmed": true,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
+        "recentComment": true
+      },
+      "ageHours": 3.4119091666666668,
+      "alignmentVerified": true,
+      "author": "AI Digital",
+      "checkedAt": 1789389919593,
+      "comment": "The progression from 'experiments to governed autonomous operations' is key. Many organizations struggle with the transition from successful pilots to production-ready systems. A critical implication is establishing clear, auditable decision-making frameworks for agents, especially as they move towards controlled autonomy, to ensure accountability and maintain trust within the enterprise.",
+      "commentSamples": [
+        {
+          "at": 1789379119591,
+          "text": "One thing I’d mention is ownership. Every production agent needs someone accountable for its decisions, AI Digital."
+        },
+        {
+          "at": 1789379119591,
+          "text": "TechInsight Absolutely."
+        },
+        {
+          "at": null,
+          "text": "AI Digital More teams need to understand that production deployment is the midpoint, not the finish line."
+        },
+        {
+          "at": 1789379119591,
+          "text": "Ananya Ghosh Chowdhury Exactly."
+        },
+        {
+          "at": null,
+          "text": "AI Digital The progression from assistants to coordinated systems makes agent adoption feel practical rather than theoretical."
+        },
+        {
+          "at": 1789379119591,
+          "text": "Alok Sharan That was the intention."
+        }
+      ],
+      "comments": 54,
+      "commentsClosed": false,
+      "evidenceQuote": "Production introduces another level of responsibility. Teams need observability, access control, auditability, safety checks, incident handling, latency monitoring, cost tracking, and continuous evaluation.",
+      "id": "7505193779193344000",
+      "imageObservation": "The image, titled 'THE ENTERPRISE AGENTIC AI ROADMAP', visually reinforces the post's text by illustrating a structured journey from 'AI Experiments to Governed Autonomous Operations'. It details stages like 'Define Business Goals', 'Build Data Foundations', 'Design Agent Workflows', and 'Operate In Production'. Key sections include 'Business & Use-Case Readiness', 'Data & Knowledge Layer', 'Controlled Agent Engineering', 'Production Operations', 'Optimization & FinOps', and 'Multi-Agent Coordination'. An 'Enterprise Agent Loop' diagram shows a continuous cycle of context gathering, retrieval, reasoning, planning, action, validation, and escalation. The 'Agent Maturity Path' progresses from 'Assistants' to 'Coordinated Systems', aligning with the post's description of increasing capability and governance demands.",
+      "imageRead": true,
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D5622AQEZHMGeI0-7Qw/feedshare-shrink_800/B56aCfN34HKUAc-/0/1789377627415?e=1790812800&v=beta&t=bYEoJjVrSs4vR6vucVxr3IQdenTX7n8M81NByYlzvcE"
+      ],
+      "latestCommentAt": 1789379119592,
+      "mediaType": "image",
+      "model": "google/gemini-2.5-flash",
+      "originalVerified": true,
+      "reactions": 54,
+      "score": 152.9,
+      "source": "indexed-original",
+      "text": "AI agents need more than intelligence. Giving a team access to powerful models may create impressive demos, but enterprise value begins when those agents can perform real work safely, reliably, and repeatedly. The journey starts with clear business goals. Choose measurable use cases, define success metrics, secure executive sponsorship, and identify workflows where autonomy can create visible outcomes. Then build the foundation: → Governed data and trusted knowledge → Permission-aware retrieval → Clear agent goals and constraints → Approved tools, APIs, and actions → Human escalation and rollback paths A reliable enterprise agent follows a continuous loop. It gathers context, retrieves trusted knowledge, reasons about the request, creates a plan, uses tools, validates the result, and escalates when human judgment is required. Production introduces another level of responsibility. Teams need observability, access control, auditability, safety checks, incident handling, latency monitoring, cost tracking, and continuous evaluation. Without these controls, scaling autonomy also scales operational risk. The maturity path usually looks like this: Assistants → Task Agents → Workflow Agents → Controlled Autonomy → Production Operations → Coordinated Systems Each stage increases capability, but also demands stronger governance and coordination. The real goal is not to deploy the maximum number of agents. It is to build a governed system where agents, tools, data, and humans work together to deliver reliable business outcomes. Enterprise agentic AI is not one model. It is an operating model.",
+      "topicSummary": "The post emphasizes that enterprise AI agents require more than just intelligence; they need a robust operating model encompassing governance, data, controlled engineering, and continuous loops to deliver real business value safely and reliably. It outlines a maturity path from assistants to coordinated systems, highlighting that production deployment is a midpoint, not the end.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/aidigitaluk_ai-agents-need-more-than-intelligence-giving-activity-7505193779193344000-0wih",
+      "whySelected": "The post explicitly mentions the challenge of moving from pilots to production, which aligns with Balasubramaniam's expertise in enterprise AI delivery and process redesign. The comment focuses on a practical implication of this transition, specifically around decision-making frameworks and accountability, which is a core aspect of governance and moving from pilots to production."
     },
     {
       "activity": {
@@ -73,117 +197,123 @@
         "rate": null,
         "recentComment": false
       },
-      "ageHours": 12.954753888888888,
+      "ageHours": 10.245077222222223,
       "alignmentVerified": true,
-      "author": "Dr. Moya Hill • 3rd+",
-      "checkedAt": 1789356704506,
-      "comment": "This formula highlights a critical aspect of enterprise AI delivery. While governing individual records is foundational, the practical challenge lies in scaling this across diverse data landscapes and ensuring consistent application of enforcement rules within complex AI pipelines. How do organizations effectively integrate this governance at scale?",
+      "author": "Gabriel Millien • 2nd",
+      "checkedAt": 1789389886639,
+      "comment": "This is a critical distinction for enterprise AI. The \"Enterprise Agent Stack\" concept resonates, as we often see the push for multi-agent systems without a clear understanding of the added governance and oversight required. The real challenge is ensuring each additional agent demonstrably improves outcomes, rather than just adding layers of complexity and cost.",
       "commentSamples": [
         {
           "at": null,
-          "text": "When every record carries Governance Metadata and Enforcement Rules, AI gains safety, compliance, accountability, auditability, transparency, and control. These outcomes originate from governed records. Once the records are governed, every action becomes traceable, every decision becomes accountable, and the entire system operates within defined boundaries. …more"
+          "text": "Honestly, I think people just build multi-agent setups because they look cool to show off 😊 But every extra agent is just another spot where instructions get lost along the way Gabriel. If one agent with a couple of tools can do the job, adding more just wastes money. …more"
         },
         {
           "at": null,
-          "text": "If you govern every record, apply governance metadata, and run enforcement rules in code, your AI becomes 99.9 percent governable because every output is a governed record."
+          "text": "Constantly, Nadzeya. And \"organisational debt\" is exactly the right term for it, it accumulates the same way technical debt does: quietly, through decisions that each seemed reasonable in isolation. The pattern I see most often is a new role or approval layer gets justified by pointing at what it could theoretically catch, never by proving something is actually being missed today. Nobody wants to be the person who blocks a safeguard, so the burden of proof quietly flips. The question that actually protects against it is the one you named: not what value could this add, but what's the specific failure this prevents, and how do we know it's real. …more"
         },
         {
           "at": null,
-          "text": "It is unfortunate that the majority of engineer-only environments feel that they have no need for metadata and governence , that just coding can do it all."
+          "text": "The real architecture question isn’t how many agents you can add it’s whether each one solves a problem the single agent can’t."
         },
         {
           "at": null,
-          "text": "Michael Gorecki Coding cannot. That is why majority of the AI systems today are failing. Governance must be coded. Governance is not mere policy."
+          "text": "Ayesha Mansha exactly. I’d almost make that the architecture test: if we cannot clearly explain what problem the additional agent solves that the existing one cannot, we probably don’t need another agent. Otherwise complexity becomes the design rather than a consequence of the problem. Do you think teams are currently over-engineering multi-agent setups because they feel more “enterprise”? …more"
         },
         {
           "at": null,
-          "text": "This formula contains a fundamental misunderstanding of what AI is and how it actually operates, Dr. Moya. You cannot enforce governance rules inside a probabilistic model, because a transformer cannot consistently follow instructions. It is Assistant Intelligence, not Artificial Intelligence. It has no consciousness and bears no responsibility. Relying on it is like playing in a casino: you set the initial conditions, but the output is always a non-consistent, statistical roll of the dice. Once we understand how it actually works, we realize that forcing data through these bloated models triggers three massive infrastructure crises: The Linguistic Illusion: Expecting a mathematical game of "
+          "text": "Excellent distinction. The real issue is not simply single-agent vs. multi-agent architecture, but whether every handoff remains trustworthy at runtime. As agents multiply, so do the opportunities for context loss, conflicting outputs, and silent propagation of error. This is where runtime governance becomes essential: continuously verifying the operational reality and determining whether the next action should be ALLOWED, MODIFIED, DEFERRED, ESCALATED, or REFUSED. Multi-agent systems may need more than a manager—they need an admissibility layer between intelligence and execution. …more"
         },
         {
           "at": null,
-          "text": "Good governance gives AI clear boundaries to operate within. The quality of the data matters, but the rules around that data matter just as much Dr. Moya Hill"
+          "text": "Absolutely — I think “architectural trust boundaries” is exactly the right framing. A handoff should not automatically inherit the authority or admissibility of the previous agent. Each boundary should trigger a new runtime check: Is the context still valid? Is this agent authorized for the next action? Are the assumptions and evidence still sufficient? And is the proposed action still admissible under the current human and operational reality? In that sense, multi-agent governance may need to treat every consequential handoff as a new decision boundary, not merely a communication event. The chain of accountability must travel with the task — but the right to act should be re-earned at each "
         }
       ],
-      "comments": 9,
+      "comments": 116,
       "commentsClosed": false,
-      "evidenceQuote": "Governance Metadata + Enforcement Rules = Governed AI",
-      "id": "7504910372886216704",
-      "imageObservation": "The image shows a smiling woman with long dark hair, wearing a dark blazer and a dark top, standing indoors with a blurred background that includes a light-colored wall and a textured pillar.",
+      "evidenceQuote": "Every additional agent is another handoff. Another place where context can quietly get dropped between steps. Another component someone on your team has to watch, and pay for, whether it's earning its keep or not.",
+      "id": "7505090463545180160",
+      "imageObservation": "The image clearly illustrates the architectural differences between single-agent and multi-agent systems. The single-agent diagram shows one central AI handling all tasks sequentially, including planning, tool calls, and guardrails. The multi-agent diagram depicts a coordinator distributing tasks to specialized agents (researcher, data analyst, writer, critic, visualizer) who collaborate, use shared resources, and undergo validation between steps. Both diagrams show logging and final output.",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E22AQFJb06V9VnXXA/feedshare-shrink_800/B4EaCbMNy8G4Ag-/0/1789310066120?e=1790812800&v=beta&t=vKg-P4hgdjuQiM6edLhwu9X8HYP9GcuOEx-2brPah8c"
+        "https://media.licdn.com/dms/image/v2/D4E22AQGOHwZ-TFa6rw/feedshare-shrink_800/B4EaCdlp97HoAc-/0/1789350296767?e=1790812800&v=beta&t=9UQ_XmKAY7DLCg2eCHrWv7LaWoefEG8osvx1fL9u5cM"
       ],
       "latestCommentAt": null,
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 17,
-      "score": 64.7,
+      "reactions": 231,
+      "score": 146.3,
       "source": "indexed-original",
-      "text": "A lot of people are scared of AI right now. They talk about AI like it is alive or unpredictable, but AI is not magic. AI is nothing without the records and the information that feed it. If the records are ungoverned, the behavior becomes unpredictable. If the records are governed, the behavior becomes controlled. Here is the formula: Governance Metadata + Enforcement Rules = Governed AI Governance metadata are the labels that tell AI what the information is, and how it must be treated. Enforcement rules are the instructions that tell AI what to do, and what not to do. When every record carries both, the entire system becomes a controlled environment. If every record inside an AI system is governed, the data is governed. If the data is governed, the information is governed. If the information is governed, the model is governed. AI cannot act outside the boundaries of the records it learns from. No structure means unpredictability. Unpredictability creates fear. Structure removes unpredictability. Structure removes fear. If structure is the key to controlling AI, AI does not need to be feared.",
-      "topicSummary": "The post argues that AI unpredictability and fear can be mitigated through robust data governance, using a formula of governance metadata and enforcement rules applied to every record.",
+      "text": "Everyone wants to build a team of AI agents. Almost nobody has checked if they need one. This breakdown lays out single-agent vs multi-agent architecture below. Here's what it shows, then the question that decides which one is worth building. SINGLE-AGENT One agent runs the whole job start to finish. It takes the goal, gathers context, plans the steps, pulls the data, calls the tools it needs, checks its own work against guardrails, and hands back one answer. Use it when: → The task has one clear objective → One agent can hold all the context it needs → It's calling a handful of tools, not dozens → The steps happen in order, not in debate → Speed and low cost matter more than depth MULTI-AGENT A coordinator splits the goal into pieces and hands them to specialists, a researcher, an analyst, a writer, a critic, a visualizer, who work in parallel or in sequence, track progress on a shared board, and get checked against guardrails before anything moves forward. The coordinator merges it all into one output. Use it when: → The subtasks need genuinely different skills → Pieces of the work can run at the same time → A second opinion would catch something the first missed → Parallel work saves real time, not just looks better in a demo → Each stage needs its own check before moving on Here's the part the diagram can't show you, and the part that matters most if you're the one signing off on this. Every additional agent is another handoff. Another place where context can quietly get dropped between steps. Another component someone on your team has to watch, and pay for, whether it's earning its keep or not. None of that shows up in the demo. All of it shows up in the first incident review. I've watched a team add a critic agent to a workflow that had one task and nothing to disagree about. It didn't improve the output. It added a step, a cost, and one more thing to debug when something broke. This is the core of what I call the Enterprise Agent Stack: infrastructure and coordination have to earn their place before you add them, not the other way around. More agents is not more intelligence. It's more surface area for something to go wrong quietly. A rule that holds up in practice: single-agent is one capable generalist. Multi-agent is a team, and a team needs a manager. Someone on your side has to be that manager. Before your next architecture conversation, skip \"what could a specialist agent do here\" and ask this instead: What breaks today if this stays one agent? If nobody in the room has a specific answer, you don't need a team yet. You need a sharper single agent. 💾 Save this for your next architecture decision. ♻️ Repost to help someone in your network avoid this mistake. 🔔 Follow Gabriel Millien for daily insights on closing the AI Execution Gap. Infographic Credit: Rathnakumar Udayakumar, give him a follow.",
+      "topicSummary": "The post distinguishes between single-agent and multi-agent AI architectures, emphasizing that multi-agent systems introduce complexity and potential points of failure that often outweigh their benefits in enterprise settings.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/dr-moya-hill-912837179_a-lot-of-people-are-scared-of-ai-right-now-activity-7504910372886216704-Mb_X",
-      "whySelected": "The post's core formula provides a clear point of agreement, allowing for a constructive follow-up question about the practicalities of implementing such governance at an enterprise scale, which aligns with Balasubramaniam's expertise."
+      "url": "https://www.linkedin.com/posts/gabriel-millien_everyone-wants-to-build-a-team-of-ai-agents-activity-7505090463545180160-cskM",
+      "whySelected": "The post directly addresses enterprise AI delivery challenges, which aligns with Balasubramaniam's expertise. The comment focuses on the practical implications of multi-agent complexity and governance, offering a constructive qualification relevant to his role."
     },
     {
       "activity": {
         "basis": "Recent activity unverified",
         "confirmed": false,
-        "elapsedHours": 13.54970111111111,
-        "newComments": 2,
-        "rate": 0.14760473191249565,
+        "elapsedHours": null,
+        "newComments": null,
+        "rate": null,
         "recentComment": false
       },
-      "ageHours": 21.743289722222222,
+      "ageHours": 6.755538888888889,
       "alignmentVerified": true,
-      "author": "Aakash Gupta • 3rd+",
-      "checkedAt": 1789356365472,
-      "comment": "This framework clearly articulates the progression of AI capabilities. For enterprise adoption, the transition from Level 3 to Level 4 often requires significant process redesign and robust governance, especially concerning decision-making autonomy and human oversight.",
+      "author": "Joanna Miler • 3rd+",
+      "checkedAt": 1789389940697,
+      "comment": "This is a critical point. Moving from periodic reviews to continuous monitoring and automated controls for AI is essential. For enterprise AI delivery, this means embedding governance checks directly into the CI/CD pipeline, ensuring that every deployment inherently carries its necessary controls and risk assessments.",
       "commentSamples": [
         {
           "at": null,
-          "text": "Moving from isolated smart models to fully autonomous systems is truly where the next massive wave of economic growth lies. 🚀"
+          "text": "Strong AI governance should match the speed of the system it governs, with automation handling routine controls and humans handling meaningful exceptions, Joanna Miler"
         },
         {
           "at": null,
-          "text": "The jump from “agent” to “agentic system” is where things get interesting. But I’d be careful with Level 5. More autonomy doesn’t automatically mean more value. If a Level 3 system solves the problem reliably, I don’t need Level 5 just because it sounds smarter. …more"
+          "text": "Rachel Jelagat Exactly. The goal is not less human oversight, but smarter oversight focused where human judgment adds the most value."
         },
         {
           "at": null,
-          "text": "The shift from smarter models to fully autonomous smarter systems is exactly where massive economic value will be unlocked next. 🚀"
+          "text": "Joanna The timing problem is easy to overlook. Having governance in place means little if the controls respond slower than the risks they are meant to manage."
         },
         {
           "at": null,
-          "text": "This is amazing Akash ! Definitely going to use this framework as 5 levels of autonomy like it happens for self driving"
+          "text": "Juliet Oboh Exactly. Governance only works when controls can respond as quickly as the risks emerge."
+        },
+        {
+          "at": null,
+          "text": "Joanna, the timing gap is real, and Paul hits the topic on the nose. I’m not sure governance itself needs to move at AI speed. Governance should define the mandate, boundaries and decision rights. What needs to keep up with the agent is runtime control: continuous authorisation, context evaluation and real breakpoints before consequential actions. Where possible, the authority should already be bounded so that an action outside the mandate cannot execute in the first place. Then runtime control deals with what changes while the system is acting. …more"
+        },
+        {
+          "at": null,
+          "text": "Mike Goerlich Thanks Mike. Yes, exactly. The mandate can narrow as conditions change, but it should never be widened by the same system proposing the action. That separation is the control. No goats!! …more"
         }
       ],
-      "comments": 7,
+      "comments": 105,
       "commentsClosed": false,
-      "evidenceQuote": "Level 4 is autonomous agents. Systems that make decisions and act with limited human intervention. The core loop is perceive, decide, act, backed by goal setting, memory, and environment interaction.",
-      "id": "7504776248397619200",
-      "imageObservation": "The image is a whiteboard diagram titled 'Agentic AI: A Complete Framework,' illustrating five concentric levels of AI capability, from 'Traditional Machine Learning' to 'Agentic Systems.' Each level includes key capabilities and an example. Below the levels, 'Cross-Cutting Principles' (Safety, Ethics, Privacy, Transparency, Human in the Loop) and 'Foundational Enablers' (Data Quality, Compute, MLOps, Evaluation, Talent) are listed as applicable to all levels. A 'Success looks like' section is also present.",
+      "evidenceQuote": "Can our controls move at the speed of AI risk?",
+      "id": "7505143380591616000",
+      "imageObservation": "The image depicts a person labeled 'AI' climbing a mountain towards a sign for 'Responsible AI'. The person is tethered to a stack of large rocks labeled 'Quarterly Access Reviews', 'Annual Policy Approvals', 'Periodic Model Validation', and 'Late Incident Reviews', symbolizing the burden of slow, traditional controls. Text on the image reinforces the idea that 'Systems That Act Every Minute Need More Than Quarterly Controls' and asks, 'Can our controls move at the speed of AI risk?'",
       "imageRead": true,
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQEqqgxGK2VCnA/feedshare-shrink_800/B56aCZSOu7GUAc-/0/1789278088341?e=1790812800&v=beta&t=O_MsVJ1Qc-PJVgLo8gzfIDx3W8M_OazhzJ1uHZqMySs"
+        "https://media.licdn.com/dms/image/v2/D4D22AQFxBKgIe0AGow/feedshare-shrink_800/B4DaCa3.5sLAAc-/0/1789304762291?e=1790812800&v=beta&t=hdr3KDG2WnSRN_JpJfxXB1PAgcH6Bv77OzZEGcMbVkM"
       ],
       "latestCommentAt": null,
       "mediaType": "image",
       "model": "google/gemini-2.5-flash",
       "originalVerified": true,
-      "reactions": 56,
-      "score": 60.3,
+      "reactions": 85,
+      "score": 146.1,
       "source": "indexed-original",
-      "text": "Agentic AI, explained on one whiteboard. Most people use \"agents\" as a buzzword. The board breaks it into 5 levels, and each level contains everything to its left. Level 1 is traditional machine learning. Learning patterns from data to make predictions, like a model that prices houses. Level 2 is enhanced ML. Same models, better results, through feature engineering, hyperparameter tuning, cross-validation, and ensembles. Level 3 is intelligent applications. Models deployed in real products with context and feedback. Real-time inference, data pipelines, monitoring, A/B testing. Think recommendation systems. Level 4 is autonomous agents. Systems that make decisions and act with limited human intervention. The core loop is perceive, decide, act, backed by goal setting, memory, and environment interaction. An auto-trading bot lives here. Level 5 is agentic systems. Fully autonomous systems that plan, learn, and pursue complex goals across domains. The loop upgrades to plan, execute, reflect, learn. Strategic planning, multi-step reasoning, tool use, self-improvement. An AI research assistant is the canonical example. Two things apply at every level. The principles nobody gets to skip. Safety, ethics, privacy, transparency, human in the loop. And the enablers nobody gets to skip either. Data quality, compute, MLOps, evals, and the talent to run it all. Success is simple to define. The system solves real problems, adapts to change, creates value, improves over time, and stays aligned with human goals. To go deeper: • AI Foundations for PMs: https://lnkd.in/e6zyYugs • AI Agents for PMs: https://lnkd.in/eeey5Cxr • Practical AI Agents: https://lnkd.in/eyamsW7a The whole board comes down to one line at the bottom. The goal was never just smarter models. Smarter systems win.",
-      "topicSummary": "The post outlines a five-level framework for Agentic AI, progressing from traditional ML to fully autonomous systems, emphasizing that success lies in smarter systems, not just smarter models.",
+      "text": "AI governance has a timing problem. Not always a policy problem. Most enterprise controls were built for human-paced work. Access reviews happen quarterly. Policies are approved annually. Models are validated periodically. Committees review incidents later. That rhythm worked when change happened in batches. Agentic AI works differently. An agent can plan, execute, call tools, retry actions, and react to new data continuously. The model may stay the same. But the operating context can change every minute. That creates the real gap: AI can act faster than the organization can control. So governance needs more than a review calendar. It needs three layers: ✅ Machine-speed controls Limits, policy checks, anomaly detection, and automatic suspension. ✅ Event-driven human review Immediate attention when risk patterns change. ✅ Periodic governance Leaders review patterns, update thresholds, and improve the control system. The real question is not: “Do we have AI governance?” It is: Can our controls move at the speed of AI risk?",
+      "topicSummary": "The post highlights that traditional, human-paced enterprise controls are insufficient for agentic AI, which operates continuously. It argues that AI governance needs to match the speed of AI risk through machine-speed controls, event-driven human review, and periodic governance.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/aagupta_agentic-ai-explained-on-one-whiteboard-activity-7504776248397619200-8Hlq",
-      "whySelected": "The post's clear progression of AI capabilities provides a natural entry point to discuss the practical implications of increasing autonomy in an enterprise context, specifically around process and governance."
+      "url": "https://www.linkedin.com/posts/joanna-miler_ai-governance-has-a-timing-problem-not-activity-7505143380591616000-NQcq",
+      "whySelected": "The post directly addresses the timing problem in AI governance, which is highly relevant to enterprise AI delivery. My comment proposes a practical implication for integrating governance into the development lifecycle, aligning with the need for faster, more continuous controls."
     }
   ],
-  "runId": "mu0ohcwz-869159ba",
+  "runId": "mu187698-1a6fc202",
   "version": 4,
-  "warnings": [
-    "Only 3 posts passed all checks."
-  ]
+  "warnings": []
 }
