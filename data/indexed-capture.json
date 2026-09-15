@@ -1,57 +1,28 @@
 {
-  "capturedAt": "2026-09-14T12:53:37.319Z",
+  "capturedAt": "2026-09-15T02:59:51.748Z",
   "source": "indexed-original",
   "posts": [
     {
-      "ageHours": 1.0455091666666667,
-      "author": "Raju Dandigam • 2nd",
-      "checkedAt": 1789389470951,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "The tooling overlap is interesting. Raju, architecture matters more than choosing a fashionable framework."
-        },
-        {
-          "at": null,
-          "text": "Anjali Viramgama Well said."
-        },
-        {
-          "at": null,
-          "text": "Raju Dandigam This comparison would help enterprise teams decide whether they need one agent or coordinated workflows."
-        },
-        {
-          "at": null,
-          "text": "Shristi mishra That’s a practical use."
-        },
-        {
-          "at": null,
-          "text": "I’ve built smaller agent workflows. Raju Dandigam, state recovery was harder than tool integration."
-        },
-        {
-          "at": null,
-          "text": "Umang Chaudhary That’s a common challenge."
-        }
-      ],
-      "comments": 53,
-      "commentsClosed": false,
-      "id": "7505227628891541504",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQFrOfYiQmKO6A/feedshare-shrink_800/B56aCfspL_J8Ag-/0/1789385689455?e=1790812800&v=beta&t=oGg2c2qzRx3kG7d6K4Z1ICeGGB6KraUgaomg5GaXo34"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 45,
-      "source": "indexed-original",
-      "text": "AI Agent and Agentic AI are not the same. The terms are often used interchangeably, but they describe two different levels of autonomy and system design. An AI agent is a goal-driven component. It reasons about a task, selects tools, maintains task state, observes results, and produces an outcome within a defined boundary. Agentic AI is the broader architecture. It coordinates multiple agents, workflows, systems, and decisions across longer-running processes. It can delegate work, share context, respond to events, recover from failures, and adapt using feedback. The difference becomes clearer across the stack: → AI agents use prompt context, session state, tool results, and conversation history. → Agentic systems require shared workflow state, cross-agent context, persistent memory, checkpoints, and recovery state. → AI agents commonly communicate through MCP, REST APIs, function calls, webhooks, SSE, and WebSockets. → Agentic systems add event buses, message queues, agent-to-agent communication, distributed workflows, and UI interaction. Reliability also becomes more complex. A single agent may need input validation, tool permissions, retries, timeouts, guardrails, and human approval. Agentic AI additionally requires policy engines, cross-agent permissions, approval gates, circuit breakers, least privilege, idempotency, audit trails, and failure recovery. The same applies to operations. Running one agent is an application problem. Coordinating many autonomous components is a distributed systems problem. An AI agent completes a task. Agentic AI coordinates an entire system to achieve a larger outcome.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/raju-dandigam_ai-agent-and-agentic-ai-are-not-the-same-activity-7505227628891541504-9Vjq"
-    },
-    {
-      "ageHours": 5.632358888888889,
+      "ageHours": 19.613528333333335,
       "author": "Prashant Rathi • 2nd",
-      "checkedAt": 1789389478653,
+      "checkedAt": 1789439810861,
       "commentSamples": [
+        {
+          "at": null,
+          "text": "😂 Wait… who exactly wants to ignore token costs? Asking for a friend who just built an AI Economics Control Plane. 😎 Tokens → Cost → Value → ROI. Ignore the tokens and eventually the CFO will find them for you. 😂 …more"
+        },
+        {
+          "at": null,
+          "text": "Prashant Rathi That’s the part I still don’t understand 😂 Who is actually proposing that we ignore the costs? I think we’re all arguing the same side here. Of course AI costs need to be measured. The more interesting question is what we do after measuring them: Cost → Outcome → Business Value → ROI → Decision Otherwise we’re just debating whether the CFO should look at the bill before or after opening it. 😂 …more"
+        },
+        {
+          "at": null,
+          "text": "My take: cost limits should be embedded within agent policies, Prashant, not monitored afterward."
+        },
+        {
+          "at": null,
+          "text": "Aiswarya Venkitesh Strong recommendation."
+        },
         {
           "at": null,
           "text": "Interesting point about inference capacity. Prashant, latency targets can also increase infrastructure costs significantly."
@@ -59,25 +30,9 @@
         {
           "at": null,
           "text": "Anjali Viramgama Yes, speed has a price."
-        },
-        {
-          "at": null,
-          "text": "Prashant Rathi The smartest model may create weaker economics than a smaller model with better workflow design."
-        },
-        {
-          "at": null,
-          "text": "Alok Sharan Well said."
-        },
-        {
-          "at": null,
-          "text": "Prashant Rathi This is why enterprise AI needs unit economics before teams celebrate adoption numbers."
-        },
-        {
-          "at": null,
-          "text": "Poornachandra Kongara Exactly the point."
         }
       ],
-      "comments": 124,
+      "comments": 162,
       "commentsClosed": false,
       "id": "7505158402071805952",
       "imageUrls": [
@@ -86,443 +41,508 @@
       "latestCommentAt": null,
       "mediaType": "image",
       "originalVerified": true,
-      "reactions": 359,
+      "reactions": 640,
       "source": "indexed-original",
       "text": "AI does not automatically reduce costs. It can lower operational expenses, automate repetitive work, speed up decisions, and help teams do more with fewer manual steps. But enterprise AI comes with a cost structure that is easy to underestimate. Every prompt consumes tokens. Every response uses inference capacity. Every agent workflow may trigger multiple model calls, tools, APIs, retrieval steps, and databases. Then add GPU infrastructure, vector storage, observability, security, evaluation, integration, and engineering time. Suddenly, “AI will save us money” becomes a much more complicated equation. The real question is not: “Can AI reduce costs?” It is: “Can this AI system create more business value than it costs to operate?” That means enterprises need to measure more than model accuracy. They need to track: → Cost per task → Tokens per workflow → Cost per successful outcome → Infrastructure utilization → Human hours saved → Automation rate → Error and retry costs → Revenue or productivity impact And this becomes even more important with AI agents. An agent might make 10, 20, or 50 calls to complete what looks like one simple request. Enterprise AI needs FinOps thinking from day one. Because the goal is not to build the smartest AI system. The goal is to build an AI system whose economics actually make sense at scale. ROI should be designed into the architecture, not calculated after deployment.",
       "truncated": false,
       "url": "https://www.linkedin.com/posts/prashantrathi1_ai-does-not-automatically-reduce-costs-activity-7505158402071805952-zujK"
     },
     {
-      "ageHours": 5.848660277777777,
-      "author": "ServiceNow",
-      "checkedAt": 1789389483576,
+      "ageHours": 15.61830638888889,
+      "author": "Boston Consulting Group (BCG)",
+      "checkedAt": 1789439827663,
       "commentSamples": [
         {
-          "at": 1789371483575,
-          "text": "Explore key insights from the Enterprise AI Maturity Index and discover how Pacesetters approach AI governance as a competitive advantage. https://www.servicenow.com/content/dam/servicenow-assets/public/en-au/doc-type/resource-center/white-paper/wp-enterprise-ai-maturity-index-2026.pdf …more"
+          "at": 1789389427661,
+          "text": "Agentic AI changes governance from policy management into systems engineering. Risk controls now need to follow model routing, tool access, data movement and autonomous actions across live workflows. A policy sitting above an agent stack won't provide much protection when execution paths remain invisible. Governance needs to become part of architecture, with controls enforced where actions actually occur. …more"
         },
         {
           "at": null,
-          "text": "From my hands on experience… I see that good governance should be the guardrail that gives people the confidence to accelerate. …. It is important to embed security, risk and compliance into the AI delivery pipeline from day one… and I mean day one .. of course with automated controls and crystal clear ownership ..result is trust scales…. …more"
+          "text": "I believe this is the single most important thing every organisation should work - Fixing the AI governance today. AI other than various other technological revolution is moving a pretty fast pace , Trillions and Trillions of dollar of money is going in as the capital investment . The current challenges are on the value realisation as most of the projects gets funded easily for the pilot but without substantial ROI and Value still it is not able to unlock the trust to scale at many places . Additionally AI is built with the existing information keeping it par with the Human intelligence is equally important. The best example is do we trust on an autonomous car to drive our kids to school ful"
+        },
+        {
+          "at": 1789393027661,
+          "text": "The shift from approval-heavy governance to risk-based triage feels particularly relevant as AI scales across the enterprise. Not every use case needs the same level of scrutiny, and reserving deeper review for higher-risk applications can make governance both more effective and more workable for the business. That balance will be increasingly important as agentic AI expands. …more"
+        },
+        {
+          "at": null,
+          "text": "Concur with the views shared. Amzur Technologies, Inc (https://amzur.com/) Home New 2026 Amzur is your software engineering partner to build, modernize, and support critical business systems - across Cloud, Data, and AI"
         }
       ],
-      "comments": 3,
+      "comments": 6,
       "commentsClosed": false,
-      "id": "7505155156704051202",
+      "id": "7505218798384480256",
       "imageUrls": [],
-      "latestCommentAt": 1789371483575,
+      "latestCommentAt": 1789393027661,
       "mediaType": "video",
       "originalVerified": true,
-      "reactions": 18,
+      "reactions": 45,
       "source": "indexed-original",
-      "text": "Governance doesn’t have to slow innovation. With safety and security at the forefront, Bradley Hunt, Manager of DevOps and Regional Apps at Orica’s shares how their governance framework built trust and became a key driver of its AI transformation success.",
+      "text": "You're not hallucinating if your AI governance feels like it's built for a world that no longer exists. Many governance programs were designed for two or three centrally managed pilots, not the exponential scale of agentic AI deployment today. In the latest episode of You’re Not Hallucinating Steve Mills, BCG’s Chief AI Ethics Officer, explains how to deploy risk management that matches CEOs’ AI ambitions. Learn more: https://on.bcg.com/4yCyDQl",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/servicenow_ai-governance-from-blocker-to-enabler-activity-7505155156704051202-RkHi"
+      "url": "https://www.linkedin.com/posts/boston-consulting-group_ai-governance-is-a-business-unlock-not-a-activity-7505218798384480256-Vi7D"
     },
     {
-      "ageHours": 9.139593055555556,
-      "author": "BytePlus",
-      "checkedAt": 1789389518611,
-      "commentSamples": [],
-      "comments": null,
-      "commentsClosed": false,
-      "id": "7505105612230279168",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQGBsBUiYMhfZA/feedshare-shrink_800/B56aCd9yRZGUAc-/0/1789356614989?e=1790812800&v=beta&t=I08eiLP5RM7lD-x95p-mycw7-AswZAFZQRZxUbHD7AM"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 40,
-      "source": "indexed-original",
-      "text": "🚀 𝗟𝗮𝘀𝘁 𝗰𝗮𝗹𝗹 - 𝗧𝗵𝗲 𝗙𝘂𝘁𝘂𝗿𝗲 𝗼𝗳 𝗖𝗿𝗲𝗮𝘁𝗶𝘃𝗲 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗶𝘀 𝗰𝗼𝗺𝗶𝗻𝗴 𝘁𝗼 𝗔𝘂𝘀𝘁𝗿𝗮𝗹𝗶𝗮 𝗮𝗻𝗱 𝗡𝗲𝘄 𝗭𝗲𝗮𝗹𝗮𝗻𝗱 𝗼𝘃𝗲𝗿 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘁𝘄𝗼 𝘄𝗲𝗲𝗸𝘀! Generative AI is changing how creative teams ideate, produce, and scale content - but what does that transformation actually look like in practice? Join BytePlus for an exclusive roundtable bringing together leaders and innovators across creative production, media, marketing, and technology to explore what's next for AI-powered creativity. During the session, we'll dive into: 🎬 How generative AI is reshaping creative production workflows ✨ The latest capabilities of Dreamina Seedance and AI-powered content creation 💡 Real-world use cases and emerging opportunities across industries 🪜 Insights and perspectives from industry peers navigating the same transformation More than a showcase, this is a space for practical conversations around how AI can move from experimentation to real creative workflows. 📍 Sydney - 17 September 2026 👉 Register https://lnkd.in/gnH2Ggtr 📍 Melbourne - 22 September 2026 👉 Register https://lnkd.in/g7qZpvbf 📍 Auckland - 24 September 2026 👉 Register https://lnkd.in/g2TFEQq5 Featuring Keynote Speakers: Clayton Jacobson, Colin Renshaw, Daniel Deng, James Caldwell, James Wang, Ruoyu(Lorraine) Zhu, Tony Ding, Whitney Williams, Yuan Jun (YJ) Lim hashtag #BytePlus hashtag #GenerativeAI hashtag #CreativeProduction hashtag #Seedance hashtag #AI hashtag #Media hashtag #Marketing hashtag #ContentProduction",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/byteplus_byteplus-generativeai-creativeproduction-activity-7505105612230279168-n_4L"
-    },
-    {
-      "ageHours": 10.008235277777779,
-      "author": "Satendra Tiwari • 3rd+",
-      "checkedAt": 1789389524629,
+      "ageHours": 13.563984722222223,
+      "author": "Prashant Rathi • 2nd",
+      "checkedAt": 1789439838249,
       "commentSamples": [
         {
-          "at": 1789357124625,
-          "text": "The exact difference between single and multi agent architecture"
+          "at": null,
+          "text": "The misconception section may be the most valuable part for nontechnical stakeholders Prashant Rathi."
         },
         {
-          "at": 1789357124626,
-          "text": "Free AI Tools and ChatGPT Prompts 🤖 yaa"
+          "at": null,
+          "text": "Ananya Ghosh Chowdhury Shared understanding improves decisions."
         },
         {
-          "at": 1789357124626,
-          "text": "Best comparison of single and multi agent architectures"
+          "at": null,
+          "text": "From what I’ve seen, Prashant Rathi, data problems frequently get misdiagnosed as model problems."
         },
         {
-          "at": 1789357124626,
-          "text": "SQL Notes yaa"
+          "at": null,
+          "text": "Poornachandra Kongara That happens surprisingly often."
         },
         {
-          "at": 1789357124626,
-          "text": "very good post"
+          "at": null,
+          "text": "Raw data alone creates little value. Algorithms, Prashant, turn it into usable patterns."
         },
         {
-          "at": 1789357124626,
-          "text": "AI Literacy Thanks"
+          "at": null,
+          "text": "Alok Sharan Processing creates meaning."
         }
       ],
-      "comments": 16,
+      "comments": 72,
       "commentsClosed": false,
-      "id": "7505092521400692736",
+      "id": "7505249861999456256",
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4D22AQHmjctXRsleUg/feedshare-shrink_800/B4DaCdx2XlI4Ac-/0/1789353493405?e=1790812800&v=beta&t=H_6nFeOfaEz-GOiSPDCIVyUwQIS_IN3ZMlTbC9zYwBU"
+        "https://media.licdn.com/dms/image/v2/D4E22AQESvOQY5BS8ww/feedshare-shrink_800/B4EaCgA9MJGoAg-/0/1789391006002?e=1790812800&v=beta&t=gNezp85UDP3Br4EUS-a5sn2eiGjCwbm5qJFOFOqb96c"
       ],
-      "latestCommentAt": 1789357124627,
+      "latestCommentAt": 1789393038247,
       "mediaType": "image",
       "originalVerified": true,
-      "reactions": 81,
+      "reactions": 122,
       "source": "indexed-original",
-      "text": "Single-Agent vs Multi-Agent: Which One Do You Actually Need? Everyone wants to build a team of AI agents. Almost nobody checks if they need one. SINGLE-AGENT One agent runs the whole job — takes the goal, gathers context, plans, executes, checks its own work, delivers one answer. Use it when: the task has one clear objective, one agent can hold all the context, it's calling a few tools (not dozens), steps happen in order, and speed/cost matter more than depth. MULTI-AGENT A coordinator splits the goal among specialists (researcher, analyst, writer, critic, etc.) who work in parallel/sequence, then merges their output. Use it when: subtasks need genuinely different skills, work can run in parallel, a second opinion adds real value, and each stage needs its own check. The catch: every extra agent is another handoff — another place for context to drop, another cost, another thing to debug when it breaks. More agents ≠ more intelligence; it's more surface area for silent failure. Rule of thumb: Single-agent = one capable generalist. Multi-agent = a team, and a team needs a manager — that's you. Before your next architecture call, ask: \"What breaks today if this stays one agent?\" If no one has a specific answer, you don't need a team — you need a sharper single agent. Google Courses 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 𝗿𝗲𝗴𝗿𝗲𝘁 𝗻𝗼𝘁 𝘁𝗮𝗸𝗶𝗻𝗴 𝗶𝗻 2026 Google AI Professional Certificate https://lnkd.in/gbXxemQV Google Introduction to Generative AI imp.i384100.net/N9MEJb Google Prompting Engineering imp.i384100.net/55vzG3 Google AI Essentials imp.i384100.net/GKM1k9 Google Crash Course on Python imp.i384100.net/Bnvk9W Machine Learning Specialization imp.i384100.net/N9MEyb Google Cloud Fundamentals imp.i384100.net/Dyvada Google data Analytics: imp.i384100.net/55vz03 Google Cybersecurity Professional Certificate imp.i384100.net/POMnNX AI for Everyone - DeepLearning AI imp.i384100.net/je96ge Become AI Developer imp.i384100.net/LKMdj3 Generative AI Automation imp.i384100.net/POMdJj Deep Learning Specialization imp.i384100.net/je9dG0 Building with LLM imp.i384100.net/e1LZy1",
+      "text": "Give me 2 minutes. I’ll show you what really sits behind ChatGPT. What users see is a simple chat window. What makes it work is an entire AI stack, with every layer building on the one below it. It starts with data: raw facts, observations, documents, images, and signals collected from the real world. Then comes infrastructure: the compute, storage, networks, and platforms required to train and run AI systems. Algorithms provide the methods that identify patterns within that data. Models learn those patterns and use them to generate predictions or decisions. Machine learning makes this possible by allowing systems to learn from examples instead of relying only on fixed rules. Deep learning takes it further through multilayer neural networks capable of understanding complex relationships across language, images, audio, and more. Generative AI uses those capabilities to create entirely new outputs, including text, code, images, video, and audio. Finally, ChatGPT and other AI tools sit at the application layer, where people interact with the underlying intelligence. The important point is that ChatGPT is one application within a much deeper system. Real AI value does not come from a model working alone. It comes from quality data, scalable infrastructure, suitable algorithms, reliable models, and useful applications working together. More data also does not automatically produce better AI. Better data, stronger models, and thoughtful system design matter far more. AI becomes easier to understand when you stop viewing it as magic and start viewing it as a connected system. Understand the stack, and you understand where AI’s real value comes from.",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/satendra-tiwari-8a52a4354_single-agent-vs-multi-agent-which-one-do-activity-7505092521400692736-uGqr"
+      "url": "https://www.linkedin.com/posts/prashantrathi1_give-me-2-minutes-ill-show-you-what-really-activity-7505249861999456256-uxkv"
     },
     {
-      "ageHours": 5.735727777777778,
+      "ageHours": 7.709758888888889,
+      "author": "Indu Pandey • 3rd+",
+      "checkedAt": 1789439855426,
+      "commentSamples": [
+        {
+          "at": 1789414655424,
+          "text": "Great rule of thumb. Start with the simplest architecture that works, then introduce additional agents only when you can clearly identify the limitation."
+        },
+        {
+          "at": null,
+          "text": "AI Literacy yup"
+        },
+        {
+          "at": null,
+          "text": "This is exactly how AI architecture should be approached: solve the bottleneck first, instead of designing for complexity from day one."
+        },
+        {
+          "at": null,
+          "text": "Sulekha Tripathi yeah"
+        },
+        {
+          "at": 1789414655424,
+          "text": "“More agents ≠ more intelligence” is the key takeaway here. Better orchestration matters more than simply adding agents."
+        },
+        {
+          "at": null,
+          "text": "Coding Notes yeah"
+        }
+      ],
+      "comments": 14,
+      "commentsClosed": false,
+      "id": "7505338329899479040",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4D22AQG_2Sm_IWCtFQ/feedshare-shrink_800/B4DaChRZ.sKkAg-/0/1789412098738?e=1790812800&v=beta&t=VKFyrwpZrxBusL7eS2FyI984PNHDzlGj5dpCGQNLh8E"
+      ],
+      "latestCommentAt": 1789414655425,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 33,
+      "source": "indexed-original",
+      "text": "Single-Agent vs Multi-Agent: Which One Do You Actually Need? Everyone wants to build a team of AI agents. Almost nobody checks if they need one. SINGLE-AGENT Try Gamma (try.gamma.app/rxvp3qlex13h) World’s #1 AI-Powered Presentation Generator Visit ➡️ try.gamma.app/rxvp3qlex13h One agent runs the whole job — takes the goal, gathers context, plans, executes, checks its own work, delivers one answer. Use it when: the task has one clear objective, one agent can hold all the context, it's calling a few tools (not dozens), steps happen in order, and speed/cost matter more than depth. MULTI-AGENT A coordinator splits the goal among specialists (researcher, analyst, writer, critic, etc.) who work in parallel/sequence, then merges their output. Use it when: subtasks need genuinely different skills, work can run in parallel, a second opinion adds real value, and each stage needs its own check. The catch: every extra agent is another handoff — another place for context to drop, another cost, another thing to debug when it breaks. More agents ≠ more intelligence; it's more surface area for silent failure. Rule of thumb: Single-agent = one capable generalist. Multi-agent = a team, and a team needs a manager — that's you. Before your next architecture call, ask: \"What breaks today if this stays one agent?\" If no one has a specific answer, you don't need a team — you need a sharper single agent.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/indu-pandey-7569ab294_single-agent-vs-multi-agent-which-one-do-activity-7505338329899479040-FxBs"
+    },
+    {
+      "ageHours": 19.717761111111113,
       "author": "The Strategists Network",
-      "checkedAt": 1789389530280,
+      "checkedAt": 1789439865601,
       "commentSamples": [
         {
           "at": null,
           "text": "Medtech an AI is such a good fit. But if we keep it at the \"newest plaything\" level, we are never going to unlock the full potential of this disruption. We recently had Prof. Dr. Christian Johner on our podcast: https://youtu.be/6c_0Pu8Mu7Y His advice was: 1. just start. 2. AI is a multiplier, also for incompetence 3. Learn your engineering (Regulatory, domain, process and AI competence) an absolutely eye opening interview for me. Your Insights just confirm this! …more"
+        },
+        {
+          "at": null,
+          "text": "Lucas R. Pianegonda Thanks Lucas, very much aligned. I particularly like the point that AI can also be a multiplier of incompetence. It reinforces why domain and process expertise become more, not less, important as AI capabilities grow. And I would add one thought to “just start”: start, learn and experiment, absolutely, but with a clear ambition of where AI should create business value. Otherwise experimentation can easily become a collection of disconnected pilots. That is exactly the journey we wanted to address with this series. …more"
+        },
+        {
+          "at": null,
+          "text": "Scaling AI is ultimately also about execution. What I particularly value about working with TSN is the combination of senior domain and functional expertise with thorough preparation, reliability and a strong commitment to making the transformation succeed. These qualities matter when AI moves beyond individual use cases and starts changing processes, roles and decision-making across an organization. …more"
         }
       ],
-      "comments": 1,
+      "comments": 3,
       "commentsClosed": false,
       "id": "7505157057818415104",
       "imageUrls": [],
       "latestCommentAt": null,
       "mediaType": "text",
       "originalVerified": true,
-      "reactions": 14,
+      "reactions": 15,
       "source": "indexed-original",
       "text": "A successful AI pilot is not yet an AI transformation. Many initiatives demonstrate value in a specific team, process or market. The harder challenge is turning individual successes into a scalable enterprise capability. Scaling requires more than technology. Data must be trusted for its intended purpose. Employees need the capabilities and confidence to work effectively with AI. Processes need sufficient clarity. Governance must define where AI can act autonomously and where human judgment and accountability remain essential. The objective should therefore not be to scale individual AI tools, but to build a repeatable, Human-Centric AI Operating Model. Scale capabilities, not pilots. ECODYNAMICS GmbH; The Strategists Network https://lnkd.in/e_B8MDiw",
       "truncated": false,
       "url": "https://www.linkedin.com/posts/the-strategists-network_step-3-of-the-ai-strategy-bringing-ai-to-activity-7505157057818415104--VQw"
     },
     {
-      "ageHours": 15.352271944444444,
-      "author": "Jay Khwaja • 3rd+",
-      "checkedAt": 1789389535121,
-      "commentSamples": [],
-      "comments": null,
+      "ageHours": 10.034021944444444,
+      "author": "Boris Shulkin • 3rd+",
+      "checkedAt": 1789439881980,
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "Great perspective, Boris. The shift from 'How can AI make this process faster?' to 'How should this process work differently now that AI is available?' is an important one. In my experience, the organizations getting the most value are the ones that start with the business outcome, redesign the workflow around it, and then apply AI where it can materially change the result. Starting with the business outcome, and having the discipline to measure, adapt or stop, is where the real value gets created, which is just as important as the technology itself. …more"
+        },
+        {
+          "at": null,
+          "text": "💯 agree, Boris Shulkin Love it!"
+        }
+      ],
+      "comments": 2,
       "commentsClosed": false,
-      "id": "7505011873164136448",
+      "id": "7505303346086367232",
       "imageUrls": [],
       "latestCommentAt": null,
       "mediaType": "text",
       "originalVerified": true,
-      "reactions": 8,
+      "reactions": 55,
       "source": "indexed-original",
-      "text": "We may be creating more AI experts than AI results. I’m seeing an interesting phenomenon on LinkedIn. Every day there is another AI lifecycle. Another AI framework. Another “enterprise AI stack.” Another diagram showing agents, RAG, MCP, vector databases, orchestration, governance and 20 different tools. And apparently, knowing how to arrange those boxes now makes someone an AI strategist. Maybe I’m being overly critical—but after spending decades in IT, I think we’re missing something. Technology expertise isn’t the ability to describe technology. It’s the ability to make technology work in the real world. I’ve seen this movie before. We had ERP experts who knew every module but couldn’t get the business process right. Data experts who could build beautiful dashboards from questionable data. Cloud experts who moved workloads to the cloud without changing the economics. And now we’re seeing AI experts who can explain agents for 30 minutes—but may never have had to convince a CFO that the investment actually creates value. Enterprise AI isn’t primarily a model problem. It isn’t even primarily a tooling problem. It’s a business problem. Before asking “Which AI framework should we use?”, I’d rather ask: • What decision are we trying to improve? • What process are we trying to change? • Is our data good enough? • What happens when the AI is wrong? • Who is accountable? • What does this save or generate? • Can the organization actually adopt it? And perhaps the most important question: Would we still build this if we removed the word “AI” from the conversation? Because sometimes the answer is automation. Sometimes it’s better data. Sometimes it’s process redesign. Sometimes it’s traditional analytics. And sometimes, absolutely, it’s AI. That’s the distinction I see between AI literacy and AI leadership. You don’t need to know every new AI tool to lead an AI transformation. You need to understand the business, the technology, the data, the economics, the people and the risk—and know where AI genuinely belongs. The winners in enterprise AI won’t be those who can name the most frameworks. They’ll be those who can turn AI into measurable business outcomes. hashtag #EnterpriseAI hashtag #AILeadership hashtag #CIO hashtag #CTO hashtag #DigitalTransformation",
+      "text": "AI should start with a clear business problem and a willingness to rethink how the work gets done. A tool can work exactly as intended and still fall short of delivering meaningful value. In our latest Tech Talk, I discuss why process redesign, honest measurement and the judgment to scale, adjust or stop an initiative matter as much as the technology itself. hashtag #WeAreMagna",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/jay-khwaja_enterpriseai-aileadership-cio-activity-7505011873164136448-YnHv"
+      "url": "https://www.linkedin.com/posts/bshulkin_why-ai-success-starts-with-business-value-activity-7505303346086367232-5F5D"
     },
     {
-      "ageHours": 13.32657888888889,
-      "author": "Vijayan Seenisamy • 2nd",
-      "checkedAt": 1789389540951,
+      "ageHours": 9.210678055555556,
+      "author": "Satish H.C. • 2nd",
+      "checkedAt": 1789439892602,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505315822714679297",
+      "imageUrls": [],
+      "latestCommentAt": null,
+      "mediaType": "video",
+      "originalVerified": true,
+      "reactions": 49,
+      "source": "indexed-original",
+      "text": "Knowledge is a commodity. It’s all about application and redefining work, workflow, workforce and workplace. This is a fundamental rewrite and we need Ambidexterity in both Workforce and Enterprise R \"Ray\" Wang, Constellation Research, Inc. Infosys, Infosys Topaz, Suyog Shetty, Rishi Basu, Niranjan Mallya hashtag #infosys, hashtag #InfosysTopaz, hashtag #EnterpriseAI, hashtag #AI, hashtag #AgenticAI",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/satishhc_infosys-infosystopaz-enterpriseai-activity-7505315822714679297-dOCE"
+    },
+    {
+      "ageHours": 20.068762222222222,
+      "author": "Tom Brovender • 3rd+",
+      "checkedAt": 1789440228675,
       "commentSamples": [
         {
           "at": null,
-          "text": "the 0.92 to the fifth landing at 66% is the bit more people need to sit with, and it cuts hard against what vendors shipped this month. handing you a roster of named agents reads like hiring, but a name doesn't fix a multiplicative chain - it just makes the failure easier to point at. honest fix is fewer hops per workflow, not better agents per hop. …more"
+          "text": "Great work"
+        },
+        {
+          "at": null,
+          "text": "Very interesting"
         }
       ],
-      "comments": 1,
+      "comments": 2,
       "commentsClosed": false,
-      "id": "7505042484557852672",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQF7E-W9Yo0yvg/feedshare-shrink_800/B56aCcyi2qJ4Ag-/0/1789336891058?e=1790812800&v=beta&t=5zTExc2qyJzB9MW8euTQmI5cQLcGUux9vpS9Y02Czrw",
-        "https://media.licdn.com/dms/image/v2/D5622AQHh01n4c5O_BQ/feedshare-shrink_1280/B56aCcyi3tHkAM-/0/1789336891095?e=1790812800&v=beta&t=rv9Mf4m6XWI270ThpX_kKFNAqaNN5zJQUhgyVIzaAns",
-        "https://media.licdn.com/dms/image/v2/D5622AQHGRycuXyq5GQ/feedshare-shrink_800/B56aCcyi4.HEAg-/0/1789336891157?e=1790812800&v=beta&t=bkyF4RExRt3nxKlLFIwvaLb5qVwBUESPdW9Vq1ltGS4"
-      ],
+      "id": "7505153280721928192",
+      "imageUrls": [],
       "latestCommentAt": null,
-      "mediaType": "image",
+      "mediaType": "text",
       "originalVerified": true,
-      "reactions": 4,
+      "reactions": 15,
       "source": "indexed-original",
-      "text": "Wednesday's Guild session, written up by Naveen Mandava, who was in the room and got the chain maths exactly right. If you missed it, this is the diagnosis half. The operating half is 18 November.",
+      "text": "It’s been a while since I posted something on the more technical side of things, but I’ve been working on something I really wanted to share. Over the past few weeks, I’ve been evolving a hashtag #GenAI assistant from a simple single-inference flow into a hashtag #MultiAgentSystems architecture with an orchestrator, scoped hashtag #RAG knowledge bases, hashtag #S3Vectors, hashtag #BedrockAgentCore, and hashtag #MCP-based tooling. What started as “just give the model more context” quickly became a much more interesting hashtag #AIEngineering problem around routing, retrieval quality, latency, cost, and ownership. https://lnkd.in/dtXnStCW hashtag #AWS hashtag #AWSCommunityBuilders hashtag #AmazonBedrock hashtag #GenerativeAI hashtag #AgenticAI hashtag #AIAgents hashtag #AWSLambda hashtag #Serverless hashtag #CloudArchitecture hashtag #MLOps hashtag #DevOps hashtag #PlatformEngineering hashtag #MachineLearning",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/vijayan-seenisamy_wednesdays-guild-session-written-up-by-activity-7505042484557852672-VP7k"
+      "url": "https://www.linkedin.com/posts/tom-brovender_the-gen-ai-journey-from-single-inference-activity-7505153280721928192-3Cnk"
     },
     {
-      "ageHours": 12.744921944444444,
-      "author": "Kenny Ogunlowo • 2nd",
-      "checkedAt": 1789389545933,
-      "commentSamples": [],
-      "comments": 1,
-      "commentsClosed": false,
-      "id": "7505051288183689216",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQFK851mJlzdVg/feedshare-shrink_800/B56aCdMX.8JMAc-/0/1789343662413?e=1790812800&v=beta&t=xjnvvQVh0161caDoXBmbqdcq1K9IAgcqWUMOmO4uAZE"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 1,
-      "source": "indexed-original",
-      "text": "🤖 Autonomous Multi-Agent Healthcare Orchestration on AWS How can payers and providers use Amazon Bedrock Agents, AgentCore, MCP, and secure tool-calling to coordinate healthcare workflows in parallel? Healthcare workflows often require eligibility checks, clinical validation, prior authorization, claims analysis, compliance review, and policy retrieval. Running everything sequentially is slow. Parallel delegation can reduce workflow latency and improve operational efficiency. 🏗️ The Architecture User Request → Orchestrator Agent → Delegated Agents → MCP Tools → Enterprise Systems → Results → Validation → Final Response The Orchestrator coordinates specialized agents: 🔹 Eligibility Agent → Coverage and benefits 🔹 Clinical Agent → Guidelines and medical necessity 🔹 Claims Agent → Authorization and claims rules 🔹 Compliance Agent → Privacy and policy checks 🔹 RAG Agent → Payer policies and clinical knowledge 🔹 Provider Agent → NPI and network validation ⚡ Parallel Execution Example Request: “Does this patient qualify for MRI prior authorization?” The Orchestrator delegates tasks: Eligibility Agent: Verify coverage Clinical Agent: Evaluate clinical criteria Claims Agent: Check authorization requirements RAG Agent: Retrieve current payer policies Compliance Agent: Validate access and handling requirements Each agent returns a structured result: Agent → Task → Evidence → Decision → Confidence → Risk → Next Action The Orchestrator aggregates the results and determines whether to recommend approval, request more information, or escalate to a qualified human reviewer. 🔐 Where AWS + MCP Fit Amazon Bedrock Agents: Model-driven task execution and tool use. AgentCore: Runtime, identity, memory, gateway, and multi-agent capabilities, where supported by the selected AgentCore services. MCP: A standardized interface for connecting agents to authorized tools and enterprise systems. GitHub + FHIR + SQL + APIs: Potential sources of versioned policies, clinical knowledge, and operational data. Every tool call should enforce identity, least privilege, PHI controls, authorization, auditability, and result validation. ⚠️ Important: Parallel execution does not automatically make decisions faster or safer. Use deterministic orchestration, bounded delegation, and human approval for high-impact clinical and financial actions. 💼 Why It Matters One orchestrator. Multiple specialized agents. Coordinated execution. The result: ⚡ Faster administrative workflows 🔐 Stronger security boundaries 📋 Better auditability 📈 Scalable payer and provider operations 🤝 More efficient human decision-making The future of healthcare AI is not just smarter models. It's secure, observable, multi-agent orchestration that turns enterprise data into coordinated action. hashtag #AgenticAI hashtag #AIAgents hashtag #AWS hashtag #AmazonBedrock hashtag #BedrockAgents hashtag #AgentCore hashtag #MCP hashtag #HealthcareAI hashtag #FHIR hashtag #RAG hashtag #AISecurity hashtag #AIArchitecture hashtag #LLMOps hashtag #CloudSecurity #HealthcareAI#EnterpriseAI hashtag #AIGovernance hashtag #MultiAgent",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/kehinde-ogunlowo_agenticai-aiagents-aws-activity-7505051288183689216-Sq3c"
-    },
-    {
-      "ageHours": 7.4519480555555555,
+      "ageHours": 21.533566666666665,
       "author": "Anil Patel • 3rd+",
-      "checkedAt": 1789389551957,
+      "checkedAt": 1789440245784,
       "commentSamples": [
         {
           "at": null,
-          "text": "Anil Patel The AI industry is moving fast, but this reminds us that principles outlive platforms. Great engineers focus on concepts, not just tools."
+          "text": "Excellent roadmap, Agentic AI is evolving rapidly, and building practical skills alongside strong fundamentals will be key to staying ahead."
+        },
+        {
+          "at": null,
+          "text": "Great roadmap. Focusing on fundamentals and building real-world projects is the key to becoming a strong Agentic AI Engineer."
+        },
+        {
+          "at": null,
+          "text": "Absolutely agree, Strong fundamentals, hands-on projects, and understanding the architecture are what truly make an AI engineer. Tools will keep changing, but the core skills will always matter."
+        },
+        {
+          "at": null,
+          "text": "Very practical roadmap for anyone looking to enter the Agentic AI space. The step-by-step approach makes the learning path much clearer."
+        },
+        {
+          "at": null,
+          "text": "Great roadmap, The focus on fundamentals, real projects, and production-ready AI is especially valuable. Tools may change, but strong engineering fundamentals will always matter."
         },
         {
           "at": null,
           "text": "Anil Patel This is exactly why I tell people not to get overwhelmed by the number of AI frameworks. Learn the \"why\" behind the technology, and picking up new tools becomes much easier."
-        },
-        {
-          "at": null,
-          "text": "Anil Patel A clear roadmap starts with mastering core AI concepts, then adds hands‑on projects that emphasize autonomy and decision‑making. Pair that with system design skills that let the AI act independently within safe constraints. This structure builds the confidence to develop truly agentic solutions. …more"
         }
       ],
-      "comments": 4,
+      "comments": 9,
       "commentsClosed": false,
       "id": "7505131234675814400",
       "imageUrls": [],
       "latestCommentAt": null,
       "mediaType": "unsupported",
       "originalVerified": true,
-      "reactions": 50,
+      "reactions": 91,
       "source": "indexed-original",
       "text": "2026 Is the Wake-Up Call. 2027 Will Be the Real AI Shift. Every role is becoming AI-first. In 2026, everyone wants to become an AI Engineer. But many start with tools: Prompt Engineering → RAG → LangChain → LangGraph → MCP → AI Agents The problem? Tools change. Fundamentals don't. A better learning path: 01. Python + Software Engineering APIs, Git, testing, databases, Docker, backend. 02. LLM Fundamentals Tokens, embeddings, transformers, context, inference. 03. Prompt Engineering Structured output, tool calling, evaluation. 04. RAG Chunking → Embeddings → Search → Reranking → Evaluation. 05. AI Agents Tools, memory, planning, state, orchestration. 06. Frameworks LangGraph, OpenAI Agents SDK, CrewAI, etc. Understand the architecture. Don't just learn the framework. 07. MCP Connect agents to tools, APIs, databases and enterprise systems. 08. Production AI Evaluation, security, observability, guardrails, reliability, cost and monitoring. 09. Build Real Projects AI Sales Agent. AI Research Agent. AI Data Analyst. AI Customer Support Agent. AI Supply Chain Agent. Then: Build → Deploy → Break → Debug → Improve Knowing 20 frameworks doesn't make you an AI Engineer. The ability to design, build and run AI systems does. And this applies to every role: Data Engineering | Software Engineering | Data Architecture | Product | Operations | Sales | Marketing What are you learning first: LLMs, RAG or AI Agents? 📞 Struggling to switch into Data Engineering, Analytics, or AI? Book a free 1:1 call: https://lnkd.in/gTAnECQE ***(Only for working professionals with 2+ years of experience who have been struggling for 6+ months to get interview calls or crack interviews) + follow Anil Patel for insights on Data Engineering, career transitions, and interview preparation",
       "truncated": false,
       "url": "https://www.linkedin.com/posts/aniltppatel_roadmap-to-become-an-agentic-ai-engineer-activity-7505131234675814400-AOLu"
     },
     {
-      "ageHours": 23.106176666666666,
-      "author": "Mario Giorgio • 3rd+",
-      "checkedAt": 1789389557610,
-      "commentSamples": [
-        {
-          "at": 1789306757609,
-          "text": "The security boundary is part of the product design—not an afterthought. Private execution and controlled remote reasoning should be explicit architecture choices."
-        },
-        {
-          "at": null,
-          "text": "Minimized context only works when it still carries the detail needed for the decision."
-        }
-      ],
-      "comments": 2,
-      "commentsClosed": false,
-      "id": "7504894887453065216",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5610AQFadcycAf0_Ow/image-shrink_800/B56aCa.HjbHYAg-/0/1789306370574?e=1789995600&v=beta&t=1SdYNOEG6DK84B74QgDl_7NNn5qljMUzbghFUNirIis"
-      ],
-      "latestCommentAt": 1789306757609,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 1,
-      "source": "indexed-original",
-      "text": "Enterprise AI should not force a choice between control and capability. Lexx AI is built around a practical operating model: • Private / Local Mode keeps source data and execution inside the customer-controlled environment. • Controlled Remote-Reasoning Mode keeps source data inside that boundary while remote models receive only minimized, sanitized, tokenized, or abstracted context under verified controls. That distinction matters. It is the difference between a credible security posture and a slogan. From Google Workspace workflows to multi-agent orchestration and real-world operational systems, the goal is not another chatbot. It is an intelligence layer that can understand context, coordinate work, preserve traceability, and help teams move from signal to decision to action. The strongest enterprise deployments will be customer-controlled, interoperable, and explicit about where data travels. Mario's AI agent, Lexx AI.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/mario-giorgio_enterprise-ai-should-not-force-a-choice-between-activity-7504894887453065216-6cSO"
-    },
-    {
-      "ageHours": 20.144586666666665,
-      "author": "Surendra Ganne • 2nd",
-      "checkedAt": 1789389880530,
+      "ageHours": 14.72049111111111,
+      "author": "Felix Van de Maele • 3rd+",
+      "checkedAt": 1789440255970,
       "commentSamples": [
         {
           "at": null,
-          "text": "Your point about titles mattering less than the growth between them really makes sense. It makes me wonder, what was the biggest practical skill you took from analytics into product building?"
+          "text": "The reason they run on parallel tracks is organizational... Data teams own context, platform or security teams own control. Unifying them usually means forcing two budgets and two reporting lines into the same room."
         },
         {
           "at": null,
-          "text": "Ramesh Kumar, the most practical skill was turning data into product decisions. Analytics taught me to identify patterns, question assumptions, and translate user behavior into clear priorities. That discipline helped me build products around real needs rather than intuition alone. …more"
+          "text": "Who does the understanding and how? Who does the auditing and how? The instrument for both cases is the *meaning* -also called semantics- of the data in question. Without agreed meaning, no trust is possible. Without trust, no added value."
         },
         {
           "at": null,
-          "text": "The cumulative experience serves as context for any work that one do next even though influence & learnings of the recent & latest will be seen in the work while the past goes into muscle memory and just happens. Interesting turns in your journey Surendra …more"
+          "text": "This is a useful distinction. In financial institutions, I would add a third dimension: business process context. An AI agent can have reliable data and strong controls, but still make the wrong decision if it does not understand where that data sits within the actual process, policy, and regulatory requirement. Context, control, and process alignment therefore need to work together, particularly when AI moves from providing insights to taking action. …more"
         }
       ],
       "comments": 5,
       "commentsClosed": false,
-      "id": "7504940960380993536",
+      "id": "7505234151395155969",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4E22AQH-RJGZvT9D6Q/feedshare-shrink_800/B4EaCRjs_cHoAc-/0/1789148451268?e=1790812800&v=beta&t=g0ylqXNHNHuZqL4r3fAbbPuE6saST_jAzK8kkeGTf2s"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 33,
+      "source": "indexed-original",
+      "text": "Enterprise AI has split into two camps. One says the priority is context: better data, clearer definitions, a real understanding of the business. The other says it’s control: visibility, ownership and the ability to audit what an agent did and why. Both are right. Neither is sufficient alone. Context without control is exposure. Control without context is paralysis. I’ve seen enterprises spend a year getting their definitions right, but have no idea which agents are using them, bypassing them or relying on context that went stale months ago. I’ve also seen the reverse: a fully auditable agent with clear lineage and ownership, confidently acting on data nobody validated. Control can tell you who’s accountable for the failure. It doesn’t prevent it. Enterprise AI needs context and control built as one system, not two projects running on parallel tracks. I wrote more about why in my latest blog. Let me know what you think:https://lnkd.in/epp_wXEt",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/fvdmaele_enterprise-ai-has-split-into-two-camps-activity-7505234151395155969-Rxu4"
+    },
+    {
+      "ageHours": 11.449044722222222,
+      "author": "Dr. Moya Hill • 3rd+",
+      "checkedAt": 1789440271872,
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "Governance metadata are the tags in the backpack.These tags describe the record, like privacy category, classification level, jurisdiction, retention period, risk tier, and transparency requirement. Enforcement rules (real world governance rules) are the teachers that follow the record.These rules come from privacy law, FOIA, records schedules, retention schedules, risk policies, security policies, transparency requirements, provenance requirements, oversight requirements, and cross border transfer rules. The tags tell the rules when to activate.If the tags and the rules do not travel together, the system is not governed. …more"
+        },
+        {
+          "at": null,
+          "text": "I really like this way of explaining AI governance. The idea that governance metadata travels with the record and activates the right rules at the right stage makes the concept much easier to understand. I’d add one more layer: ownership and accountability. Knowing which rule applies is important, but we also need to know who owns the data, who is accountable for the decision, and whether the whole process can be audited. For me, that’s the real test of governance: can we trace what data was used, under which rules, at which stage, and why a particular decision was made? …more"
+        },
+        {
+          "at": null,
+          "text": "Dr. Moya Hill Thank you for the detailed response, Dr. Hill. The distinction between metadata defining the 'what' (including ownership and accountability) and enforcement rules acting as the 'police' to execute it makes the model even clearer. This traceable and accountable behavior is exactly what organizations need to build trust in AI. Appreciate the insight.🙏 …more"
+        },
+        {
+          "at": null,
+          "text": "Dr. Moya Hill This is a useful way to explain governance around data. For agentic systems, I’d extend the same idea from governed records to governed actions — carrying identity, authority and risk context into each tool call or business action, so the right controls apply at execution time. …more"
+        },
+        {
+          "at": null,
+          "text": "Ismat Kamal Ismat, thank you for this. I agree with you completely. The same structure that governs records must also govern actions, especially in agentic systems. When identity, authority, and risk travel with every action, the system applies the right control at the exact moment it is needed. That is the only way to keep execution aligned with governance. I appreciate you adding this layer because it helps people see how the model scales across both records and actions. …more"
+        }
+      ],
+      "comments": 6,
+      "commentsClosed": false,
+      "id": "7505283615275143168",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4E22AQG7WlgRu80suA/feedshare-shrink_800/B4EaCgflUFH8Ac-/0/1789399029245?e=1790812800&v=beta&t=tb8wuT6A25BYU-8WQezcbRSQDJiIKYwldmFPdp1_29U"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 12,
+      "source": "indexed-original",
+      "text": "Most people misunderstand AI governance. This is the simplest way to finally see it clearly. AI governance is not a policy. It is a pipeline. And the simplest way to understand it is with a kid, a backpack, and ten teachers. Every record moves through the system the same way a kid moves through a school. The kid is the record. The backpack is the metadata. The teachers are the enforcement rules. The classrooms are the pipeline stages. The kid carries the backpack everywhere. Inside the backpack are governance tags like privacy category, classification level, jurisdiction, retention period, risk tier, and transparency requirement. The teachers walk beside the kid. At every classroom door, the teachers check the backpack. Only the rules that matter speak. Privacy speaks when the record is sensitive. Global transfer speaks when the record has a border restriction. Retention speaks when the record has a time limit. Risk speaks when the record is high risk. The governance metadata choose the rules. The enforcement engine activates the rules. This is governance. This is the governed record. This is the pipeline. If your AI system cannot prove that metadata and enforcement rules travel with every record and activate at every stage, you do not have governance. You have exposure. Governance is the proof. Without proof, there is no trust.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/dr-moya-hill-912837179_most-people-misunderstand-ai-governance-activity-7505283615275143168-RrCj"
+    },
+    {
+      "ageHours": 22.486888055555557,
+      "author": "Mohamed Paizal M I • 3rd+",
+      "checkedAt": 1789440282717,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505116994917044224",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D5622AQFOTR7f81xTDA/feedshare-shrink_800/B56aCAhe.dIsAc-/0/1788862656688?e=1790812800&v=beta&t=y6vwM_T6j6plBFFhh1ffjU9bH2AyGYLX4Zemtw6VisM"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 11,
+      "source": "indexed-original",
+      "text": "End-to-End Generative AI Production Architecture Building an AI model is the easy part. The real engineering challenge starts when you need to make it reliable, scalable, secure, observable, and production-ready. A real-world GenAI application is much more than: User → LLM → Response It looks more like: User → Frontend → API/Gateway → AI Orchestrator → RAG + Tools + Agents → LLM → Response 1️⃣ Application Layer The application layer handles the user experience, frontend, API gateway, orchestration, and final response. The orchestrator coordinates workflows, manages context, retrieves knowledge, and decides when to call tools or agents. 2️⃣ Data + RAG Layer Your AI is only as useful as the knowledge it can access. Data can come from: 📄 PDFs & documents 🌐 Websites 🗄️ Databases 🔌 APIs ☁️ Cloud storage A typical RAG pipeline is: Ingest → Extract → Chunk → Embed → Store → Retrieve Vector stores such as Pinecone, FAISS, and Chroma can retrieve relevant context before the LLM generates a response. 3️⃣ Agentic AI Layer This is where applications move beyond simple chat. Frameworks such as LangGraph, CrewAI, and AutoGen can enable: → Planning → Reasoning → Tool calling → Multi-step execution → Context management → Multi-agent workflows 4️⃣ Model Layer Applications can connect to models such as GPT, Claude, Llama, and Mistral through platforms including OpenAI, Azure OpenAI, and AWS Bedrock. Models can handle tasks such as: → Reasoning → Summarization → Code generation → Function calling → Content generation 5️⃣ Cloud Infrastructure Production AI needs more than a model. You also need: Compute + Storage + Databases + Cache + Networking + Secrets Common platforms include AWS, Azure, and Google Cloud. 6️⃣ DevOps & CI/CD A typical deployment pipeline: Git → Build → Test → Docker → Registry → Deploy → Monitor This enables repeatable deployments, faster releases, and easier scaling. 7️⃣ Observability + Security A production AI system must answer: Is it working? How fast is it? How much does it cost? Why did it fail? Is it secure? That’s where logging, tracing, Prometheus/Grafana, authentication, RBAC, encryption, rate limiting, guardrails, and evaluation become critical. The complete picture: User → Frontend → API/Gateway → AI Orchestrator → RAG + Tools + Agents → LLM → Response And around all of it: Cloud + CI/CD + Security + Monitoring + Evaluation That’s the difference between an AI demo and a production AI platform. The biggest mistake is focusing only on the LLM. Production GenAI is an engineering system — not just a model. By Mohamed Paizal M I hashtag #GenerativeAI hashtag #GenAI hashtag #AIEngineering hashtag #ArtificialIntelligence hashtag #LLM hashtag #RAG hashtag #AgenticAI hashtag #AIAgents hashtag #LLMOps hashtag #MLOps hashtag #AIArchitecture hashtag #CloudComputing hashtag #AWS hashtag #Azure hashtag #GoogleCloud hashtag #DevOps hashtag #CICD hashtag #Docker hashtag #Kubernetes hashtag #Observability hashtag #AIInfrastructure hashtag #EnterpriseAI hashtag #MachineLearning hashtag #SoftwareEngineering hashtag #ProductionAI hashtag #AIApplications",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/mdpaizal_generativeai-genai-aiengineering-activity-7505116994917044224--KNX"
+    },
+    {
+      "ageHours": 12.39647,
+      "author": "Matthew Devaney • 3rd+",
+      "checkedAt": 1789440299117,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505269423918858240",
+      "imageUrls": [],
+      "latestCommentAt": null,
+      "mediaType": "text",
+      "originalVerified": true,
+      "reactions": 57,
+      "source": "indexed-original",
+      "text": "New Blog Post 😀 In this hashtag #CopilotStudio article I show how to build a multi-agent workflow to accomplish a task. 🤖 🤖 🤖 By breaking a task down into separate agents with a narrower focus, you will get higher quality outputs, and more predictable results. 💡 🔗 https://lnkd.in/gdZ9PuUq",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/matthew-devaney_how-to-build-multi-agent-workflows-in-copilot-activity-7505269423918858240-ziuQ"
+    },
+    {
+      "ageHours": 19.42983611111111,
+      "author": "Elina Idrisova • 3rd+",
+      "checkedAt": 1789440309230,
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "I agree with your perspective. As AI becomes more advanced, the real question is: can cybersecurity controls and governance keep pace with these advancements?"
+        },
+        {
+          "at": null,
+          "text": "Couldn't agree more"
+        }
+      ],
+      "comments": 2,
+      "commentsClosed": false,
+      "id": "7505163266059309056",
+      "imageUrls": [],
+      "latestCommentAt": null,
+      "mediaType": "text",
+      "originalVerified": true,
+      "reactions": 5,
+      "source": "indexed-original",
+      "text": "NVIDIA CEO Jensen Huang recently called cybersecurity AI’s “next blockbuster app.” I think there is a much broader shift behind that statement. As enterprises move from AI assistants to agents capable of accessing data, calling APIs, writing code and executing business processes, cybersecurity is becoming part of the AI operating model itself. Three implications stand out to me: 1. AI is scaling both sides of cybersecurity. Attackers can automate reconnaissance, phishing, vulnerability discovery and social engineering. Defenders can increasingly automate detection, investigation and response. The advantage will not necessarily belong to whoever deploys the most security tools. It will belong to organizations that can integrate security, AI and automation into a coherent operating model. 2. Securing AI is becoming a business capability. An enterprise AI agent with access to applications, data and workflows starts to resemble a new type of privileged digital worker. That raises very practical questions: What identity does the agent operate under? What data can it access? Which tools can it invoke? Who authorizes its actions? How are those actions monitored, governed and audited? These are no longer only AI governance questions. They are cybersecurity and enterprise architecture questions. 3. The attack surface is expanding faster than many organizations realize. Every agent, model endpoint, API, tool connection, vector database, open-source component and machine identity introduces another potential control point. This is why I believe the next phase of enterprise AI will increasingly bring together AI governance, cybersecurity, identity, automation and observability rather than treating them as separate disciplines. The next AI race will not simply be about who has the most powerful models. It will be about who can deploy increasingly autonomous intelligence at scale — while maintaining security, governance and control. That may become one of the defining enterprise capabilities of the agentic era. hashtag #Cybersecurity hashtag #AgenticAI hashtag #AIGovernance hashtag #EnterpriseAI hashtag #AISecurity hashtag #DigitalTrust https://lnkd.in/dqqbeYkG",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/elina-idrisova_jensen-huang-predicts-new-ai-models-will-activity-7505163266059309056-TUoE"
+    },
+    {
+      "ageHours": 11.990227222222222,
+      "author": "Nithin Alla Srinivas • 3rd+",
+      "checkedAt": 1789440650007,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505277029714673664",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D4D22AQGVM890rfANbQ/feedshare-shrink_800/B4DaCT6uUPKEAc-/0/1789188040196?e=1790812800&v=beta&t=nVghVdq1qvQczSivWG8-3M0psaf7vxBHw6soqjQGP9k"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 9,
+      "source": "indexed-original",
+      "text": "Are you looking to move beyond AI conversations towards measurable impact? AI Next FWD brings together industry leaders to share how they are making that shift — from AI experimentation and ambition to real, measurable business outcomes. I’ll be there for these conversations in New York on October 13 and Chicago on October 15, and I’m looking forward to hearing how leaders across industries are turning AI into impact. If you’re joining us in New York or Chicago, let’s connect. See you there",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/nithin-alla-srinivas_are-you-looking-to-move-beyond-ai-conversations-activity-7505277029714673664-Gc2e"
+    },
+    {
+      "ageHours": 14.77114361111111,
+      "author": "Vinod Bhat • 2nd",
+      "checkedAt": 1789440665494,
+      "commentSamples": [
+        {
+          "at": null,
+          "text": "A very relevant perspective. The real differentiator will be how effectively organisations move from AI experimentation to scalable, production-grade transformation supported by the right digital and cloud architecture. This is where the next phase of smart manufacturing will be shaped. www.odinmanufacturing.io …more"
+        },
+        {
+          "at": null,
+          "text": "Many congratulations sirji💐 Vinod Bhat"
+        },
+        {
+          "at": null,
+          "text": "Congratulations Sir 🎉💐"
+        },
+        {
+          "at": null,
+          "text": "Congratulations Sir.. Well Deserved.."
+        },
+        {
+          "at": null,
+          "text": "Congratulations, Sir! Truly well deserved your vision and leadership continue to inspire."
+        }
+      ],
+      "comments": 5,
+      "commentsClosed": false,
+      "id": "7505235104236134400",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D5622AQGNcvtgD9ZkHw/feedshare-shrink_800/B56aCfziKkGQAc-/0/1789387482413?e=1790812800&v=beta&t=xPt_1lV1JoXD3jGPVaQPnSWPzMe0SfxB6u0e03u7Ukw",
+        "https://media.licdn.com/dms/image/v2/D5622AQFQb_V-ENIAhQ/feedshare-image-high-res/B56aCfzjaTGsAU-/0/1789387487805?e=1790812800&v=beta&t=1D1WjdU0g1n3lXfo510DQzMApvMU8kCVHTpBcWCEsbo",
+        "https://media.licdn.com/dms/image/v2/D5622AQER0HPtRSy_KA/feedshare-shrink_800/B56aCfzhp3IsAc-/0/1789387480069?e=1790812800&v=beta&t=luxQzEujNL1Wc9YZvBQmMYcU1Gv_vrZcyb4MouKPaAU",
+        "https://media.licdn.com/dms/image/v2/D5622AQHae7Id9EBABw/feedshare-shrink_800/B56aCfzhdkJYAc-/0/1789387479344?e=1790812800&v=beta&t=TQU6Ek_omkStXqFNl0aD1QKgj9sArS1ROy5ZHl-R8FE"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 92,
+      "source": "indexed-original",
+      "text": "We as leaders in hashtag #manufacturing industry face two broader questions: - The usage of hashtag #AI and how it scales up from pilot to production horizontally. - What kind of cloud infrastructure is there to support it - Public, Private, Hybrid, Multi-cloud and so on Got opportunity to share my thoughts with the industry veterans and also listened to their valuable insights at The Economic Times Smart Factory Summit (https://lnkd.in/g3shg23a) and The Tech business Connect (TBC) (https://lnkd.in/g_kQ3Z5J). So many takeaways. Grateful to TBC and jury for the Visionary Leader recognition, dedicating to my TACO team. #ETSFS #SmartFactorySummit #SmartManufacturing #Industry40 #AIinManufacturing #Automation #DigitalTransformation #Manufacturing hashtag #TBC2026 hashtag #TechBusinessConnect2026 hashtag #IndiaIT360",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/vinod-bhat-30645861_manufacturing-ai-tbc2026-activity-7505235104236134400-I5X8"
+    },
+    {
+      "ageHours": 10.849901388888888,
+      "author": "Six Five Media",
+      "checkedAt": 1789440676907,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505294360884985856",
       "imageUrls": [],
       "latestCommentAt": null,
       "mediaType": "video",
       "originalVerified": true,
-      "reactions": 30,
+      "reactions": 11,
       "source": "indexed-original",
-      "text": "𝐂𝐚𝐫𝐞𝐞𝐫𝐬 rarely move in a 𝐬𝐭𝐫𝐚𝐢𝐠𝐡𝐭 line. Mine certainly 𝐡𝐚𝐬𝐧’𝐭. I started with databases, moved into analytics, then found my way into product engineering, platform engineering, application modernization, and now Generative AI. Along the way, I was part of AlpSoft, Wipro, UBS, IBM, YINSOL, Trice, Infinity Learn, Kastech Software Solutions Group, Antler, and Minfy. Each chapter taught me something different. Databases taught me precision. Analytics taught me to look beyond the numbers. Building web and mobile products brought me closer to people and their needs. Platform engineering and modernization taught me to embrace scale and change. AI is now bringing all those lessons together. Looking back, the titles and technologies matter less than the growth that happened between them. Every transition came with uncertainty, but each one helped me see problems differently and build with greater purpose. Many of us begin our careers without knowing exactly where they will lead. We learn, adapt, take chances, and sometimes start again. That is not a detour. It is the journey. Today, I am building AI products, but I still carry something from every role that brought me here. If your career has taken an unexpected turn, what did it teach you? hashtag #𝐂𝐚𝐫𝐞𝐞𝐫𝐉𝐨𝐮𝐫𝐧𝐞𝐲 hashtag #𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 hashtag #𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐯𝐞𝐀𝐈 hashtag #𝐀𝐈𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐬 hashtag #𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠𝐋𝐞𝐚𝐝𝐞𝐫𝐬𝐡𝐢𝐩",
+      "text": "Most ERP vendors are bolting AI onto existing software. If the AI can be removed and the ERP still works exactly the same way, it isn’t AI-native. It’s an add-on. NetSuite is building NetSuite Next around the opposite premise: intelligence embedded into how the system operates, not bolted onto the interface. At The Six Five Summit: AI Unleashed 2026, Keith Kirkpatrick and Nick Patience welcomed Brian Chess, Senior Vice President of AI, Product, and Technology at Oracle NetSuite, to explain what it takes to make ERP truly AI-native. The central engineering challenge wasn’t building a better chatbot. It was giving AI direct access to the application layer, allowing it to invoke NetSuite’s existing functionality, business rules, and workflows instead of inventing new solutions the business never requested. Key Insights: 🔹 AI-native is a functional test, not a marketing label. 🔹 NetSuite's anomaly detection flags irregular transactions and surfaces context, but leaves correction to a human until that trust is earned. 🔹 Agent design is still being tested at the specialization level. 🔹 Connecting outside AI tools is changing user behavior, not just output. 🔹 Accountability doesn't transfer to the AI. Chess is direct on this point: humans keep ownership of the outcome even as automation absorbs more of the work needed to reach it. The bigger signal here is about design philosophy. NetSuite's bet is that AI-native ERP wins by embedding intelligence into how the system already operates, not by adding a layer on top. Watch the full conversation: https://lnkd.in/d2-WCDxC",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/surenganne_careerjourney-technology-generativeai-activity-7504940960380993536-nZPU"
+      "url": "https://www.linkedin.com/posts/sixfivemedia_most-erp-vendors-are-bolting-ai-onto-existing-activity-7505294360884985856-r-yy"
     },
     {
-      "ageHours": 10.245077222222223,
-      "author": "Gabriel Millien • 2nd",
-      "checkedAt": 1789389886639,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "Honestly, I think people just build multi-agent setups because they look cool to show off 😊 But every extra agent is just another spot where instructions get lost along the way Gabriel. If one agent with a couple of tools can do the job, adding more just wastes money. …more"
-        },
-        {
-          "at": null,
-          "text": "Constantly, Nadzeya. And \"organisational debt\" is exactly the right term for it, it accumulates the same way technical debt does: quietly, through decisions that each seemed reasonable in isolation. The pattern I see most often is a new role or approval layer gets justified by pointing at what it could theoretically catch, never by proving something is actually being missed today. Nobody wants to be the person who blocks a safeguard, so the burden of proof quietly flips. The question that actually protects against it is the one you named: not what value could this add, but what's the specific failure this prevents, and how do we know it's real. …more"
-        },
-        {
-          "at": null,
-          "text": "The real architecture question isn’t how many agents you can add it’s whether each one solves a problem the single agent can’t."
-        },
-        {
-          "at": null,
-          "text": "Ayesha Mansha exactly. I’d almost make that the architecture test: if we cannot clearly explain what problem the additional agent solves that the existing one cannot, we probably don’t need another agent. Otherwise complexity becomes the design rather than a consequence of the problem. Do you think teams are currently over-engineering multi-agent setups because they feel more “enterprise”? …more"
-        },
-        {
-          "at": null,
-          "text": "Excellent distinction. The real issue is not simply single-agent vs. multi-agent architecture, but whether every handoff remains trustworthy at runtime. As agents multiply, so do the opportunities for context loss, conflicting outputs, and silent propagation of error. This is where runtime governance becomes essential: continuously verifying the operational reality and determining whether the next action should be ALLOWED, MODIFIED, DEFERRED, ESCALATED, or REFUSED. Multi-agent systems may need more than a manager—they need an admissibility layer between intelligence and execution. …more"
-        },
-        {
-          "at": null,
-          "text": "Absolutely — I think “architectural trust boundaries” is exactly the right framing. A handoff should not automatically inherit the authority or admissibility of the previous agent. Each boundary should trigger a new runtime check: Is the context still valid? Is this agent authorized for the next action? Are the assumptions and evidence still sufficient? And is the proposed action still admissible under the current human and operational reality? In that sense, multi-agent governance may need to treat every consequential handoff as a new decision boundary, not merely a communication event. The chain of accountability must travel with the task — but the right to act should be re-earned at each "
-        }
-      ],
-      "comments": 116,
-      "commentsClosed": false,
-      "id": "7505090463545180160",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E22AQGOHwZ-TFa6rw/feedshare-shrink_800/B4EaCdlp97HoAc-/0/1789350296767?e=1790812800&v=beta&t=9UQ_XmKAY7DLCg2eCHrWv7LaWoefEG8osvx1fL9u5cM"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 231,
-      "source": "indexed-original",
-      "text": "Everyone wants to build a team of AI agents. Almost nobody has checked if they need one. This breakdown lays out single-agent vs multi-agent architecture below. Here's what it shows, then the question that decides which one is worth building. SINGLE-AGENT One agent runs the whole job start to finish. It takes the goal, gathers context, plans the steps, pulls the data, calls the tools it needs, checks its own work against guardrails, and hands back one answer. Use it when: → The task has one clear objective → One agent can hold all the context it needs → It's calling a handful of tools, not dozens → The steps happen in order, not in debate → Speed and low cost matter more than depth MULTI-AGENT A coordinator splits the goal into pieces and hands them to specialists, a researcher, an analyst, a writer, a critic, a visualizer, who work in parallel or in sequence, track progress on a shared board, and get checked against guardrails before anything moves forward. The coordinator merges it all into one output. Use it when: → The subtasks need genuinely different skills → Pieces of the work can run at the same time → A second opinion would catch something the first missed → Parallel work saves real time, not just looks better in a demo → Each stage needs its own check before moving on Here's the part the diagram can't show you, and the part that matters most if you're the one signing off on this. Every additional agent is another handoff. Another place where context can quietly get dropped between steps. Another component someone on your team has to watch, and pay for, whether it's earning its keep or not. None of that shows up in the demo. All of it shows up in the first incident review. I've watched a team add a critic agent to a workflow that had one task and nothing to disagree about. It didn't improve the output. It added a step, a cost, and one more thing to debug when something broke. This is the core of what I call the Enterprise Agent Stack: infrastructure and coordination have to earn their place before you add them, not the other way around. More agents is not more intelligence. It's more surface area for something to go wrong quietly. A rule that holds up in practice: single-agent is one capable generalist. Multi-agent is a team, and a team needs a manager. Someone on your side has to be that manager. Before your next architecture conversation, skip \"what could a specialist agent do here\" and ask this instead: What breaks today if this stays one agent? If nobody in the room has a specific answer, you don't need a team yet. You need a sharper single agent. 💾 Save this for your next architecture decision. ♻️ Repost to help someone in your network avoid this mistake. 🔔 Follow Gabriel Millien for daily insights on closing the AI Execution Gap. Infographic Credit: Rathnakumar Udayakumar, give him a follow.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/gabriel-millien_everyone-wants-to-build-a-team-of-ai-agents-activity-7505090463545180160-cskM"
-    },
-    {
-      "ageHours": 7.227462222222222,
-      "author": "Dr. Alexander Borek • 3rd+",
-      "checkedAt": 1789389891015,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "Forcing LLM inference on deterministic workflows just introduces massive latency and unnecessary cost overhead."
-        }
-      ],
-      "comments": 2,
-      "commentsClosed": false,
-      "id": "7505136046418993152",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4D22AQEQd1HDxIw1QA/feedshare-shrink_800/B4DaBn7eYlJYAg-/0/1788450039854?e=1790812800&v=beta&t=fEl43MXw4htCOvgXpvao5i_ga71gh4tFJFB_fdqVeaU"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 3,
-      "source": "indexed-original",
-      "text": "Sometimes the best AI strategy is: don't. Big companies right now: \"Let's put AI into everything.\" Customers: \"Did anyone ask for this?\" Not every product needs a chatbot, not every workflow needs an agent and not every email needs to be \"AI-enhanced.\" The best solutions I've seen this year? Half of them involved removing AI, not adding it. Unpopular opinion: Knowing when NOT to use AI is the real skill. What's the most unnecessary AI feature you've encountered? PS: My team sent me this - hilarious!",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/borekdata_sometimes-the-best-ai-strategy-is-dont-activity-7505136046418993152-ELoU"
-    },
-    {
-      "ageHours": 21.85836638888889,
-      "author": "James Sperry • 3rd+",
-      "checkedAt": 1789389896047,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "I've seen teams try to bolt on AI tools without shifting their process or mindset, and it just doesn't stick. The real magic happens when you rethink the workflow from the ground up."
-        },
-        {
-          "at": null,
-          "text": "Best i can do is TACO Scrum."
-        }
-      ],
-      "comments": 2,
-      "commentsClosed": false,
-      "id": "7504915148264988672",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQGoFHSHc592jw/feedshare-shrink_800/B56aCXFzhbJIAc-/0/1789241276789?e=1790812800&v=beta&t=lnhyc6VF_cS05ujnX93JPP16LuM6QBh-Ga6Qkmya77E"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 5,
-      "source": "indexed-original",
-      "text": "This is such a pointed yet simple representation for adoption vs transformation. Companies need to change the ways they’re working to really harness the power of AI. You can’t just sprinkle a little AI on top of what you’re doing today. It’s a different approach. It’s a different way of thinking. It’s a different mindset.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/jsperry_this-is-such-a-pointed-yet-simple-representation-activity-7504915148264988672-eC2Y"
-    },
-    {
-      "ageHours": 9.487366111111111,
-      "author": "Ritesh Rai • 2nd",
-      "checkedAt": 1789389901245,
-      "commentSamples": [
-        {
-          "at": 1789361101240,
-          "text": "Without hard boundaries, strict schema validation for tool calls, and proper telemetry, you are basically flying blind with a non-deterministic engine."
-        },
-        {
-          "at": 1789379101241,
-          "text": "AI-Automation.in Exactly. Without strict boundaries and telemetry, it becomes difficult to understand why an agent failed or safely recover from it."
-        },
-        {
-          "at": null,
-          "text": "The hard part isn't building agents; it's engineering the reliability, controls, and observability around them."
-        },
-        {
-          "at": 1789357501241,
-          "text": "Vansh Budhiraja The surrounding engineering determines whether an agent remains predictable under real workloads, especially when tools, retries, and external systems are involved."
-        }
-      ],
-      "comments": 101,
-      "commentsClosed": false,
-      "id": "7505101965899567104",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQFrmk68nBqyHg/feedshare-shrink_800/B56aCb1HHaGwAc-/0/1789320786666?e=1790812800&v=beta&t=jLY5MMlXNsUnaPoGPow4VBqrfTXRcUGJruvZzo4CkjI"
-      ],
-      "latestCommentAt": 1789379101241,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 75,
-      "source": "indexed-original",
-      "text": "𝟖𝟖% 𝐨𝐟 𝐀𝐈 𝐚𝐠𝐞𝐧𝐭𝐬 𝐧𝐞𝐯𝐞𝐫 𝐦𝐚𝐤𝐞 𝐢𝐭 𝐭𝐨 𝐩𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧. That's Gartner's 2026 number. But everyone is still building agents. Here are 7 failure modes I see repeatedly: 𝟏. 𝐂𝐨𝐦𝐩𝐨𝐮𝐧𝐝𝐢𝐧𝐠 𝐄𝐫𝐫𝐨𝐫𝐬: Per-step reliability of 95% sounds good, but a 10-step task succeeds only 60% of the time. Your \"99% accurate\" agent fails 40% of the time in production. 𝟐. 𝐂𝐨𝐧𝐭𝐞𝐱𝐭 𝐑𝐨𝐭: Accuracy degrades as the transcript grows, and this happens well before you hit context window limits. Long-running agents get dumber over time. 𝟑. 𝐌𝐚𝐥𝐟𝐨𝐫𝐦𝐞𝐝 𝐓𝐨𝐨𝐥 𝐂𝐚𝐥𝐥𝐬: Free-text generation isn't constrained to your API schema, so agents invent arguments that don't exist. They call functions that were deprecated last week. 𝟒. 𝐑𝐮𝐧𝐚𝐰𝐚𝐲 𝐋𝐨𝐨𝐩𝐬: No hard stop on retries means infinite loops, and one misconfigured workflow can burn $3,000 in API calls. You find out when the invoice arrives, not when it happens. 𝟓. 𝐏𝐫𝐨𝐦𝐩𝐭 𝐈𝐧𝐣𝐞𝐜𝐭𝐢𝐨𝐧: Untrusted input can hijack the agent's behavior, so a customer email changes what it does. A webpage redirects it to execute something else. 𝟔. 𝐒𝐡𝐢𝐩𝐩𝐢𝐧𝐠 𝐨𝐧 𝐕𝐢𝐛𝐞𝐬: Demos are one happy-path run you retried until it looked good, but production is thousands of unattended runs with a non-deterministic model. Real systems charge cards and write rows. 𝟕. 𝐍𝐨 𝐎𝐛𝐬𝐞𝐫𝐯𝐚𝐛𝐢𝐥𝐢𝐭𝐲: You can see the request and response, but everything in between is opaque. When it breaks, you have no traces and no way to debug. 𝐓𝐡𝐞 𝐫𝐞𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫: 78% of enterprises have agent pilots & 14% have scaled one successfully. The gap isn't model quality. It's reliability engineering. When your agent demo works but production fails, don't blame the model. Blame the infrastructure you didn't build. ♻️ Save this before deploying your next AI agent. 🟢 Follow Ritesh Rai for the AI truths nobody talks about. --------------------------------------------------------------------------------- 𝐖𝐚𝐧𝐭 𝐭𝐨 𝐠𝐨 𝐝𝐞𝐞𝐩𝐞𝐫? Whether you're breaking into AI or scaling it in production, you need insights that go beyond tutorials. Every week, I break down real production failures, system design patterns, and what's actually working in AI right now. For engineers. For enterprises. For anyone building with AI. → Stay ahead of the hype: https://roy-ai-lab.beehiiv.com/ 𝐓𝐚𝐫𝐠𝐞𝐭𝐢𝐧𝐠 𝐚𝐧 𝐀𝐈 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐫𝐨𝐥𝐞? → Get the interview guide: https://roy-s-ai-lab.vercel.app/products/ai-engineer-interview-handbook-2026 ------------------------------------------------------------------------------------ #Day199 of Documenting my Learnings & Building Meaningful Connections on LinkedIn.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/ritesh-rai-8475672a7_%F0%9D%9F%96%F0%9D%9F%96-%F0%9D%90%A8%F0%9D%90%9F-%F0%9D%90%80%F0%9D%90%88-%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E-activity-7505101965899567104-p0eq"
-    },
-    {
-      "ageHours": 9.251581944444444,
-      "author": "Andrew Joubert • 3rd+",
-      "checkedAt": 1789389907280,
-      "commentSamples": [],
-      "comments": null,
-      "commentsClosed": false,
-      "id": "7505105551450628096",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E22AQGoTrg5PSlYWg/feedshare-image-high-res/B4EaCPfntAIUAU-/0/1789113826403?e=1790812800&v=beta&t=2mZPG22NoIWWfQL-Z9WCSG0LBsdishLaiTRSb2NQC38"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 5,
-      "source": "indexed-original",
-      "text": "🤖 Most AI projects fail because they start with the wrong architecture. Enterprise AI is not: App → LLM Enterprise AI is: App → AI Gateway → Agent Orchestrator → Agents → Tools → Enterprise Data → LLM 🔑 The hard part isn't the model. It's everything around it: ✅ Security & governance ✅ Identity & access control ✅ Enterprise data integration ✅ Agent orchestration ✅ Human approval workflows ✅ Observability & monitoring ✅ Cost control ✅ Event-driven automation The biggest shift? Chatbots answer questions. Agents take actions. That changes everything. Before deploying AI agents at scale, ask: • Who approves high-risk actions? • How are agents authenticated? • What data can they access? • How are decisions audited? • What happens when they fail? The organisations that win with Agentic AI won't have the smartest models. They'll have the strongest architecture. What's the most overlooked component in enterprise AI today? 👇 hashtag #AgenticAI hashtag #Azure hashtag #AzureOpenAI hashtag #AIAgents hashtag #EnterpriseAI hashtag #AIArchitecture hashtag #AIEngineering hashtag #CloudArchitecture hashtag #LLM hashtag #RAG hashtag #MCP hashtag #MicrosoftAzure",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/andrewjoubert_agenticai-azure-azureopenai-activity-7505105551450628096-g7sC"
-    },
-    {
-      "ageHours": 9.086317777777777,
+      "ageHours": 23.191691666666667,
       "author": "Shailesh Shakya • 2nd",
-      "checkedAt": 1789389912537,
+      "checkedAt": 1789440691883,
       "commentSamples": [],
       "comments": 2,
       "commentsClosed": false,
@@ -531,332 +551,250 @@
       "latestCommentAt": null,
       "mediaType": "unsupported",
       "originalVerified": true,
-      "reactions": 18,
+      "reactions": 19,
       "source": "indexed-original",
       "text": "One of the most trending career role is \"Agentic AI\" in 2025. One can make up to $130,000 Per year securing this I have a simple Agentic AI Roadmap that can help you get started... Phase 1: Foundation (Months 1-3) ⤵️ 1. Python Programming (4-6 Weeks): Python for Everybody Specialization (University of Michigan on Coursera): Learn Python fundamentals - data types, control flow, functions, and object-oriented programming. Essential for all AI work. 🔗 https://lnkd.in/gpBUY5pG 2. Machine Learning Fundamentals (4 Weeks): Machine Learning (Stanford University on Coursera): Andrew Ng's classic course. Covers core ML concepts (supervised/unsupervised learning) and algorithms. Concepts, less on Python. 🔗 https://lnkd.in/gpBUY5pG 3. Machine Learning Specialization: A more applied approach using Python. Covers similar topics as Andrew Ng's course with more coding. 🔗 https://lnkd.in/gHbGee24 4. Natural Language Processing Basics (4 Weeks): Natural Language Processing Specialization: Focus on the first course, \"Classification and Vector Spaces.\" Learn text processing, representation (BoW, TF-IDF), and word embeddings. 🔗 https://lnkd.in/g4D6RmVX Phase 2: Deep Learning & Generative AI (Months 4-6) ⤵️ 1. Deep Learning for NLP (6 Weeks): Deep Learning Specialization: Sequence Models. Learn about RNNs, LSTMs, and the Transformer architecture - crucial for modern NLP. 🔗https://lnkd.in/gSUchfqm 2. Generative AI (4-6 Weeks): Generative AI with Large Language Models: Get an overview of Generative AI and its applications, with a focus on large language models (LLMs). Learn about prompting and fine tuning these models. 🔗 https://lnkd.in/gCZK5akb Phase 3: Agentic AI (Months 7-9) ⤵️ 1. Agentic AI Fundamentals (2-3 Weeks): Read: \"Artificial Intelligence: A Modern Approach\" by Russell & Norvig. Understand agent types, architectures, and environments. 🔗 https://lnkd.in/g6uz5YD2 2. Agentic AI Frameworks (4 Weeks): ⤵️ - LangChain for LLM Application Development: Learn to build applications with LLMs using the LangChain framework. 🔗 https://lnkd.in/gU-UZqiw - LangChain Chat with Your Data: Explore how to use LangChain for building chatbots that can interact with your data. 🔗 https://lnkd.in/gGKQEXJV . . . Get 10+ Roadmaps in your inbox ⤵️ -> https://lnkd.in/gQDujTe4 . . .",
       "truncated": false,
       "url": "https://www.linkedin.com/posts/beginners-blog_roadmap-to-learn-agentic-ai-activity-7505108068905558016-X_sr"
     },
     {
-      "ageHours": 3.4119091666666668,
-      "author": "AI Digital",
-      "checkedAt": 1789389919593,
-      "commentSamples": [
-        {
-          "at": 1789379119591,
-          "text": "One thing I’d mention is ownership. Every production agent needs someone accountable for its decisions, AI Digital."
-        },
-        {
-          "at": 1789379119591,
-          "text": "TechInsight Absolutely."
-        },
-        {
-          "at": null,
-          "text": "AI Digital More teams need to understand that production deployment is the midpoint, not the finish line."
-        },
-        {
-          "at": 1789379119591,
-          "text": "Ananya Ghosh Chowdhury Exactly."
-        },
-        {
-          "at": null,
-          "text": "AI Digital The progression from assistants to coordinated systems makes agent adoption feel practical rather than theoretical."
-        },
-        {
-          "at": 1789379119591,
-          "text": "Alok Sharan That was the intention."
-        }
-      ],
-      "comments": 54,
-      "commentsClosed": false,
-      "id": "7505193779193344000",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQEZHMGeI0-7Qw/feedshare-shrink_800/B56aCfN34HKUAc-/0/1789377627415?e=1790812800&v=beta&t=bYEoJjVrSs4vR6vucVxr3IQdenTX7n8M81NByYlzvcE"
-      ],
-      "latestCommentAt": 1789379119592,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 54,
-      "source": "indexed-original",
-      "text": "AI agents need more than intelligence. Giving a team access to powerful models may create impressive demos, but enterprise value begins when those agents can perform real work safely, reliably, and repeatedly. The journey starts with clear business goals. Choose measurable use cases, define success metrics, secure executive sponsorship, and identify workflows where autonomy can create visible outcomes. Then build the foundation: → Governed data and trusted knowledge → Permission-aware retrieval → Clear agent goals and constraints → Approved tools, APIs, and actions → Human escalation and rollback paths A reliable enterprise agent follows a continuous loop. It gathers context, retrieves trusted knowledge, reasons about the request, creates a plan, uses tools, validates the result, and escalates when human judgment is required. Production introduces another level of responsibility. Teams need observability, access control, auditability, safety checks, incident handling, latency monitoring, cost tracking, and continuous evaluation. Without these controls, scaling autonomy also scales operational risk. The maturity path usually looks like this: Assistants → Task Agents → Workflow Agents → Controlled Autonomy → Production Operations → Coordinated Systems Each stage increases capability, but also demands stronger governance and coordination. The real goal is not to deploy the maximum number of agents. It is to build a governed system where agents, tools, data, and humans work together to deliver reliable business outcomes. Enterprise agentic AI is not one model. It is an operating model.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/aidigitaluk_ai-agents-need-more-than-intelligence-giving-activity-7505193779193344000-0wih"
-    },
-    {
-      "ageHours": 6.755538888888889,
-      "author": "Joanna Miler • 3rd+",
-      "checkedAt": 1789389940697,
+      "ageHours": 4.227278055555556,
+      "author": "Rujul Zaparde • 3rd+",
+      "checkedAt": 1789440703353,
       "commentSamples": [
         {
           "at": null,
-          "text": "Strong AI governance should match the speed of the system it governs, with automation handling routine controls and humans handling meaningful exceptions, Joanna Miler"
+          "text": "Retiring them will be the hard part. Intake is a solved problem, Almost nobody owns the exit. The other one is benchmarking across these vendors;seats, tokens, outcomes, different units, and the pricing model changes before the renewal does. …more"
         },
         {
           "at": null,
-          "text": "Rachel Jelagat Exactly. The goal is not less human oversight, but smarter oversight focused where human judgment adds the most value."
+          "text": "AI pricing models are an increasingly big challenge, security, data availability & integrity, reg and compliance, making the right bets on investment priorities, develop new levels of enterprise transformation competencies to effectively operationalize and realize the gains. Emerging tech has always demanded this but the stakes, scale and velocity with AI are unprecedented. Leadership and governance will define the winners. Great post Rujul Zaparde. See you in NYC. …more"
         },
         {
           "at": null,
-          "text": "Joanna The timing problem is easy to overlook. Having governance in place means little if the controls respond slower than the risks they are meant to manage."
+          "text": "Exactly why good commercial practise needs to shift from “tool approval” to portfolio governance. The challenging (exciting) part will be managing the overlap of risk and value at the same time and thus, measuring which AI tools are genuinely creating enterprise benefit, which are duplicating capability and which introduce data, security, commercial or operational risk. My focus, to step up maturity at pace, is not just buying AI well, but building an impactful operating model around it: clear ownership, usage visibility, contract controls, risk tiering, benefit tracking and a disciplined “add, scale, replace or retire” cadence. Otherwise the AI stack becomes another unmanaged shadow-SaaS is"
         },
         {
           "at": null,
-          "text": "Juliet Oboh Exactly. Governance only works when controls can respond as quickly as the risks emerge."
-        },
-        {
-          "at": null,
-          "text": "Joanna, the timing gap is real, and Paul hits the topic on the nose. I’m not sure governance itself needs to move at AI speed. Governance should define the mandate, boundaries and decision rights. What needs to keep up with the agent is runtime control: continuous authorisation, context evaluation and real breakpoints before consequential actions. Where possible, the authority should already be bounded so that an action outside the mandate cannot execute in the first place. Then runtime control deals with what changes while the system is acting. …more"
-        },
-        {
-          "at": null,
-          "text": "Mike Goerlich Thanks Mike. Yes, exactly. The mandate can narrow as conditions change, but it should never be widened by the same system proposing the action. That separation is the control. No goats!! …more"
+          "text": "...And which tools deserve the limited token budget! Very interesting stat, thanks for sharing."
         }
       ],
-      "comments": 105,
+      "comments": 4,
       "commentsClosed": false,
-      "id": "7505143380591616000",
+      "id": "7505394470066995200",
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4D22AQFxBKgIe0AGow/feedshare-shrink_800/B4DaCa3.5sLAAc-/0/1789304762291?e=1790812800&v=beta&t=hdr3KDG2WnSRN_JpJfxXB1PAgcH6Bv77OzZEGcMbVkM"
+        "https://media.licdn.com/dms/image/v2/D5622AQEAIK1pmKZEDQ/feedshare-shrink_800/B56aCiEf4sJAAc-/0/1789425483606?e=1790812800&v=beta&t=dCi7X5DLposV9uNsT262jU49jon1dADU46ISyxZeQrw"
       ],
       "latestCommentAt": null,
       "mediaType": "image",
       "originalVerified": true,
-      "reactions": 85,
+      "reactions": 55,
       "source": "indexed-original",
-      "text": "AI governance has a timing problem. Not always a policy problem. Most enterprise controls were built for human-paced work. Access reviews happen quarterly. Policies are approved annually. Models are validated periodically. Committees review incidents later. That rhythm worked when change happened in batches. Agentic AI works differently. An agent can plan, execute, call tools, retry actions, and react to new data continuously. The model may stay the same. But the operating context can change every minute. That creates the real gap: AI can act faster than the organization can control. So governance needs more than a review calendar. It needs three layers: ✅ Machine-speed controls Limits, policy checks, anomaly detection, and automatic suspension. ✅ Event-driven human review Immediate attention when risk patterns change. ✅ Periodic governance Leaders review patterns, update thresholds, and improve the control system. The real question is not: “Do we have AI governance?” It is: Can our controls move at the speed of AI risk?",
+      "text": "Heading into 2026, the safe bet was that enterprise AI would consolidate around a handful of generalist platforms. Our data shows the opposite. Companies buying AI now work with 5.4 vendors on average, and 61% run five or more. Rather than standardize on a single platform, companies are accumulating vendors and a portfolio is emerging whether it was planned or not. That's a new kind of problem for procurement. Capabilities are overlapping across vendors, and AI pricing models seem to change every few months. And as the request queue keeps growing, teams have to govern what's already in the door and keep pace with a business that wants more. Here’s my bet. The next stage of enterprise AI will be less about adopting it and more about managing it: deciding where it belongs, which tools to trust, and when to add, replace, or retire applications. What do you think will be the hardest part of managing AI at enterprise scale?",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/joanna-miler_ai-governance-has-a-timing-problem-not-activity-7505143380591616000-NQcq"
+      "url": "https://www.linkedin.com/posts/rujulz_heading-into-2026-the-safe-bet-was-that-activity-7505394470066995200-DVgW"
     },
     {
-      "ageHours": 4.810907777777778,
-      "author": "freeCodeCamp",
-      "checkedAt": 1789390237338,
-      "commentSamples": [
-        {
-          "at": 1789386637337,
-          "text": "Multi-agent systems become useful when coordination is designed as carefully as the agents themselves. Clear workflows, tool access and communication standards are what turn experiments into reliable production systems."
-        }
-      ],
-      "comments": 1,
-      "commentsClosed": false,
-      "id": "7505173987744825344",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQEd5X-v7D0ZGA/image-shrink_800/B4EaCe75aoIYAg-/0/1789372897276?e=1789995600&v=beta&t=ifZYxidFPUgCGSCfu7-M5VB-cwlVZamrdB8ZZBgq2ug"
-      ],
-      "latestCommentAt": 1789386637337,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 141,
-      "source": "indexed-original",
-      "text": "Multi-agent systems need more than just prompts: they need structure, too. In this book, you’ll use LangGraph to model workflows, MCP to access tools and data, and A2A for agent coordination. Sandeep walks you through building scalable agent pipelines that can actually run in production. https://lnkd.in/gSAnMYps",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/free-code-camp_multi-agent-systems-need-more-than-just-prompts-activity-7505173987744825344-rmrm"
-    },
-    {
-      "ageHours": 10.938299722222222,
-      "author": "Dr. Lalith Kumar Vemali • 2nd",
-      "checkedAt": 1789390242200,
-      "commentSamples": [],
-      "comments": null,
-      "commentsClosed": false,
-      "id": "7505081487617126400",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4D22AQHUmHl-8_9wSA/feedshare-shrink_800/B4DaCdn1vOJwAc-/0/1789350862075?e=1790812800&v=beta&t=1HKFVZiKc8FV-TQ29JXMxs4oEtBWj701oW9KibG3DvQ"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": null,
-      "source": "indexed-original",
-      "text": "AI Product Engineering is where capability becomes a product — and where weak decisions become expensive. That is the thinking behind: AI ELEMENTS™ | 05 The Periodic Table of AI Product Engineering The table maps 60 elements across 10 disciplines, but the real value is not in knowing the terms. It is in using them to make better product decisions. For example: Problem & Decision Design → What decision are we improving, and where should AI stop? Data, Context & Knowledge → What information must the product trust before it can act? Model & Capability Design → Which model capability is sufficient for the job? Interaction & Experience Design → What should the user see, control, approve, or override? Agent & Workflow Engineering → Which actions can be automated, and where must a human remain in the loop? Evaluation & Reliability → What evidence is required before this behavior is considered production-ready? Governance & Safety → What happens when the model is wrong, uncertain, or misused? Deployment & Operations → How will we monitor, recover, and update the product over time? Economics & Value Realization → What does one successful business outcome actually cost? Adoption, Change & Scale → Will people trust it enough to use it repeatedly? That is the larger point: AI Product Engineering is the discipline of turning probabilistic capability into reliable product behavior. A model demo can prove that something is possible. A product has to prove that it is useful, dependable, governable, affordable, and worth adopting. That is a very different standard. I have also built the supporting Excel with the full taxonomy, maturity markers, and audience mapping. If you would like it, comment PRODUCT and I’ll share it. For AI ELEMENTS™ | 06, I’m considering: Governance & Trust | AI Economics | Enterprise Use Cases | AI Operating Model hashtag #AIProductEngineering hashtag #EnterpriseAI hashtag #ProductManagement hashtag #AIEngineering hashtag #ArtificialIntelligence",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/lalithkumarvemali_aiproductengineering-enterpriseai-productmanagement-activity-7505081487617126400-yX1Y"
-    },
-    {
-      "ageHours": 20.5391425,
-      "author": "Jimmy Chim • 3rd+",
-      "checkedAt": 1789390247814,
+      "ageHours": 13.83076638888889,
+      "author": "Inga Stirbyte • 2nd",
+      "checkedAt": 1789440719261,
       "commentSamples": [
         {
           "at": null,
-          "text": "📌 p.s. check out more practical AI guides for finance and ops professionals: jimmyai.guide"
+          "text": "AI governance starts with visibility. If you can’t see it, you can’t govern it."
         },
         {
           "at": null,
-          "text": "The biggest implementation lesson is that the agent versus automation decision should happen before model selection. In finance, deterministic workflows are often better when the rules are known because they are cheaper, easier to test, and easier to audit. Agents add the most value where judgment or ambiguity is unavoidable, but that is also where controls and human accountability matter most. …more"
+          "text": "The real question isn’t whether you have an AI policy. It’s whether you can prove your controls work."
         },
         {
           "at": null,
-          "text": "Rick Rockhold Yes i've experienced that myself. Do you have a use case you've gotten to a point where you're mostly left with verification?"
+          "text": "AI risk is everyone’s responsibility but accountability must be clear."
         },
         {
           "at": null,
-          "text": "Jimmy Chim - thanks for the shout out. The AI Measurements Framework and 81 AI metrics across 12 categories available at: https://aitoroi.ai/"
+          "text": "The board should also ask how quickly AI access can be revoked when problems arise."
         },
         {
           "at": null,
-          "text": "Ray Rike thanks for sharing - insightful research"
+          "text": "Zoran Savic Absolutely. The ability to quickly revoke AI access should be a basic part of any AI security plan."
+        },
+        {
+          "at": null,
+          "text": "Important point. AI adoption without clear ownership and controls can create more risks than value."
         }
       ],
-      "comments": 7,
+      "comments": 57,
       "commentsClosed": false,
-      "id": "7504936543287934976",
+      "id": "7505249528967565313",
       "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D5622AQEu4QfxrqOsrg/feedshare-shrink_800/B56aCbkA4ZKsAg-/0/1789316305550?e=1790812800&v=beta&t=Qnyo-nEIiU6PuHtpCdJvlGaKmAKPKhavFGzfw_G3bqA"
+        "https://media.licdn.com/dms/image/v2/D5622AQGkVnS_BeGp7w/feedshare-shrink_800/B56aCgArNYJ8Ac-/0/1789390926979?e=1790812800&v=beta&t=-6vHynD2FcLeD8K4f2L5OfuO62cZiJdC2GPJkuq7QtQ"
       ],
       "latestCommentAt": null,
       "mediaType": "image",
       "originalVerified": true,
-      "reactions": 12,
+      "reactions": 82,
       "source": "indexed-original",
-      "text": "9 takeaways on how CFOs should think about AI ROI (from Baker Tilly's Technology Finance Symposium): 1. Not every workflow needs an agent. If you can describe every step and the data is structured, traditional automation is likely cheaper at the same quality. 2. Agents make sense when the use case requires flexibility, like \"resolve this customer issue.\" The signs are: 1) unstructured data, 2) rapidly changing processes, 3) a predefined recipe doesn't work well. Agents handle ambiguity better, but they need governance because they don't follow a fully defined set of steps. 3. Fix the process before you automate it. Teams often point technology at a broken process and end up \"moving the cheese just to move the cheese.\" If you can't say what should happen, stop and define that first. Business process redesign is an understated part of implementing AI. 4. Measure the right metrics. It's easy to say AI \"handles x% of Level 1 support requests.\" It's harder to say what that does to customer satisfaction and retention over time. The metrics that matter often lag and are harder to quantify. 5. Frame the investment \"to move [metric] from [X] to [Y] over [Z period].\" The best metrics go beyond productivity and tie to economic outcomes. For example: Increased outbound SDR activity should lead to more sales calls, more opportunities, higher win rates, and increased new ARR. 6. Most companies underestimate the total cost. It goes beyond tokens and subscriptions. Data storage and management can account for over half of the investment. Human review and rework also add cost (a Sage study shows this \"verification tax\" can eat up a quarter of the expected efficiency in some cases). 7. Most companies struggle with forecasting. A study suggests that only 11% of companies can forecast AI spend with ±10% accuracy, largely because they lack visibility into costs by agent or use case. 8. Use the right model for the right job. Purpose-built, context-specific models improve output quality while controlling cost (my translation: don't always just default to Fable or Opus). 9. Apply software development rigor. Finance teams can build on their own now, but few of us have been taught how to ship what we build. Sound engineering discipline needs robust testing and validation; otherwise, things will break in production. Learning the software development lifecycle will be a new useful skill. Thank you, Chris Price Stuart Langer Ray Rike, for an insightful panel. What jumped out at you?",
+      "text": "Most boards are asking, “How do we use AI?” The better question is: “How do we govern AI when we can’t even see everything it is doing?” AI governance is no longer an IT problem. It is a boardroom responsibility. Because once AI starts making decisions, accessing data, interacting with customers, or acting through agents, the risk changes completely. A board needs answers to questions like: → Who owns each AI system? → What data can it access? → What permissions does it have? → How are we monitoring its actions? → Can we stop it quickly if something goes wrong? → Are our vendors actually accountable? → Can we prove our controls work? This is where many organizations are still behind. They have AI policies. But policies sitting in a document don’t protect an organization. Operational controls do. A stronger AI governance model connects: 1. Strategic exposure Understand business, legal, operational and reputational risks before procurement. 2. Execution & controls Continuously monitor AI systems, assess risks, test security and maintain human oversight. 3. Compliance reality Map regulations and contracts to the systems actually being deployed. And most importantly: Make accountability visible. The board should own the strategic direction. The CISO should own the technical controls. The legal team should own regulatory and third-party exposure. But none of them can operate in isolation. Because AI risk doesn’t respect organizational boundaries. The real test isn’t: “Do we have an AI policy?” It’s: “Can we confidently explain what our AI is doing, where our data is going, who is accountable, and what happens when something goes wrong?” If the answer is no, you don’t have AI governance yet. You have AI assumptions. And assumptions are a dangerous foundation for the systems that will increasingly run your business. Save this framework. Your next AI governance conversation should start here. P.S. If your board asked you tomorrow, “Show me how we govern AI,” could you answer in 5 minutes?",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/jimmycchim_9-takeaways-on-how-cfos-should-think-about-activity-7504936543287934976-T-_R"
+      "url": "https://www.linkedin.com/posts/inga-stirbytecybersecurityleader_most-boards-are-asking-how-do-we-use-ai-activity-7505249528967565313-IoPn"
     },
     {
-      "ageHours": 16.64728638888889,
-      "author": "Baraa Koshak • 3rd+",
-      "checkedAt": 1789390252601,
+      "ageHours": 17.652674166666667,
+      "author": "Arminas Valunas • 3rd+",
+      "checkedAt": 1789440730271,
       "commentSamples": [
         {
           "at": null,
-          "text": "Pilot to production stalls usually come down to ownership, not model quality, someone has to be accountable for monitoring drift and retraining once it leaves the sandbox. Curious what patterns you and the panel see across fintech specifically, since compliance adds another layer most pilots never test against. Looking forward to hearing the operational side of this. …more"
+          "text": "Once references are locked, the bottleneck shifts upstream—to how precise the brief was before any generation starts."
         },
         {
           "at": null,
-          "text": "Looks like a great line up and a crucial topic. Scaling past the pilot phase is where real value gets unlocked. Wish I could be there in person, all the best with the session!"
+          "text": "Ten times faster at generating, not at deciding. Where does the director still sit?"
+        },
+        {
+          "at": null,
+          "text": "Without that early reference lock, the rest of the pipeline still drifts back to starting from zero."
+        },
+        {
+          "at": null,
+          "text": "Will def try it"
         }
       ],
-      "comments": 2,
+      "comments": 4,
       "commentsClosed": false,
-      "id": "7504995328429907968",
-      "imageUrls": [
-        "https://media.licdn.com/dms/image/v2/D4E22AQGKalDhRBqQbA/feedshare-shrink_800/B4EaCcZeq4IcAc-/0/1789330320593?e=1790812800&v=beta&t=BCzUljmFQdCA9lZb9eJDY9evnbKgAYOskJyvNbJ_HoU",
-        "https://media.licdn.com/dms/image/v2/D4E22AQG4Gfk2PtFOLg/feedshare-shrink_800/B4EaCcZesBKYAc-/0/1789330320561?e=1790812800&v=beta&t=MAG6pTu8oCDr683laHYimwJtYRFmJJsvpx2AfCSlfWI"
-      ],
-      "latestCommentAt": null,
-      "mediaType": "image",
-      "originalVerified": true,
-      "reactions": 41,
-      "source": "indexed-original",
-      "text": "Join our session on AI productization at Money20/20 Middle East 2026 on the Next-Gen Money stage. This time, we’ll be discussing “From AI Pilot to Product: What the 20% Do Differently” and what it takes to move AI from experimentation into products that work at scale. I’ll be joining Zahra Al-Kaf from NVIDIA, Ayman El Marazky from Dell Technologies, and Professor Douglas Arner from the Cambridge Centre for Alternative Finance, Cambridge Judge Business School for a practical conversation on closing the gap between pilot and production. We’ll be discussing: - Why AI pilots often stall before production - What successful teams do differently - How organizations can build AI products that work in real operations 🗓️ Day 2, September 15 | 12:20–12:50 PM 📍 Next-Gen Money, RECC, Malham Looking forward to the conversation. See you there! hashtag #Money2020 hashtag #Money2020MiddleEast hashtag #ArtificialIntelligence hashtag #Fintech hashtag #AbwabAI",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/baraakoshak_money2020-money2020middleeast-artificialintelligence-activity-7504995328429907968-cnno"
-    },
-    {
-      "ageHours": 23.455554444444445,
-      "author": "Michael Kaminski • 3rd+",
-      "checkedAt": 1789390256990,
-      "commentSamples": [],
-      "comments": null,
-      "commentsClosed": false,
-      "id": "7504892545437696000",
-      "imageUrls": [],
-      "latestCommentAt": null,
-      "mediaType": "text",
-      "originalVerified": true,
-      "reactions": null,
-      "source": "indexed-original",
-      "text": "I built a LinkedIn outreach engine last week, then forbade it from sending anything for seven days. 30 messages written and scored. Zero delivered. Shadow mode is there because these resources don't refund. 15 InMail credits a month. An invite to a specific person is a card you play once. I assumed the risk was message quality. Every draft already clears a rubric before it gets logged, so that part was covered. The shadow log said the problem was somewhere else. I'd split the month across three lanes: 84 invites for hiring managers, 50 for customers, 34 for people I want in my orbit. Seven days of queue produced 28 job, 1 customer, 1 authority. 93 people viewed my profile in that window. The targeting only knew how to see one kind of them. Run live, I'd have spent real invites 28-to-1 against a plan I wrote myself, and the scorecard would have read as working, because the lane that was firing is the one with the shortest feedback loop. Shadow mode costs a week of talking to nobody. I booked 4 calls in that window anyway, all from the inbox, none from outreach. Still open: I can't tell a lane that's genuinely empty from a lane my search queries can't see.",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/michaelxaxkaminski_i-built-a-linkedin-outreach-engine-last-week-activity-7504892545437696000-p744"
-    },
-    {
-      "ageHours": 5.856153888888889,
-      "author": "Ivan Malko • 3rd+",
-      "checkedAt": 1789390293166,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "autonomous agents need bounded permissions, audit trails, and kill switches before they’re trusted in PRODUCTION."
-        }
-      ],
-      "comments": 1,
-      "commentsClosed": false,
-      "id": "7505158439220989952",
-      "imageUrls": [],
-      "latestCommentAt": null,
-      "mediaType": "unsupported",
-      "originalVerified": true,
-      "reactions": 2,
-      "source": "indexed-original",
-      "text": "Here's the AI headline nobody prints: over 40% of agentic AI projects will be cancelled by 2027. Not because the tech fails — because organizations aren't ready: → 40%+ of agentic projects scrapped by 2027 → Only 1 in 5 companies has mature governance for autonomous agents → ~80% deploy AI that acts with no real controls → Unclear ROI + weak oversight = expensive quiet failures Here's the shift I keep coming back to: the risk in this wave isn't weak AI. It's deploying powerful autonomous tools faster than the judgment to govern them. The hard part of AI was never the model. It's the management around it. Is your business ready to let software act on its own — safely? hashtag #AI hashtag #Governance hashtag #Risk hashtag #IvanMalko",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/ivan-malko-a2283b26_heres-the-ai-headline-nobody-prints-over-activity-7505158439220989952-sNyQ"
-    },
-    {
-      "ageHours": 2.953605,
-      "author": "Rakesh Khanduja • 3rd+",
-      "checkedAt": 1789390299677,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "Curious to hear from other AI builders: where do you see the biggest bottleneck today—data access, context, infrastructure, model performance, or cost? What are you seeing in your production AI systems? …more"
-        },
-        {
-          "at": null,
-          "text": "A smarter model does little with stale data or the wrong context, Rakesh. The hard engineering is making sure the right information reaches the right decision, with the right access."
-        },
-        {
-          "at": null,
-          "text": "Rajesh Ramaswami Exactly. Trusted context is becoming as important as model intelligence. The real engineering challenge is ensuring the right context reaches the right decision under the right identity and policy constraints. …more"
-        }
-      ],
-      "comments": 3,
-      "commentsClosed": false,
-      "id": "7505202293550587904",
-      "imageUrls": [],
-      "latestCommentAt": null,
-      "mediaType": "text",
-      "originalVerified": true,
-      "reactions": 5,
-      "source": "indexed-original",
-      "text": "🚀 Beyond the Model: How to design the Data Infrastructure for AI Great AI isn't just about smarter models. It's about connecting enterprise data to AI efficiently, securely, and at scale. I explore why the AI data layer could become a critical foundation for production enterprise AI. 👉 Follow me for more practical AI Engineering insights. 🔁 Repost if this resonates with your AI journey. hashtag #AIEngineering hashtag #EnterpriseAI hashtag #AIInfrastructure hashtag #DataEngineering hashtag #AIAgents hashtag #GenerativeAI hashtag #AIArchitecture hashtag #ContextEngineering",
-      "truncated": false,
-      "url": "https://www.linkedin.com/posts/rakesh-khanduja-61567913_beyond-the-model-building-the-data-infrastructure-activity-7505202293550587904-QToe"
-    },
-    {
-      "ageHours": 20.482770555555554,
-      "author": "Calvin Lawrence, PhD • 2nd",
-      "checkedAt": 1789390307874,
-      "commentSamples": [
-        {
-          "at": null,
-          "text": "Many will say, “This is a crowded marketplace, Dr. Lawrence. Why do you want to compete?” My answer is simple: A crowded marketplace does not mean the problem has been solved. IT actually means the problem most likely exists. There are plenty of platforms that help organizations document AI risk, manage policies, and check compliance boxes. But I believe AI governance still has to go further—anticipating harm before it happens, connecting harm back to model owners, and quantifying the financial risk organizations are taking. I didn’t build Xtegrity because the market needed another AI governance platform. I built it because I believe AI governance still needs to go further. If the problem wa"
-        },
-        {
-          "at": null,
-          "text": "Congratulations!!!"
-        },
-        {
-          "at": null,
-          "text": "Congratulations 🍾🎊"
-        },
-        {
-          "at": null,
-          "text": "Hey Dr. Calvin Lawrence, PhD, this sounds great. And Congratulations sir! 🎓 💡 💯 🏆"
-        },
-        {
-          "at": null,
-          "text": "It is a cluttered marketplace Riding vapor. And a rampant lack of intent to find out what needs to be harnessed to do it right Greenspan said it shows \"irrational exuberance\" that we have seen before. Silicon Valley cannot self fund the infrastructure cost. Kissinger foresaw it in 2019 ..... Q4 2026 is the prevailing timeframe. \"AI is going to take your job\" nonsense in 2024 was corrected in 2025 and any the economic impact was pushed out 10+ years. Plus most of the 2024 projections were sum positive. The lack of specificity is the bubble. We talk about AI like it is one thing. 80% of non-COTS is in 5 industries who have been using probabilistic capabilities for > 100 years. AI was not inven"
-        },
-        {
-          "at": null,
-          "text": "Congratulations on launching Xtegrity, Calvin!"
-        }
-      ],
-      "comments": 10,
-      "commentsClosed": false,
-      "id": "7504937646377484288",
+      "id": "7505191866280325120",
       "imageUrls": [],
       "latestCommentAt": null,
       "mediaType": "video",
       "originalVerified": true,
-      "reactions": 54,
+      "reactions": 13,
       "source": "indexed-original",
-      "text": "When I left IBM, I knew I didn’t want to spend the next chapter of my career simply talking about AI—or even just designing and building algorithms for large corporations. I wanted to build something that could actually move the needle. For more than 30 years, I’ve built and deployed AI solutions for large organizations. I also served four years on IBM’s AI Ethics Board and became a leading voice on responsible AI, algorithmic bias, and the harm these systems can create. I didn’t come to this issue only through research. I completed my PhD in Artificial Intelligence with research focused on algorithmic bias and real-world harm. I also wrote Hidden in White Sight, examining how bias can become embedded in the technologies and systems shaping people’s lives. But my perspective has never been purely academic. It has been shaped by decades of actually building and deploying the kinds of systems we are now being asked to govern. That led me to an uncomfortable reality: The value organizations see in building and deploying AI will almost always outweigh the perceived risk of the bias or harm that AI might produce. No matter what we believe, advocate for, or warn against, AI adoption is not slowing down. As one technology CEO has said, the horse is already out of the barn. Organizations are not going to stop building AI. Nor should they. The real question is whether we will build the accountability and safeguards necessary to understand what these systems are doing—and address the harm when they get it wrong. That is why I founded Xtegrity. I brought together a small team of senior technology leaders with experience at IBM, Google, and Microsoft to help turn that vision into a platform designed to change how organizations understand and manage AI risk. Xtegrity moves AI governance beyond policies, checklists, frameworks, and conversations—and toward action. It enables organizations to simulate potential harm before AI causes it, identify and deter harmful outcomes, quantify the financial risk of AI harm, and govern models where they already operate—across clouds and environments—without moving models or sensitive data. Perhaps most importantly to me, Xtegrity creates a pathway for people who believe they have been harmed by AI to identify that harm and connect directly with the organizations responsible for the models. I’ve done a lot of talking. I’ve done a lot of research. I’ve built a lot of technology. But at some point, talking about responsible AI is not enough. We have to build something that makes responsibility real. That is what Xtegrity represents for me. As we build increasingly powerful AI systems, we must also build the mechanisms to understand their risk, anticipate their harm, quantify the consequences—and hold them accountable. Today, I’m introducing Xtegrity to the world. Over the next few weeks, we’ll share more about the platform and our official launch event. This is what we’ve built",
+      "text": "Most AI video starts from zero every time. This one doesn't. I built a full production pipeline with Artlist MCP as the engine - images, video, and voiceover in one system. Brief in, finished film out, up to 10× faster. 🚀 The trick: use the Armada Directs system and Artlist MCP, and lock your references before you generate a single frame of motion. Check the full project breakdown here: 👉 https://lnkd.in/db5r6qrD",
       "truncated": false,
-      "url": "https://www.linkedin.com/posts/lawrencecalvin_when-i-left-ibm-i-knew-i-didnt-want-to-activity-7504937646377484288-oLwx"
+      "url": "https://www.linkedin.com/posts/arminas-valunas-b4477255_most-ai-video-starts-from-zero-every-time-activity-7505191866280325120-E5l_"
+    },
+    {
+      "ageHours": 23.7177575,
+      "author": "Sandeep Barve • 2nd",
+      "checkedAt": 1789441085021,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505101774517624832",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D5622AQEAvWrPcOebPw/feedshare-shrink_800/B56aA8jESVHMAk-/0/1787722221007?e=1790812800&v=beta&t=4CYH5nn6x01YZ4ceKjO2oW7je87WkMZ37gWxukK8E5I"
+      ],
+      "latestCommentAt": null,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 1,
+      "source": "indexed-original",
+      "text": "The Forward Outcome Delivery Model for IT Companies. IT services companie's role is changing from delivering technology to being accountable for business outcomes; as clients increasingly expect them to understand the business problem, diagnose what is holding performance back, define the value to be created & shape right solution with AI. This requires a different delivery model. The proposed Forward Outcome Delivery Model extends Palantir’s Forward Deployed Engineer (FDE) model further by adding deep industry, domain & operating knowledge with stronger business & consultative roles before engineering begins. It will be extremely important when redesigning workflows, value chains & setting measurable business outcomes becomes as critical as adopting / integrating AI. Forward Outcome Delivery Model: It aims to create a layer by combining experienced domain & industry professionals with AI native engineering teams. It's a two-layer, outcome-led delivery model. The first roles converts a business problem into an outcome architecture; the second converts that architecture into a working solution. 1. Forward Outcome Architects Senior, business-facing roles deployed before the technology team with a 15+ years of domain, industry or operating experience, strengthened with consultative and AI-era problem-solving capabilities. Responsibilities Understand the business problem, operating context & constraints>Diagnose root causes, value leakages>Define the desired business outcomes, measurable success criteria>Identify where AI, data, process redesign & technology can create value> Translate the problem into a clear Value & Outcome Charter. 2. Forward Development Engineers A multidisciplinary engineering team that converts the charter into the solution with AI, Data, Software Engineering, Agentic Systems, integration & product engineering skills. Responsibilities Convert outcome requirements into solution architecture>Build AI, data, application & agentic components>Integrate into existing enterprise systems & workflows with orchestrated human & AI work>Deliver agreed value & outcome measures. Advantages of this model For the client, it improves solution relevance & reduces the risk of technically successful projects with weak business outcomes. For the IT company, it moves the engagement upstream to improve differentiation, deal size, strategic relevance, margins & long-term client relationships. Instead of allowing institutional knowledge of middle-management to disappear, companies can re-skill the strongest of these professionals into Forward Outcome Architects & convert a potential redundancy problem into a new consultative capability & competitive advantage. This can become a simple infusion of business-to-engineering translation layer, quikly introduced without much disturbance & as input for restructuring the business for AI-Era Target Operating Model. Refer the image for detailed end to end process. What do you think?",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/sandeepbarve_the-forward-outcome-delivery-model-for-it-activity-7505101774517624832-zdb_"
+    },
+    {
+      "ageHours": 23.708034166666668,
+      "author": "Ritesh Rai • 2nd",
+      "checkedAt": 1789441095647,
+      "commentSamples": [
+        {
+          "at": 1789361895645,
+          "text": "Without hard boundaries, strict schema validation for tool calls, and proper telemetry, you are basically flying blind with a non-deterministic engine."
+        },
+        {
+          "at": 1789379895645,
+          "text": "AI-Automation.in Exactly. Without strict boundaries and telemetry, it becomes difficult to understand why an agent failed or safely recover from it."
+        },
+        {
+          "at": null,
+          "text": "The hard part isn't building agents; it's engineering the reliability, controls, and observability around them."
+        },
+        {
+          "at": 1789358295646,
+          "text": "Vansh Budhiraja The surrounding engineering determines whether an agent remains predictable under real workloads, especially when tools, retries, and external systems are involved."
+        },
+        {
+          "at": null,
+          "text": "Ritesh Rai, the jump from a working demo to reliable production is huge. Once agents start taking real actions, reliability matters just as much as the model."
+        },
+        {
+          "at": 1789379895646,
+          "text": "Rohan Agarwal Absolutely. Once agents can take real actions, reliability becomes part of the product itself, not just a model quality metric."
+        }
+      ],
+      "comments": 117,
+      "commentsClosed": false,
+      "id": "7505101965899567104",
+      "imageUrls": [
+        "https://media.licdn.com/dms/image/v2/D5622AQFrmk68nBqyHg/feedshare-shrink_800/B56aCb1HHaGwAc-/0/1789320786666?e=1790812800&v=beta&t=jLY5MMlXNsUnaPoGPow4VBqrfTXRcUGJruvZzo4CkjI"
+      ],
+      "latestCommentAt": 1789379895646,
+      "mediaType": "image",
+      "originalVerified": true,
+      "reactions": 95,
+      "source": "indexed-original",
+      "text": "𝟖𝟖% 𝐨𝐟 𝐀𝐈 𝐚𝐠𝐞𝐧𝐭𝐬 𝐧𝐞𝐯𝐞𝐫 𝐦𝐚𝐤𝐞 𝐢𝐭 𝐭𝐨 𝐩𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧. That's Gartner's 2026 number. But everyone is still building agents. Here are 7 failure modes I see repeatedly: 𝟏. 𝐂𝐨𝐦𝐩𝐨𝐮𝐧𝐝𝐢𝐧𝐠 𝐄𝐫𝐫𝐨𝐫𝐬: Per-step reliability of 95% sounds good, but a 10-step task succeeds only 60% of the time. Your \"99% accurate\" agent fails 40% of the time in production. 𝟐. 𝐂𝐨𝐧𝐭𝐞𝐱𝐭 𝐑𝐨𝐭: Accuracy degrades as the transcript grows, and this happens well before you hit context window limits. Long-running agents get dumber over time. 𝟑. 𝐌𝐚𝐥𝐟𝐨𝐫𝐦𝐞𝐝 𝐓𝐨𝐨𝐥 𝐂𝐚𝐥𝐥𝐬: Free-text generation isn't constrained to your API schema, so agents invent arguments that don't exist. They call functions that were deprecated last week. 𝟒. 𝐑𝐮𝐧𝐚𝐰𝐚𝐲 𝐋𝐨𝐨𝐩𝐬: No hard stop on retries means infinite loops, and one misconfigured workflow can burn $3,000 in API calls. You find out when the invoice arrives, not when it happens. 𝟓. 𝐏𝐫𝐨𝐦𝐩𝐭 𝐈𝐧𝐣𝐞𝐜𝐭𝐢𝐨𝐧: Untrusted input can hijack the agent's behavior, so a customer email changes what it does. A webpage redirects it to execute something else. 𝟔. 𝐒𝐡𝐢𝐩𝐩𝐢𝐧𝐠 𝐨𝐧 𝐕𝐢𝐛𝐞𝐬: Demos are one happy-path run you retried until it looked good, but production is thousands of unattended runs with a non-deterministic model. Real systems charge cards and write rows. 𝟕. 𝐍𝐨 𝐎𝐛𝐬𝐞𝐫𝐯𝐚𝐛𝐢𝐥𝐢𝐭𝐲: You can see the request and response, but everything in between is opaque. When it breaks, you have no traces and no way to debug. 𝐓𝐡𝐞 𝐫𝐞𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫: 78% of enterprises have agent pilots & 14% have scaled one successfully. The gap isn't model quality. It's reliability engineering. When your agent demo works but production fails, don't blame the model. Blame the infrastructure you didn't build. ♻️ Save this before deploying your next AI agent. 🟢 Follow Ritesh Rai for the AI truths nobody talks about. --------------------------------------------------------------------------------- 𝐖𝐚𝐧𝐭 𝐭𝐨 𝐠𝐨 𝐝𝐞𝐞𝐩𝐞𝐫? Whether you're breaking into AI or scaling it in production, you need insights that go beyond tutorials. Every week, I break down real production failures, system design patterns, and what's actually working in AI right now. For engineers. For enterprises. For anyone building with AI. → Stay ahead of the hype: https://roy-ai-lab.beehiiv.com/ 𝐓𝐚𝐫𝐠𝐞𝐭𝐢𝐧𝐠 𝐚𝐧 𝐀𝐈 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐫𝐨𝐥𝐞? → Get the interview guide: https://roy-s-ai-lab.vercel.app/products/ai-engineer-interview-handbook-2026 ------------------------------------------------------------------------------------ #Day199 of Documenting my Learnings & Building Meaningful Connections on LinkedIn.",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/ritesh-rai-8475672a7_%F0%9D%9F%96%F0%9D%9F%96-%F0%9D%90%A8%F0%9D%90%9F-%F0%9D%90%80%F0%9D%90%88-%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E-activity-7505101965899567104-p0eq"
+    },
+    {
+      "ageHours": 13.425218888888889,
+      "author": "AGI Podcast",
+      "checkedAt": 1789441112023,
+      "commentSamples": [],
+      "comments": null,
+      "commentsClosed": false,
+      "id": "7505257299901313024",
+      "imageUrls": [],
+      "latestCommentAt": null,
+      "mediaType": "video",
+      "originalVerified": true,
+      "reactions": 2,
+      "source": "indexed-original",
+      "text": "An autonomous system should know when to raise its hand. Brent Rager explains what human-in-the-loop work looks like once agents are coordinating other agents, checking each other, and running into something strange. Full conversation with Jason Padgett: https://lnkd.in/gqpY3cuS hashtag #AgenticAI hashtag #HumanInTheLoop hashtag #ArtificialIntelligence hashtag #AGIPodcast",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/agipodcast_agenticai-humanintheloop-artificialintelligence-activity-7505257299901313024-giOS"
+    },
+    {
+      "ageHours": 13.466698888888889,
+      "author": "Info-Tech Research Group",
+      "checkedAt": 1789441123554,
+      "commentSamples": [
+        {
+          "at": 1789397923553,
+          "text": "Ready to turn agentic AI potential into a working prototype? Explore Info-Tech’s step-by-step framework for building an agentic AI prototype that is scalable, testable, and designed for real-world use: https://ow.ly/mO8M50ZMzYR …more Design Your Agentic AI Prototype This step-by-step blueprint provides a disciplined path from AI concept to rigorously scoped, testable agentic prototype that aligns to organi..."
+        },
+        {
+          "at": null,
+          "text": "Good distinction. AI can help us move faster, but knowing when and where to use it, and keeping the right guardrails in place, is what makes the difference."
+        },
+        {
+          "at": 1789412323553,
+          "text": "That's a good point, Nathalie Vezina! Speed matters, but clear use cases and the right guardrails can help turn AI adoption into real value."
+        },
+        {
+          "at": null,
+          "text": "Highly recommend this workshop. We drink our own champagne at Info-Tech!"
+        },
+        {
+          "at": 1789412323553,
+          "text": "Sarah Wall We approve this message! 😎"
+        }
+      ],
+      "comments": 6,
+      "commentsClosed": false,
+      "id": "7505256721934643200",
+      "imageUrls": [],
+      "latestCommentAt": 1789412323553,
+      "mediaType": "unsupported",
+      "originalVerified": true,
+      "reactions": 13,
+      "source": "indexed-original",
+      "text": "Where does Agentic AI outperform traditional automation? Look for work that requires complex decision-making, rules that frequently change, or heavy use of unstructured data. In these scenarios, agents can interpret context, evaluate exceptions, adapt to new information, and manage multi-step workflows better than basic automation, which eventually finds a way to get tripped up. But choosing the right use case is only the beginning. Teams also need clearly defined outcomes, guardrails, human oversight, and evaluation criteria to move from an impressive demo to a reliable enterprise solution. Swipe through the infographic, then explore Info-Tech’s step-by-step framework for designing a scalable, testable agentic AI prototype: https://ow.ly/mO8M50ZMzYR",
+      "truncated": false,
+      "url": "https://www.linkedin.com/posts/info-tech-research-group_agenticai-vs-traditional-automationpdf-activity-7505256721934643200-7S1f"
     }
   ]
 }
